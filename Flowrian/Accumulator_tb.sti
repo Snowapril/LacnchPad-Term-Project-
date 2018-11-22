@@ -1,0 +1,253 @@
+StimulianSaveFile
+LanguageType Verilog
+tbModuleName Accumulator_tb
+ModuleName Accumulator
+TimeUnit ns
+TotalTime 10000
+GridInterval 100
+Parameters
+End
+Port
+-1 - 1 Binary CLK singlebit in 0 0 PortEnd 0
+-1 . 1 Binary Ce singlebit in 0 0 PortEnd 0
+-1 / 0 Binary Din multibit in 11 0 Children ; [11] < [10] = [9] > [8] ? [7] @ [6] A [5] B [4] C [3] D [2] E [1] F [0] ChildrenEnd PortEnd 0
+-1 _ 1 Binary RST singlebit in 0 0 PortEnd 0
+0 G 0 Binary Dout multibit out 11 0 Children S [11] T [10] U [9] V [8] W [7] X [6] Y [5] Z [4] [ [3] \ [2] ] [1] ^ [0] ChildrenEnd PortEnd 0
+End
+pixelTimeRatio 5
+HorzZoomOutScale 160
+WavesHorzScrollBarMax 65534
+WavesHorzScrollBarPosition 0
+WavesHorzScrollBarEnabled -1
+DefaultVertInterval 32
+UnScaledDefaultVertInterval 16
+UnScaledDefaultVertSignalHeight 10
+WavesVertScrollBarMax 100
+WavesVertScrollBarPosition 0
+WavesVertScrollBarEnabled 0
+Vars
+s-
+t0
+0 200 50 1
+100 200 50 0
+s.
+t0
+0 0 1 1
+s;
+t0
+0 400 2 0
+200 400 2 1
+1600 1400 2 0
+2600 800 2 1
+3600 400 2 0
+3800 1200 2 1
+5200 800 2 0
+5400 800 2 1
+6400 400 3 0
+6600 400 3 1
+8000 600 2 0
+8400 1000 2 1
+9600 0 1 0
+s<
+t0
+0 600 2 1
+200 800 2 0
+1600 1200 2 1
+2400 600 3 0
+3200 600 2 1
+4400 400 3 0
+4600 400 2 1
+5600 800 2 1
+6200 600 2 0
+7000 800 2 1
+7200 800 3 0
+8400 600 2 1
+9200 400 2 0
+9400 400 2 1
+s=
+t0
+0 1200 2 0
+1000 600 3 1
+1800 600 5 0
+2600 600 2 1
+4000 400 5 1
+4600 400 4 0
+6400 1400 2 1
+6800 1200 2 0
+8400 600 2 1
+8600 1000 2 0
+s>
+t0
+0 600 2 0
+200 600 2 1
+1800 800 2 0
+2200 1200 2 1
+3600 800 3 0
+4200 600 3 1
+5600 600 2 0
+5800 600 2 1
+7000 400 2 0
+7200 1000 2 1
+8400 800 2 0
+8800 1000 2 1
+s?
+t0
+0 800 2 1
+200 1400 2 0
+1800 1000 3 1
+2600 800 2 0
+4000 1600 2 0
+5400 800 2 1
+6400 1000 2 0
+6800 800 2 1
+8000 600 2 0
+8200 1000 2 1
+9800 0 1 0
+s@
+t0
+0 400 2 0
+200 400 2 1
+1400 600 2 0
+1800 800 2 1
+2800 800 2 0
+3000 800 2 1
+4200 1400 2 0
+5400 600 2 1
+6400 1400 2 0
+7400 600 2 1
+8200 400 2 0
+8400 1400 2 1
+sA
+t0
+0 1400 2 0
+800 1400 2 1
+2600 800 3 0
+3200 600 3 1
+4800 800 2 0
+5400 400 2 1
+6200 800 2 0
+6600 1200 2 1
+8400 400 2 0
+8600 400 2 1
+sB
+t0
+0 1000 2 0
+200 1000 2 1
+1400 1200 2 0
+2000 800 2 1
+3200 1200 2 0
+4000 1200 2 1
+7000 800 2 0
+7200 800 2 1
+8200 1000 2 0
+8600 0 1 1
+sC
+t0
+0 400 2 0
+200 1400 2 1
+1800 1200 2 0
+2000 1400 2 1
+3600 600 3 0
+3800 800 2 1
+5000 1000 2 1
+5600 1000 3 0
+7400 800 2 1
+9200 0 1 0
+9600 0 1 1
+sD
+t0
+0 1200 2 0
+200 1200 2 1
+1800 800 2 0
+2000 1400 2 1
+4000 400 3 0
+4200 400 2 1
+5400 2000 2 1
+6200 1400 2 0
+8200 0 1 1
+9200 0 1 0
+sE
+t0
+0 800 2 0
+400 600 2 1
+1400 1800 2 0
+3000 800 2 1
+4800 400 2 0
+5000 400 2 1
+6000 800 2 0
+6600 400 2 1
+7200 1600 2 0
+7600 1400 2 1
+9400 0 1 0
+9800 0 1 1
+sF
+t0
+0 800 2 0
+600 400 2 1
+1200 800 2 0
+1600 800 2 1
+2600 400 2 0
+2800 400 2 1
+3800 600 2 0
+4200 400 2 1
+5600 400 2 0
+5800 400 2 1
+7600 400 2 0
+7800 600 3 1
+8600 600 3 0
+9400 0 1 1
+sS
+t0
+0 0 1 0
+sT
+t0
+0 0 1 0
+sU
+t0
+0 0 1 0
+sV
+t0
+0 0 1 0
+sW
+t0
+0 0 1 0
+sX
+t0
+0 0 1 0
+sY
+t0
+0 0 1 0
+sZ
+t0
+0 0 1 0
+s[
+t0
+0 0 1 0
+s\
+t0
+0 0 1 0
+s]
+t0
+0 0 1 0
+s^
+t0
+0 0 1 0
+s_
+t0
+0 0 1 1
+200 0 1 0
+End
+Cursors
+0
+End
+ActiveCursorIndex 0
+versionCode
+20070511
+psrFileName
+C:\Users\cse\Desktop\LacnchPad-Term-Project-\Flowrian\_analyze\Accumulator.psr
+systemCExportSimulationTime
+10000
+systemCExportSimulationTimeUnit
+10000
+systemCProbes
+End

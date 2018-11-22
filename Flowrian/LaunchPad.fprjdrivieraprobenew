@@ -1,0 +1,6 @@
+Accumulator_tb
+	CLK
+	Ce
+	Din
+	Dout
+	RST
