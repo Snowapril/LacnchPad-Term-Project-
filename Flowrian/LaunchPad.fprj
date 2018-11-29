@@ -1,7 +1,7 @@
 [project]
 projecttype=1
 [folder0]
-filen=34
+filen=47
 file0=..\..\..\..\..\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_AND2.v
 file1=..\..\..\..\..\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_AND3.v
 file2=..\..\..\..\..\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_AND4.v
@@ -36,6 +36,19 @@ file30=..\..\..\..\..\Program Files\System Centroid\Flowrian R7\Library\PNULib\s
 file31=..\..\..\..\..\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_XOR3.v
 file32=..\..\..\..\..\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_XOR4.v
 file33=..\..\..\..\..\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_ZERO.v
+file34=Decoder4bits.v
+file35=Decoder4bits_tb.v
+file36=Mux12_4_4.v
+file37=Mux12_4_4_tb.v
+file38=MUX4bit_4_tb.v
+file39=MUX4bit_16.v
+file40=MUX4bit_16_tb.v
+file41=SRAM12bits.v
+file42=SRAM12bits_tb.v
+file43=LaunchPad.v
+file44=LaunchPad_tb.v
+file45=mod_converter.v
+file46=PianoPlay_tb.v
 [folder1]
 filen=43
 file0=Add_two_decimal_to_5bit_binary.v
@@ -92,9 +105,9 @@ usetasknamebymodulename - 0=-1
 useautoalign - linen=1
 useautoalign - 0=-1
 topmodule - linen=1
-topmodule - 0=Accumulator_tb
+topmodule - 0=PianoPlay_tb
 taskname - linen=1
-taskname - 0=Accumulator_tb
+taskname - 0=PianoPlay_tb
 compileordern - linen=1
 compileordern - 0=0
 [lastservicesetting - common]
@@ -102,13 +115,13 @@ advancedoptionn - linen=1
 advancedoptionn - 0=0
 [lastservicesetting - SimulateISim]
 taskname - linen=1
-taskname - 0=Accumulator_tb
+taskname - 0=PianoPlay_tb
 usetasknamebymodulename - linen=1
 usetasknamebymodulename - 0=-1
 useautoalign - linen=1
 useautoalign - 0=-1
 topmodule - linen=1
-topmodule - 0=Accumulator_tb
+topmodule - 0=PianoPlay_tb
 simulationtime - linen=1
 simulationtime - 0=10000
 simulationunit - linen=1

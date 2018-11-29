@@ -1,6 +1,8 @@
-Accumulator_tb
+PianoPlay_tb
+	Bin
 	CLK
-	Ce
-	Din
 	Dout
+	EN
 	RST
+	U0
+		...

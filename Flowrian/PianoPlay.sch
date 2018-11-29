@@ -2,7 +2,7 @@ ModuleName PianoPlay
 LanguageType Veirlog
 GridInterval 8
 MillimetersIn100RealScaledUnit 25
-ZoomOutScale 64
+ZoomOutScale 34
 NumberOfHorzPapaers 8
 NumberOfVertPapaers 4
 Parameters

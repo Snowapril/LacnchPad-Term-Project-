@@ -1,0 +1,101 @@
+StimulianSaveFile
+LanguageType Verilog
+tbModuleName SRAM12bits_tb
+ModuleName SRAM12bits
+TimeUnit ns
+TotalTime 10000
+GridInterval 100
+Parameters
+End
+Port
+-1 ! 0 Binary Address multibit in 3 0 Children % [3] & [2] ' [1] ( [0] ChildrenEnd PortEnd 0
+-1 ) 1 Binary CLK singlebit in 0 0 PortEnd 0
+-1 * 0 Binary Din multibit in 3 0 Children . [3] / [2] 0 [1] 1 [0] ChildrenEnd PortEnd 0
+-1 : 1 Binary RST singlebit in 0 0 PortEnd 0
+-1 ; 1 Binary RW singlebit in 0 0 PortEnd 0
+0 2 0 Binary Dout multibit out 3 0 Children 6 [3] 7 [2] 8 [1] 9 [0] ChildrenEnd PortEnd 0
+End
+pixelTimeRatio 5
+HorzZoomOutScale 80
+WavesHorzScrollBarMax 229369
+WavesHorzScrollBarPosition 0
+WavesHorzScrollBarEnabled -1
+DefaultVertInterval 32
+UnScaledDefaultVertInterval 16
+UnScaledDefaultVertSignalHeight 10
+WavesVertScrollBarMax 100
+WavesVertScrollBarPosition 0
+WavesVertScrollBarEnabled 0
+Vars
+s%
+t0
+0 1900 2 0
+700 0 1 1
+s&
+t0
+0 0 1 0
+1900 0 1 1
+s'
+t0
+0 0 1 0
+1900 0 1 1
+s(
+t0
+0 0 1 0
+s)
+t0
+0 100 100 1
+50 100 100 0
+s.
+t0
+0 1000 2 0
+300 2100 2 1
+s/
+t0
+0 0 1 0
+2400 0 1 1
+s0
+t0
+0 1000 2 0
+300 2100 2 1
+s1
+t0
+0 0 1 0
+1000 0 1 1
+s6
+t0
+0 0 1 0
+s7
+t0
+0 0 1 0
+s8
+t0
+0 0 1 0
+s9
+t0
+0 0 1 0
+s:
+t0
+0 0 1 1
+200 0 1 0
+s;
+t0
+0 800 2 1
+500 800 2 0
+2300 0 1 1
+3000 0 1 0
+End
+Cursors
+2400
+End
+ActiveCursorIndex 0
+versionCode
+20070511
+psrFileName
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\_analyze\SRAM12bits.psr
+systemCExportSimulationTime
+10000
+systemCExportSimulationTimeUnit
+10000
+systemCProbes
+End

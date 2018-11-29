@@ -5,27 +5,31 @@ if [ -f   /opt/Xilinx/14.1/ISE_DS/settings64.sh ]; then
  source /opt/Xilinx/14.1/ISE_DS/settings64.sh >> /tmp/log
 fi
  
-echo PNULib= $FLOWRIANLIBRARY/PNULib/ISim/PNULib >> Accumulator_tb.init
-echo work=./work >> Accumulator_tb.init
-echo verilog work PNU_NOT.v >> Accumulator_tb.prj
-echo verilog work PNU_AND2.v >> Accumulator_tb.prj
-echo verilog work PNU_DFF_Ce.v >> Accumulator_tb.prj
-echo verilog work Accumulator.v >> Accumulator_tb.prj
-echo verilog work Accumulator_tb.v >> Accumulator_tb.prj
-echo vcd dumpfile Accumulator_tb.vcd >> Accumulator_tb.tcl
-echo vcd dumpvars -m /Accumulator_tb -l 1 >> Accumulator_tb.tcl
-echo run 10000 ns >> Accumulator_tb.tcl
-echo vcd dumpflush >> Accumulator_tb.tcl
-echo quit -f >> Accumulator_tb.tcl
-fuse -top work.Accumulator_tb -init Accumulator_tb.init -prj Accumulator_tb.prj  -lib PNULib -o Accumulator_tb.exe
-./Accumulator_tb.exe -tclbatch Accumulator_tb.tcl
-rm Accumulator_tb.tcl
-rm Accumulator_tb.init
-rm Accumulator_tb.prj
+echo PNULib= $FLOWRIANLIBRARY/PNULib/ISim/PNULib >> PianoPlay_tb.init
+echo work=./work >> PianoPlay_tb.init
+echo verilog work PNU_ZERO.v >> PianoPlay_tb.prj
+echo verilog work PNU_MUX2.v >> PianoPlay_tb.prj
+echo verilog work PNU_MUX8.v >> PianoPlay_tb.prj
+echo verilog work Mux12bit_4.v >> PianoPlay_tb.prj
+echo verilog work PNU_CLK_DIV.v >> PianoPlay_tb.prj
+echo verilog work ToneConverter.v >> PianoPlay_tb.prj
+echo verilog work PianoPlay.v >> PianoPlay_tb.prj
+echo verilog work PianoPlay_tb.v >> PianoPlay_tb.prj
+echo vcd dumpfile PianoPlay_tb.vcd >> PianoPlay_tb.tcl
+echo vcd dumpvars -m /PianoPlay_tb -l 1 >> PianoPlay_tb.tcl
+echo vcd dumpvars -m /PianoPlay_tb/U0 -l 1 >> PianoPlay_tb.tcl
+echo run 10000 ns >> PianoPlay_tb.tcl
+echo vcd dumpflush >> PianoPlay_tb.tcl
+echo quit -f >> PianoPlay_tb.tcl
+fuse -top work.PianoPlay_tb -init PianoPlay_tb.init -prj PianoPlay_tb.prj  -lib PNULib -o PianoPlay_tb.exe
+./PianoPlay_tb.exe -tclbatch PianoPlay_tb.tcl
+rm PianoPlay_tb.tcl
+rm PianoPlay_tb.init
+rm PianoPlay_tb.prj
 rm fuse.xmsgs
 rm fuseRelaunch.cmd
 rm isim.wdb
-rm -f Accumulator_tb.exe fuse.log isim.log
+rm -f PianoPlay_tb.exe fuse.log isim.log
 rm -rf isim
 rm list of verilog or VHDL files
 rm -rf ./work
@@ -63,6 +67,19 @@ rm -rf PNU_XOR2.v
 rm -rf PNU_XOR3.v
 rm -rf PNU_XOR4.v
 rm -rf PNU_ZERO.v
+rm -rf Decoder4bits.v
+rm -rf Decoder4bits_tb.v
+rm -rf Mux12_4_4.v
+rm -rf Mux12_4_4_tb.v
+rm -rf MUX4bit_4_tb.v
+rm -rf MUX4bit_16.v
+rm -rf MUX4bit_16_tb.v
+rm -rf SRAM12bits.v
+rm -rf SRAM12bits_tb.v
+rm -rf LaunchPad.v
+rm -rf LaunchPad_tb.v
+rm -rf mod_converter.v
+rm -rf PianoPlay_tb.v
 rm -rf Add_two_decimal_to_5bit_binary.v
 rm -rf AddTwoDec.v
 rm -rf Compare_2bit.v
@@ -104,4 +121,6 @@ rm -rf ToneConverter_tb.v
 rm -rf regiset_12bits.v
 rm -rf Accumulator.v
 rm -rf Accumulator_tb.v
+rm -rf encoder_12_to_4.v
+rm -rf PianoPlay.v
 echo Finish simulation!!
