@@ -16,7 +16,7 @@ Port
 End
 pixelTimeRatio 5
 HorzZoomOutScale 80
-WavesHorzScrollBarMax 393204
+WavesHorzScrollBarMax 196602
 WavesHorzScrollBarPosition 0
 WavesHorzScrollBarEnabled -1
 DefaultVertInterval 32
@@ -31,23 +31,23 @@ t0
 0 0 1 0
 s&
 t0
-0 0 1 1
+0 0 1 0
 s'
 t0
 0 0 1 1
 s(
 t0
-0 0 1 0
+0 0 1 1
 s)
 t0
-0 200 50 1
-100 200 50 0
+0 100 100 1
+50 100 100 0
 s*
 t0
 0 0 1 0
 s+
 t0
-0 0 1 0
+0 200 2 0
 300 0 1 1
 s,
 t0
@@ -61,7 +61,7 @@ ActiveCursorIndex 0
 versionCode
 20070511
 psrFileName
-C:\Users\cse\Desktop\LacnchPad-Term-Project-\Flowrian\_analyze\ToneConverter.psr
+C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\_analyze\ToneConverter.psr
 systemCExportSimulationTime
 10000
 systemCExportSimulationTimeUnit

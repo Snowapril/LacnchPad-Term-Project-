@@ -1,16 +1,16 @@
 module PiezoTest_tb;
 
 reg CLK;
-wire DIV;
 reg EN;
 reg RST;
+wire DIV;
 
 PiezoTest
  U0 (
   .CLK(CLK),
-  .DIV(DIV),
   .EN(EN),
-  .RST(RST));
+  .RST(RST),
+  .DIV(DIV));
 
   initial
   begin

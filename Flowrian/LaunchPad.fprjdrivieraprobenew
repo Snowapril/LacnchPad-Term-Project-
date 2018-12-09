@@ -1,8 +1,55 @@
-PianoPlay_tb
-	Bin
+ToneConverter_tb
+	B_in
 	CLK
-	Dout
+	D_out
 	EN
 	RST
 	U0
-		...
+		B_in
+		CLK
+		D_out
+		EN
+		RST
+		b15
+		w11
+		w12
+		w13
+		w14
+		w15
+		w16
+		w17
+		w18
+		w19
+		w20
+		w21
+		w5
+		w6
+		w7
+		w8
+		w9
+		s0(PNU_CLK_DIV)
+			...
+		s1(PNU_CLK_DIV)
+			...
+		s2(PNU_CLK_DIV)
+			...
+		s3(PNU_CLK_DIV)
+			...
+		s4(PNU_CLK_DIV)
+			...
+		s5(PNU_CLK_DIV)
+			...
+		s6(PNU_CLK_DIV)
+			...
+		s7(PNU_CLK_DIV)
+			...
+		s8(PNU_CLK_DIV)
+			...
+		s9(PNU_CLK_DIV)
+			...
+		s10(PNU_CLK_DIV)
+			...
+		s11(PNU_CLK_DIV)
+			...
+		s12(Mux12bit_4)
+			...

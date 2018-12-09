@@ -1,0 +1,194 @@
+script> if [ -f   /opt/Xilinx/14.1/ISE_DS/settings32.sh ]; then 
+script>  source /opt/Xilinx/14.1/ISE_DS/settings32.sh >> /tmp/log 
+script> fi
+script> if [ -f   /opt/Xilinx/14.1/ISE_DS/settings64.sh ]; then
+script>  source /opt/Xilinx/14.1/ISE_DS/settings64.sh >> /tmp/log
+script> fi
+script>  
+script> echo PNULib= $FLOWRIANLIBRARY/PNULib/ISim/PNULib >> ToneConverter_tb.init
+script> echo work=./work >> ToneConverter_tb.init
+script> echo verilog work PNU_ZERO.v >> ToneConverter_tb.prj
+script> echo verilog work PNU_MUX2.v >> ToneConverter_tb.prj
+script> echo verilog work PNU_MUX8.v >> ToneConverter_tb.prj
+script> echo verilog work Mux12bit_4.v >> ToneConverter_tb.prj
+script> echo verilog work PNU_CLK_DIV.v >> ToneConverter_tb.prj
+script> echo verilog work ToneConverter.v >> ToneConverter_tb.prj
+script> echo verilog work ToneConverter_tb.v >> ToneConverter_tb.prj
+script> echo vcd dumpfile ToneConverter_tb.vcd >> ToneConverter_tb.tcl
+script> echo vcd dumpvars -m /ToneConverter_tb -l 1 >> ToneConverter_tb.tcl
+script> echo vcd dumpvars -m /ToneConverter_tb/U0 -l 1 >> ToneConverter_tb.tcl
+script> echo vcd dumpvars -m /ToneConverter_tb/U0/s0 -l 1 >> ToneConverter_tb.tcl
+script> echo vcd dumpvars -m /ToneConverter_tb/U0/s1 -l 1 >> ToneConverter_tb.tcl
+script> echo vcd dumpvars -m /ToneConverter_tb/U0/s2 -l 1 >> ToneConverter_tb.tcl
+script> echo vcd dumpvars -m /ToneConverter_tb/U0/s3 -l 1 >> ToneConverter_tb.tcl
+script> echo vcd dumpvars -m /ToneConverter_tb/U0/s4 -l 1 >> ToneConverter_tb.tcl
+script> echo vcd dumpvars -m /ToneConverter_tb/U0/s5 -l 1 >> ToneConverter_tb.tcl
+script> echo vcd dumpvars -m /ToneConverter_tb/U0/s6 -l 1 >> ToneConverter_tb.tcl
+script> echo vcd dumpvars -m /ToneConverter_tb/U0/s7 -l 1 >> ToneConverter_tb.tcl
+script> echo vcd dumpvars -m /ToneConverter_tb/U0/s8 -l 1 >> ToneConverter_tb.tcl
+script> echo vcd dumpvars -m /ToneConverter_tb/U0/s9 -l 1 >> ToneConverter_tb.tcl
+script> echo vcd dumpvars -m /ToneConverter_tb/U0/s10 -l 1 >> ToneConverter_tb.tcl
+script> echo vcd dumpvars -m /ToneConverter_tb/U0/s11 -l 1 >> ToneConverter_tb.tcl
+script> echo vcd dumpvars -m /ToneConverter_tb/U0/s12 -l 1 >> ToneConverter_tb.tcl
+script> echo run 10000 ns >> ToneConverter_tb.tcl
+script> echo vcd dumpflush >> ToneConverter_tb.tcl
+INFO:Simulator:908 - Using init file passed via -initfile option
+   "ToneConverter_tb.init"
+Running: /opt/Xilinx/14.1/ISE_DS/ISE/bin/lin/unwrapped/fuse -top work.ToneConverter_tb -init ToneConverter_tb.init -prj ToneConverter_tb.prj -lib PNULib -o ToneConverter_tb.exe
+ISim P.15xf (signature 0x8ddf5b5d)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8
+Determining compilation order of HDL files
+Analyzing Verilog file "PNU_ZERO.v" into library work
+Analyzing Verilog file "PNU_MUX2.v" into library work
+Analyzing Verilog file "PNU_MUX8.v" into library work
+Analyzing Verilog file "Mux12bit_4.v" into library work
+Analyzing Verilog file "PNU_CLK_DIV.v" into library work
+Analyzing Verilog file "ToneConverter.v" into library work
+Analyzing Verilog file "ToneConverter_tb.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 36136 KB
+Fuse CPU Usage: 1560 ms
+Compiling module PNU_CLK_DIV(cnt_num=7645)
+Compiling module PNU_CLK_DIV(cnt_num=6810)
+Compiling module PNU_CLK_DIV(cnt_num=6067)
+Compiling module PNU_CLK_DIV(cnt_num=5727)
+Compiling module PNU_CLK_DIV(cnt_num=5102)
+Compiling module PNU_CLK_DIV(cnt_num=4545)
+Compiling module PNU_CLK_DIV(cnt_num=4050)
+Compiling module PNU_CLK_DIV(cnt_num=3822)
+Compiling module PNU_CLK_DIV(cnt_num=3405)
+Compiling module PNU_CLK_DIV(cnt_num=3034)
+Compiling module PNU_CLK_DIV(cnt_num=2863)
+Compiling module PNU_CLK_DIV(cnt_num=2551)
+Compiling module PNU_MUX8
+Compiling module PNU_MUX2
+Compiling module PNU_ZERO
+Compiling module Mux12bit_4
+Compiling module ToneConverter
+Compiling module ToneConverter_tb
+Time Resolution for simulation is 1ps.
+Waiting for 11 sub-compilation(s) to finish...
+Compiled 18 Verilog Units
+Built simulation executable ToneConverter_tb.exe
+Fuse Memory Usage: 80196 KB
+Fuse CPU Usage: 1610 ms
+GCC CPU Usage: 940 ms
+script> echo quit -f >> ToneConverter_tb.tcl
+ISim P.15xf (signature 0x8ddf5b5d)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+script> fuse -top work.ToneConverter_tb -init ToneConverter_tb.init -prj ToneConverter_tb.prj  -lib PNULib -o ToneConverter_tb.exe
+script> ./ToneConverter_tb.exe -tclbatch ToneConverter_tb.tcl
+script> rm ToneConverter_tb.tcl
+script> rm ToneConverter_tb.init
+script> rm ToneConverter_tb.prj
+script> rm fuse.xmsgs
+script> rm fuseRelaunch.cmd
+script> rm isim.wdb
+script> rm -f ToneConverter_tb.exe fuse.log isim.log
+rm: cannot remove `list': No such file or directory
+rm: cannot remove `of': No such file or directory
+rm: cannot remove `verilog': No such file or directory
+rm: cannot remove `or': No such file or directory
+rm: cannot remove `VHDL': No such file or directory
+rm: cannot remove `files': No such file or directory
+script> rm -rf isim
+script> rm list of verilog or VHDL files
+script> rm -rf ./work
+script> rm -rf Decoder4bits.v
+script> rm -rf Decoder4bits_tb.v
+script> rm -rf Mux12_4_4.v
+script> rm -rf Mux12_4_4_tb.v
+script> rm -rf MUX4bit_4_tb.v
+script> rm -rf MUX4bit_16.v
+script> rm -rf MUX4bit_16_tb.v
+script> rm -rf SRAM12bits.v
+script> rm -rf SRAM12bits_tb.v
+script> rm -rf LaunchPad.v
+script> rm -rf LaunchPad_tb.v
+script> rm -rf mod_converter.v
+script> rm -rf PianoPlay_tb.v
+script> rm -rf Add_two_decimal_to_5bit_binary.v
+script> rm -rf AddTwoDec.v
+script> rm -rf Compare_2bit.v
+script> rm -rf Compare_4bit.v
+script> rm -rf Counter10.v
+script> rm -rf Counter100.v
+script> rm -rf Decoder2bit.v
+script> rm -rf Decoder3bit.v
+script> rm -rf DFlipflop.v
+script> rm -rf DFlipflopCE.v
+script> rm -rf DigitToShiftRegister.v
+script> rm -rf eight_counter.v
+script> rm -rf Encode_decimal_to_binary.v
+script> rm -rf FullAdder.v
+script> rm -rf FullColorTest.v
+script> rm -rf HalfAdder.v
+script> rm -rf LevelToPulse.v
+script> rm -rf LogicTest.v
+script> rm -rf MUX4bit_4.v
+script> rm -rf PiezoTest.v
+script> rm -rf PiezoTest_tb.v
+script> rm -rf PNU_CLK_DIV.v
+script> rm -rf register.v
+script> rm -rf Register4bit.v
+script> rm -rf Register5bit.v
+script> rm -rf RightShiftRegister.v
+script> rm -rf Ripple_carray_adder_4bit.v
+script> rm -rf seven_segment.v
+script> rm -rf SevenSegments.v
+script> rm -rf shift_register.v
+script> rm -rf Shift4bitRegister.v
+script> rm -rf SRAM4.v
+script> rm -rf StepMotor.v
+script> rm -rf StepMotor_tb.v
+script> rm -rf Mux12bit_4.v
+script> rm -rf Mux12bit_4_tb.v
+script> rm -rf ToneConverter.v
+script> rm -rf ToneConverter_tb.v
+script> rm -rf regiset_12bits.v
+script> rm -rf Accumulator.v
+script> rm -rf Accumulator_tb.v
+script> rm -rf encoder_12_to_4.v
+script> rm -rf PianoPlay.v
+script> rm -rf PNU_AND2.v
+script> rm -rf PNU_AND3.v
+script> rm -rf PNU_AND4.v
+script> rm -rf PNU_AND8.v
+script> rm -rf PNU_BUF.v
+script> rm -rf PNU_DFF.v
+script> rm -rf PNU_DFF_Ce.v
+script> rm -rf PNU_JKFF.v
+script> rm -rf PNU_MUX2.v
+script> rm -rf PNU_MUX4.v
+script> rm -rf PNU_MUX8.v
+script> rm -rf PNU_NAND2.v
+script> rm -rf PNU_NAND3.v
+script> rm -rf PNU_NAND4.v
+script> rm -rf PNU_NAND8.v
+script> rm -rf PNU_NOR2.v
+script> rm -rf PNU_NOR3.v
+script> rm -rf PNU_NOR4.v
+script> rm -rf PNU_NOR8.v
+script> rm -rf PNU_NOT.v
+script> rm -rf PNU_ONE.v
+script> rm -rf PNU_OR2.v
+script> rm -rf PNU_OR3.v
+script> rm -rf PNU_OR4.v
+script> rm -rf PNU_OR8.v
+script> rm -rf PNU_SRAM.v
+script> rm -rf PNU_TBUF.v
+script> rm -rf PNU_XNOR2.v
+script> rm -rf PNU_XNOR3.v
+script> rm -rf PNU_XNOR4.v
+script> rm -rf PNU_XOR2.v
+script> rm -rf PNU_XOR3.v
+script> rm -rf PNU_XOR4.v
+Finish simulation!!
