@@ -5,43 +5,27 @@ if [ -f   /opt/Xilinx/14.1/ISE_DS/settings64.sh ]; then
  source /opt/Xilinx/14.1/ISE_DS/settings64.sh >> /tmp/log
 fi
  
-echo PNULib= $FLOWRIANLIBRARY/PNULib/ISim/PNULib >> ToneConverter_tb.init
-echo work=./work >> ToneConverter_tb.init
-echo verilog work PNU_ZERO.v >> ToneConverter_tb.prj
-echo verilog work PNU_MUX2.v >> ToneConverter_tb.prj
-echo verilog work PNU_MUX8.v >> ToneConverter_tb.prj
-echo verilog work Mux12bit_4.v >> ToneConverter_tb.prj
-echo verilog work PNU_CLK_DIV.v >> ToneConverter_tb.prj
-echo verilog work ToneConverter.v >> ToneConverter_tb.prj
-echo verilog work ToneConverter_tb.v >> ToneConverter_tb.prj
-echo vcd dumpfile ToneConverter_tb.vcd >> ToneConverter_tb.tcl
-echo vcd dumpvars -m /ToneConverter_tb -l 1 >> ToneConverter_tb.tcl
-echo vcd dumpvars -m /ToneConverter_tb/U0 -l 1 >> ToneConverter_tb.tcl
-echo vcd dumpvars -m /ToneConverter_tb/U0/s0 -l 1 >> ToneConverter_tb.tcl
-echo vcd dumpvars -m /ToneConverter_tb/U0/s1 -l 1 >> ToneConverter_tb.tcl
-echo vcd dumpvars -m /ToneConverter_tb/U0/s2 -l 1 >> ToneConverter_tb.tcl
-echo vcd dumpvars -m /ToneConverter_tb/U0/s3 -l 1 >> ToneConverter_tb.tcl
-echo vcd dumpvars -m /ToneConverter_tb/U0/s4 -l 1 >> ToneConverter_tb.tcl
-echo vcd dumpvars -m /ToneConverter_tb/U0/s5 -l 1 >> ToneConverter_tb.tcl
-echo vcd dumpvars -m /ToneConverter_tb/U0/s6 -l 1 >> ToneConverter_tb.tcl
-echo vcd dumpvars -m /ToneConverter_tb/U0/s7 -l 1 >> ToneConverter_tb.tcl
-echo vcd dumpvars -m /ToneConverter_tb/U0/s8 -l 1 >> ToneConverter_tb.tcl
-echo vcd dumpvars -m /ToneConverter_tb/U0/s9 -l 1 >> ToneConverter_tb.tcl
-echo vcd dumpvars -m /ToneConverter_tb/U0/s10 -l 1 >> ToneConverter_tb.tcl
-echo vcd dumpvars -m /ToneConverter_tb/U0/s11 -l 1 >> ToneConverter_tb.tcl
-echo vcd dumpvars -m /ToneConverter_tb/U0/s12 -l 1 >> ToneConverter_tb.tcl
-echo run 10000 ns >> ToneConverter_tb.tcl
-echo vcd dumpflush >> ToneConverter_tb.tcl
-echo quit -f >> ToneConverter_tb.tcl
-fuse -top work.ToneConverter_tb -init ToneConverter_tb.init -prj ToneConverter_tb.prj  -lib PNULib -o ToneConverter_tb.exe
-./ToneConverter_tb.exe -tclbatch ToneConverter_tb.tcl
-rm ToneConverter_tb.tcl
-rm ToneConverter_tb.init
-rm ToneConverter_tb.prj
+echo PNULib= $FLOWRIANLIBRARY/PNULib/ISim/PNULib >> Mux12bit_4_tb.init
+echo work=./work >> Mux12bit_4_tb.init
+echo verilog work PNU_ZERO.v >> Mux12bit_4_tb.prj
+echo verilog work PNU_MUX2.v >> Mux12bit_4_tb.prj
+echo verilog work PNU_MUX8.v >> Mux12bit_4_tb.prj
+echo verilog work Mux12bit_4.v >> Mux12bit_4_tb.prj
+echo verilog work Mux12bit_4_tb.v >> Mux12bit_4_tb.prj
+echo vcd dumpfile Mux12bit_4_tb.vcd >> Mux12bit_4_tb.tcl
+echo vcd dumpvars -m /Mux12bit_4_tb -l 1 >> Mux12bit_4_tb.tcl
+echo run 10000 ns >> Mux12bit_4_tb.tcl
+echo vcd dumpflush >> Mux12bit_4_tb.tcl
+echo quit -f >> Mux12bit_4_tb.tcl
+fuse -top work.Mux12bit_4_tb -init Mux12bit_4_tb.init -prj Mux12bit_4_tb.prj  -lib PNULib -o Mux12bit_4_tb.exe
+./Mux12bit_4_tb.exe -tclbatch Mux12bit_4_tb.tcl
+rm Mux12bit_4_tb.tcl
+rm Mux12bit_4_tb.init
+rm Mux12bit_4_tb.prj
 rm fuse.xmsgs
 rm fuseRelaunch.cmd
 rm isim.wdb
-rm -f ToneConverter_tb.exe fuse.log isim.log
+rm -f Mux12bit_4_tb.exe fuse.log isim.log
 rm -rf isim
 rm list of verilog or VHDL files
 rm -rf ./work
@@ -58,6 +42,40 @@ rm -rf LaunchPad.v
 rm -rf LaunchPad_tb.v
 rm -rf mod_converter.v
 rm -rf PianoPlay_tb.v
+rm -rf PNU_AND2.v
+rm -rf PNU_AND3.v
+rm -rf PNU_AND4.v
+rm -rf PNU_AND8.v
+rm -rf PNU_BUF.v
+rm -rf PNU_DFF.v
+rm -rf PNU_DFF_Ce.v
+rm -rf PNU_JKFF.v
+rm -rf PNU_MUX2.v
+rm -rf PNU_MUX4.v
+rm -rf PNU_MUX8.v
+rm -rf PNU_NAND2.v
+rm -rf PNU_NAND3.v
+rm -rf PNU_NAND4.v
+rm -rf PNU_NAND8.v
+rm -rf PNU_NOR2.v
+rm -rf PNU_NOR3.v
+rm -rf PNU_NOR4.v
+rm -rf PNU_NOR8.v
+rm -rf PNU_NOT.v
+rm -rf PNU_ONE.v
+rm -rf PNU_OR2.v
+rm -rf PNU_OR3.v
+rm -rf PNU_OR4.v
+rm -rf PNU_OR8.v
+rm -rf PNU_SRAM.v
+rm -rf PNU_TBUF.v
+rm -rf PNU_XNOR2.v
+rm -rf PNU_XNOR3.v
+rm -rf PNU_XNOR4.v
+rm -rf PNU_XOR2.v
+rm -rf PNU_XOR3.v
+rm -rf PNU_XOR4.v
+rm -rf PNU_ZERO.v
 rm -rf Add_two_decimal_to_5bit_binary.v
 rm -rf AddTwoDec.v
 rm -rf Compare_2bit.v
@@ -101,38 +119,5 @@ rm -rf Accumulator.v
 rm -rf Accumulator_tb.v
 rm -rf encoder_12_to_4.v
 rm -rf PianoPlay.v
-rm -rf PNU_AND2.v
-rm -rf PNU_AND3.v
-rm -rf PNU_AND4.v
-rm -rf PNU_AND8.v
-rm -rf PNU_BUF.v
-rm -rf PNU_DFF.v
-rm -rf PNU_DFF_Ce.v
-rm -rf PNU_JKFF.v
-rm -rf PNU_MUX2.v
-rm -rf PNU_MUX4.v
-rm -rf PNU_MUX8.v
-rm -rf PNU_NAND2.v
-rm -rf PNU_NAND3.v
-rm -rf PNU_NAND4.v
-rm -rf PNU_NAND8.v
-rm -rf PNU_NOR2.v
-rm -rf PNU_NOR3.v
-rm -rf PNU_NOR4.v
-rm -rf PNU_NOR8.v
-rm -rf PNU_NOT.v
-rm -rf PNU_ONE.v
-rm -rf PNU_OR2.v
-rm -rf PNU_OR3.v
-rm -rf PNU_OR4.v
-rm -rf PNU_OR8.v
-rm -rf PNU_SRAM.v
-rm -rf PNU_TBUF.v
-rm -rf PNU_XNOR2.v
-rm -rf PNU_XNOR3.v
-rm -rf PNU_XNOR4.v
-rm -rf PNU_XOR2.v
-rm -rf PNU_XOR3.v
-rm -rf PNU_XOR4.v
-rm -rf PNU_ZERO.v
+rm -rf encoder_12_to_4_tb.v
 echo Finish simulation!!

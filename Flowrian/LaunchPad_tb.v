@@ -53,10 +53,8 @@ LaunchPad
   initial
   begin
     BTN1 = 1'b0;
-    #400 BTN1 = 1'b1;
-    #400 BTN1 = 1'b0;
-    #1100 BTN1 = 1'b1;
-    #300 BTN1 = 1'b0;
+    #200 BTN1 = 1'b1;
+    #1700 BTN1 = 1'b0;
   end
 
   initial
@@ -67,8 +65,6 @@ LaunchPad
   initial
   begin
     BTN3 = 1'b0;
-    #2700 BTN3 = 1'b1;
-    #300 BTN3 = 1'b0;
   end
 
   initial
@@ -79,20 +75,18 @@ LaunchPad
   initial
   begin
     BTN5 = 1'b0;
-    #3200 BTN5 = 1'b1;
-    #300 BTN5 = 1'b0;
   end
 
   initial
   begin
     BTN6 = 1'b0;
-    #1200 BTN6 = 1'b1;
-    #300 BTN6 = 1'b0;
   end
 
   initial
   begin
     BTN7 = 1'b0;
+    #3600 BTN7 = 1'b1;
+    #1900 BTN7 = 1'b0;
   end
 
   initial
@@ -108,15 +102,13 @@ LaunchPad
   initial
   begin
     BTN_0 = 1'b0;
-    #3700 BTN_0 = 1'b1;
-    #300 BTN_0 = 1'b0;
+    #6600 BTN_0 = 1'b1;
+    #2700 BTN_0 = 1'b0;
   end
 
   initial
   begin
     BTN_sharp = 1'b0;
-    #4200 BTN_sharp = 1'b1;
-    #200 BTN_sharp = 1'b0;
   end
 
   initial
@@ -331,13 +323,11 @@ LaunchPad
   initial
   begin
     Dip_1 = 1'b1;
-    #1100 Dip_1 = 1'b0;
   end
 
   initial
   begin
     Dip_2 = 1'b0;
-    #1600 Dip_2 = 1'b1;
   end
 
   initial
@@ -348,13 +338,12 @@ LaunchPad
   initial
   begin
     Dip_4 = 1'b0;
-    #2400 Dip_4 = 1'b1;
   end
 
   initial
   begin
     RST = 1'b1;
-    #300 RST = 1'b0;
+    #400 RST = 1'b0;
   end
 
 endmodule

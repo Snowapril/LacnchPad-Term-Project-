@@ -1,0 +1,30 @@
+xst -intstyle ise -ifn "C:/Users/cse/Desktop/LaunchPad-Term-Project-/ISE/LaunchPad/LaunchPad.xst" -ofn "C:/Users/cse/Desktop/LaunchPad-Term-Project-/ISE/LaunchPad/LaunchPad.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LaunchPad.ucf -p xc6slx45-fgg484-3 LaunchPad.ngc LaunchPad.ngd  
+map -intstyle ise -p xc6slx45-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LaunchPad_map.ncd LaunchPad.ngd LaunchPad.pcf 
+par -w -intstyle ise -ol high -mt off LaunchPad_map.ncd LaunchPad.ncd LaunchPad.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LaunchPad.twx LaunchPad.ncd -o LaunchPad.twr LaunchPad.pcf -ucf LaunchPad.ucf 
+bitgen -intstyle ise -f LaunchPad.ut LaunchPad.ncd 
+xst -intstyle ise -ifn "C:/Users/cse/Desktop/LaunchPad-Term-Project-/ISE/LaunchPad/LaunchPad.xst" -ofn "C:/Users/cse/Desktop/LaunchPad-Term-Project-/ISE/LaunchPad/LaunchPad.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LaunchPad.ucf -p xc6slx45-fgg484-3 LaunchPad.ngc LaunchPad.ngd  
+map -intstyle ise -p xc6slx45-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LaunchPad_map.ncd LaunchPad.ngd LaunchPad.pcf 
+par -w -intstyle ise -ol high -mt off LaunchPad_map.ncd LaunchPad.ncd LaunchPad.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LaunchPad.twx LaunchPad.ncd -o LaunchPad.twr LaunchPad.pcf -ucf LaunchPad.ucf 
+bitgen -intstyle ise -f LaunchPad.ut LaunchPad.ncd 
+xst -intstyle ise -ifn "C:/Users/cse/Desktop/LaunchPad-Term-Project-/ISE/LaunchPad/LaunchPad.xst" -ofn "C:/Users/cse/Desktop/LaunchPad-Term-Project-/ISE/LaunchPad/LaunchPad.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LaunchPad.ucf -p xc6slx45-fgg484-3 LaunchPad.ngc LaunchPad.ngd  
+map -intstyle ise -p xc6slx45-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LaunchPad_map.ncd LaunchPad.ngd LaunchPad.pcf 
+par -w -intstyle ise -ol high -mt off LaunchPad_map.ncd LaunchPad.ncd LaunchPad.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LaunchPad.twx LaunchPad.ncd -o LaunchPad.twr LaunchPad.pcf -ucf LaunchPad.ucf 
+bitgen -intstyle ise -f LaunchPad.ut LaunchPad.ncd 
+xst -intstyle ise -ifn "C:/Users/cse/Desktop/LaunchPad-Term-Project-/ISE/LaunchPad/LaunchPad.xst" -ofn "C:/Users/cse/Desktop/LaunchPad-Term-Project-/ISE/LaunchPad/LaunchPad.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LaunchPad.ucf -p xc6slx45-fgg484-3 LaunchPad.ngc LaunchPad.ngd  
+map -intstyle ise -p xc6slx45-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LaunchPad_map.ncd LaunchPad.ngd LaunchPad.pcf 
+par -w -intstyle ise -ol high -mt off LaunchPad_map.ncd LaunchPad.ncd LaunchPad.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LaunchPad.twx LaunchPad.ncd -o LaunchPad.twr LaunchPad.pcf -ucf LaunchPad.ucf 
+bitgen -intstyle ise -f LaunchPad.ut LaunchPad.ncd 
+xst -intstyle ise -ifn "C:/Users/cse/Desktop/LaunchPad-Term-Project-/ISE/LaunchPad/LaunchPad.xst" -ofn "C:/Users/cse/Desktop/LaunchPad-Term-Project-/ISE/LaunchPad/LaunchPad.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LaunchPad.ucf -p xc6slx45-fgg484-3 LaunchPad.ngc LaunchPad.ngd  
+map -intstyle ise -p xc6slx45-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LaunchPad_map.ncd LaunchPad.ngd LaunchPad.pcf 
+par -w -intstyle ise -ol high -mt off LaunchPad_map.ncd LaunchPad.ncd LaunchPad.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LaunchPad.twx LaunchPad.ncd -o LaunchPad.twr LaunchPad.pcf -ucf LaunchPad.ucf 
+bitgen -intstyle ise -f LaunchPad.ut LaunchPad.ncd 

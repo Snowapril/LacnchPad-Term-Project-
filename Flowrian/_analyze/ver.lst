@@ -1,90 +1,91 @@
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\Decoder4bits.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\Decoder4bits_tb.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\Mux12_4_4.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\Mux12_4_4_tb.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\MUX4bit_4_tb.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\MUX4bit_16.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\MUX4bit_16_tb.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\SRAM12bits.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\SRAM12bits_tb.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\LaunchPad.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\LaunchPad_tb.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\mod_converter.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\PianoPlay_tb.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\Add_two_decimal_to_5bit_binary.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\AddTwoDec.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\Compare_2bit.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\Compare_4bit.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\Counter10.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\Counter100.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\Decoder2bit.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\Decoder3bit.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\DFlipflop.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\DFlipflopCE.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\DigitToShiftRegister.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\eight_counter.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\Encode_decimal_to_binary.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\FullAdder.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\FullColorTest.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\HalfAdder.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\LevelToPulse.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\LogicTest.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\MUX4bit_4.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\PiezoTest.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\PiezoTest_tb.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\PNU_CLK_DIV.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\register.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\Register4bit.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\Register5bit.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\RightShiftRegister.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\Ripple_carray_adder_4bit.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\seven_segment.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\SevenSegments.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\shift_register.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\Shift4bitRegister.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\SRAM4.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\StepMotor.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\StepMotor_tb.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\Mux12bit_4.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\Mux12bit_4_tb.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\ToneConverter.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\ToneConverter_tb.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\regiset_12bits.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\Accumulator.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\Accumulator_tb.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\encoder_12_to_4.v
-C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\PianoPlay.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_AND2.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_AND3.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_AND4.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_AND8.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_BUF.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_DFF.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_DFF_Ce.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_JKFF.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_MUX2.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_MUX4.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_MUX8.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NAND2.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NAND3.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NAND4.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NAND8.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NOR2.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NOR3.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NOR4.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NOR8.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NOT.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_ONE.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_OR2.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_OR3.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_OR4.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_OR8.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_SRAM.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_TBUF.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_XNOR2.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_XNOR3.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_XNOR4.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_XOR2.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_XOR3.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_XOR4.v
-C:\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_ZERO.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\Decoder4bits.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\Decoder4bits_tb.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\Mux12_4_4.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\Mux12_4_4_tb.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\MUX4bit_4_tb.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\MUX4bit_16.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\MUX4bit_16_tb.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\SRAM12bits.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\SRAM12bits_tb.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\LaunchPad.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\LaunchPad_tb.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\mod_converter.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PianoPlay_tb.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_AND2.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_AND3.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_AND4.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_AND8.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_BUF.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_DFF.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_DFF_Ce.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_JKFF.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_MUX2.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_MUX4.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_MUX8.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NAND2.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NAND3.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NAND4.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NAND8.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NOR2.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NOR3.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NOR4.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NOR8.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NOT.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_ONE.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_OR2.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_OR3.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_OR4.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_OR8.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_SRAM.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_TBUF.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_XNOR2.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_XNOR3.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_XNOR4.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_XOR2.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_XOR3.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_XOR4.v
+C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_ZERO.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\Add_two_decimal_to_5bit_binary.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\AddTwoDec.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\Compare_2bit.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\Compare_4bit.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\Counter10.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\Counter100.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\Decoder2bit.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\Decoder3bit.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\DFlipflop.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\DFlipflopCE.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\DigitToShiftRegister.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\eight_counter.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\Encode_decimal_to_binary.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\FullAdder.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\FullColorTest.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\HalfAdder.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\LevelToPulse.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\LogicTest.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\MUX4bit_4.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PiezoTest.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PiezoTest_tb.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PNU_CLK_DIV.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\register.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\Register4bit.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\Register5bit.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\RightShiftRegister.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\Ripple_carray_adder_4bit.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\seven_segment.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\SevenSegments.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\shift_register.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\Shift4bitRegister.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\SRAM4.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\StepMotor.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\StepMotor_tb.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\Mux12bit_4.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\Mux12bit_4_tb.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\ToneConverter.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\ToneConverter_tb.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\regiset_12bits.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\Accumulator.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\Accumulator_tb.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\encoder_12_to_4.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PianoPlay.v
+C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\encoder_12_to_4_tb.v

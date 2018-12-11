@@ -1,0 +1,158 @@
+$date
+   Tue Dec 11 17:18:51 2018
+$end
+$version
+  P.15xf
+$end
+$timescale
+  1ps
+$end
+$scope module encoder_12_to_4_tb $end
+$var wire 1 ! chk $end
+$var wire 1 " out_binary [3] $end
+$var wire 1 # out_binary [2] $end
+$var wire 1 $ out_binary [1] $end
+$var wire 1 % out_binary [0] $end
+$var reg 1 & in_0 $end
+$var reg 1 ' in_1 $end
+$var reg 1 ( in_10 $end
+$var reg 1 ) in_11 $end
+$var reg 1 * in_2 $end
+$var reg 1 + in_3 $end
+$var reg 1 , in_4 $end
+$var reg 1 - in_5 $end
+$var reg 1 . in_6 $end
+$var reg 1 / in_7 $end
+$var reg 1 0 in_8 $end
+$var reg 1 1 in_9 $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0%
+0$
+0#
+0"
+1!
+1&
+0'
+0(
+0)
+0*
+0+
+0,
+0-
+0.
+0/
+00
+01
+$end
+#200000
+0!
+0&
+#400000
+1%
+1!
+1'
+#700000
+0%
+0!
+0'
+#900000
+1$
+1"
+1!
+1(
+#1200000
+0$
+0"
+0!
+0(
+#1300000
+1%
+1$
+1"
+1!
+1)
+#1600000
+0%
+0$
+0"
+0!
+0)
+#1800000
+1$
+1!
+1*
+#2100000
+0$
+0!
+0*
+#2300000
+1%
+1$
+1!
+1+
+#2600000
+0%
+0$
+0!
+0+
+#2900000
+1#
+1!
+1,
+#3100000
+0#
+0!
+0,
+#3300000
+1%
+1#
+1!
+1-
+#3700000
+0%
+0#
+0!
+0-
+#3900000
+1$
+1#
+1!
+1.
+#4200000
+0$
+0#
+0!
+0.
+#4400000
+1%
+1$
+1#
+1!
+1/
+#4600000
+0%
+0$
+0#
+0!
+0/
+#4700000
+1"
+1!
+10
+#4900000
+0"
+0!
+00
+#5000000
+1%
+1"
+1!
+11
+#5300000
+0%
+0"
+0!
+01

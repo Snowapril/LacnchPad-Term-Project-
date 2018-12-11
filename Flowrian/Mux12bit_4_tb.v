@@ -34,115 +34,97 @@ Mux12bit_4
 
   initial
   begin
-    B_in = 4'b0011;
-    #400 B_in = 4'b0001;
-    #200 B_in = 4'b1011;
-    #200 B_in = 4'b0001;
-    #200 B_in = 4'b1100;
-    #200 B_in = 4'b1000;
-    #200 B_in = 4'b0011;
-    #200 B_in = 4'b0001;
-    #200 B_in = 4'b1001;
-    #200 B_in = 4'b0001;
-    #200 B_in = 4'b1000;
-    #200 B_in = 4'b0101;
-    #200 B_in = 4'b1101;
-    #200 B_in = 4'b1000;
-    #200 B_in = 4'b1101;
-    #200 B_in = 4'b0010;
-    #200 B_in = 4'b1110;
-    #200 B_in = 4'b1010;
-    #200 B_in = 4'b0011;
-    #200 B_in = 4'b0000;
-    #200 B_in = 4'b0111;
-    #200 B_in = 4'b0010;
-    #200 B_in = 4'b0001;
-    #200 B_in = 4'b1010;
-    #200 B_in = 4'b1110;
-    #400 B_in = 4'b1100;
-    #200 B_in = 4'b1111;
-    #200 B_in = 4'b0100;
-    #200 B_in = 4'b0011;
-    #200 B_in = 4'b1110;
-    #200 B_in = 4'b0001;
-    #400 B_in = 4'b1100;
-    #200 B_in = 4'b0111;
-    #200 B_in = 4'b0011;
-    #200 B_in = 4'b1111;
-    #200 B_in = 4'b0010;
-    #200 B_in = 4'b1010;
-    #200 B_in = 4'b0010;
-    #200 B_in = 4'b1110;
-    #200 B_in = 4'b1010;
-    #200 B_in = 4'b0001;
-    #200 B_in = 4'b0000;
-    #200 B_in = 4'b1010;
-    #200 B_in = 4'b1001;
-    #200 B_in = 4'b0101;
-    #200 B_in = 4'b0110;
-    #200 B_in = 4'b1010;
+    B_in = 4'b0000;
+    #700 B_in = 4'b0001;
+    #900 B_in = 4'b0010;
+    #1100 B_in = 4'b0011;
+    #900 B_in = 4'b0100;
+    #1100 B_in = 4'b0101;
+    #1000 B_in = 4'b0110;
+    #900 B_in = 4'b0111;
+    #1000 B_in = 4'b1000;
+    #900 B_in = 4'b1001;
+    #900 B_in = 4'b1010;
   end
 
   initial
   begin
-    D0 = 1'b1;
+    D0 = 1'b0;
   end
 
   initial
   begin
-    D1 = 1'b0;
+    D1 = 1'b1;
+    #400 D1 = 1'b0;
   end
 
   initial
   begin
     D2 = 1'b0;
+    #900 D2 = 1'b1;
+    #400 D2 = 1'b0;
   end
 
   initial
   begin
     D3 = 1'b0;
-    #700 D3 = 1'b1;
+    #1900 D3 = 1'b1;
+    #500 D3 = 1'b0;
   end
 
   initial
   begin
     D4 = 1'b0;
+    #2900 D4 = 1'b1;
+    #500 D4 = 1'b0;
   end
 
   initial
   begin
     D5 = 1'b0;
+    #3900 D5 = 1'b1;
+    #500 D5 = 1'b0;
   end
 
   initial
   begin
     D6 = 1'b0;
-    #700 D6 = 1'b1;
+    #4900 D6 = 1'b1;
+    #500 D6 = 1'b0;
   end
 
   initial
   begin
     D7 = 1'b0;
+    #5900 D7 = 1'b1;
+    #500 D7 = 1'b0;
   end
 
   initial
   begin
     D8 = 1'b0;
+    #6800 D8 = 1'b1;
+    #500 D8 = 1'b0;
   end
 
   initial
   begin
     D9 = 1'b0;
+    #7800 D9 = 1'b1;
+    #500 D9 = 1'b0;
   end
 
   initial
   begin
     D_sharp = 1'b0;
+    #8700 D_sharp = 1'b1;
+    #500 D_sharp = 1'b0;
   end
 
   initial
   begin
     D_star = 1'b0;
+    #9600 D_star = 1'b1;
   end
 
 endmodule

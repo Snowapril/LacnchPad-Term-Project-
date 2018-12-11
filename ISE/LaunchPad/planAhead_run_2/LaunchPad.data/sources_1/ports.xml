@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="Dout">
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="Accout">
+			<Port Id="11" Dir="OUT"/>
+			<Port Id="10" Dir="OUT"/>
+			<Port Id="9" Dir="OUT"/>
+			<Port Id="8" Dir="OUT"/>
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Port Id="Dip_1" Dir="IN"/>
+		<Port Id="Dip_2" Dir="IN"/>
+		<Port Id="Dip_3" Dir="IN"/>
+		<Port Id="BTN1" Dir="IN"/>
+		<Port Id="BTN2" Dir="IN"/>
+		<Port Id="BTN3" Dir="IN"/>
+		<Port Id="BTN4" Dir="IN"/>
+		<Port Id="BTN5" Dir="IN"/>
+		<Port Id="BTN6" Dir="IN"/>
+		<Port Id="BTN7" Dir="IN"/>
+		<Port Id="BTN8" Dir="IN"/>
+		<Port Id="BTN9" Dir="IN"/>
+		<Port Id="BTN_star" Dir="IN"/>
+		<Port Id="Dip_4" Dir="IN"/>
+		<Port Id="BTN_0" Dir="IN"/>
+		<Port Id="BTN_sharp" Dir="IN"/>
+		<Port Id="CLK" Dir="IN"/>
+		<Port Id="RST" Dir="IN"/>
+		<Port Id="Pout" Dir="OUT"/>
+		<Port Id="RW" Dir="OUT"/>
+		<Port Id="CE" Dir="OUT"/>
+	</Ifc>
+</Interface>
+

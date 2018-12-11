@@ -47,18 +47,6 @@ wire  w66;
 wire  w65;
 wire  w58;
 wire  w63;
-wire  b25_11_w25;
-wire  b25_10_w26;
-wire  b25_9_w27;
-wire  b25_8_w28;
-wire  b25_7_w29;
-wire  b25_6_w36;
-wire  b25_5_w39;
-wire  b25_4_w40;
-wire  b25_3_w42;
-wire  b25_2_w43;
-wire  b25_0_w44;
-wire  b25_1_w31;
 wire  b48_0_w45;
 wire  b48_1_w46;
 wire  b48_2_w47;
@@ -71,6 +59,18 @@ wire  b48_8_w53;
 wire  b48_9_w54;
 wire  b48_10_w55;
 wire  b48_11_w56;
+wire  b25_10_w77;
+wire  b25_0_w67;
+wire  b25_1_w68;
+wire  b25_2_w69;
+wire  b25_3_w70;
+wire  b25_4_w71;
+wire  b25_5_w72;
+wire  b25_6_w73;
+wire  b25_7_w74;
+wire  b25_8_w75;
+wire  b25_9_w76;
+wire  b25_11_w78;
 
 assign w0 = Dip_1;
 assign w1 = Dip_2;
@@ -97,18 +97,6 @@ assign b25[2] = BTN3;
 assign b25[1] = BTN2;
 assign b25[0] = BTN1;
 
-assign b25_11_w25 = {b25[11]};
-assign b25_10_w26 = {b25[10]};
-assign b25_9_w27 = {b25[9]};
-assign b25_8_w28 = {b25[8]};
-assign b25_7_w29 = {b25[7]};
-assign b25_6_w36 = {b25[6]};
-assign b25_5_w39 = {b25[5]};
-assign b25_4_w40 = {b25[4]};
-assign b25_3_w42 = {b25[3]};
-assign b25_2_w43 = {b25[2]};
-assign b25_0_w44 = {b25[0]};
-assign b25_1_w31 = {b25[1]};
 assign b48_0_w45 = {b48[0]};
 assign b48_1_w46 = {b48[1]};
 assign b48_2_w47 = {b48[2]};
@@ -121,6 +109,18 @@ assign b48_8_w53 = {b48[8]};
 assign b48_9_w54 = {b48[9]};
 assign b48_10_w55 = {b48[10]};
 assign b48_11_w56 = {b48[11]};
+assign b25_10_w77 = {b25[10]};
+assign b25_0_w67 = {b25[0]};
+assign b25_1_w68 = {b25[1]};
+assign b25_2_w69 = {b25[2]};
+assign b25_3_w70 = {b25[3]};
+assign b25_4_w71 = {b25[4]};
+assign b25_5_w72 = {b25[5]};
+assign b25_6_w73 = {b25[6]};
+assign b25_7_w74 = {b25[7]};
+assign b25_8_w75 = {b25[8]};
+assign b25_9_w76 = {b25[9]};
+assign b25_11_w78 = {b25[11]};
 
 mod_converter
      s0 (
@@ -139,20 +139,20 @@ PNU_OR2
 
 encoder_12_to_4
      s2 (
-      .in_11(b25_11_w25),
-      .in_10(b25_10_w26),
-      .in_9(b25_9_w27),
-      .in_8(b25_8_w28),
-      .in_7(b25_7_w29),
-      .in_6(b25_6_w36),
-      .in_5(b25_5_w39),
-      .in_4(b25_4_w40),
-      .in_3(b25_3_w42),
-      .in_2(b25_2_w43),
-      .in_0(b25_0_w44),
-      .in_1(b25_1_w31),
       .chk(w59),
-      .out_binary(b41));
+      .out_binary(b41),
+      .in_0(b25_10_w77),
+      .in_1(b25_0_w67),
+      .in_2(b25_1_w68),
+      .in_3(b25_2_w69),
+      .in_4(b25_3_w70),
+      .in_5(b25_4_w71),
+      .in_6(b25_5_w72),
+      .in_7(b25_6_w73),
+      .in_8(b25_7_w74),
+      .in_9(b25_8_w75),
+      .in_10(b25_9_w76),
+      .in_11(b25_11_w78));
 
 PianoPlay
      s3 (

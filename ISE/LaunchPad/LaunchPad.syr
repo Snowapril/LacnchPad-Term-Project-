@@ -1,0 +1,1013 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: LaunchPad.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "LaunchPad.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "LaunchPad"
+Output Format                      : NGC
+Target Device                      : xc6slx45-3-fgg484
+
+---- Source Options
+Top Module Name                    : LaunchPad
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_ZERO.v" into library work
+Parsing module <PNU_ZERO>.
+Analyzing Verilog file "C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_MUX8.v" into library work
+Parsing module <PNU_MUX8>.
+Analyzing Verilog file "C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_MUX4.v" into library work
+Parsing module <PNU_MUX4>.
+Analyzing Verilog file "C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_MUX2.v" into library work
+Parsing module <PNU_MUX2>.
+Analyzing Verilog file "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PNU_CLK_DIV.v" into library work
+Parsing module <PNU_CLK_DIV>.
+Analyzing Verilog file "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\MUX4bit_4.v" into library work
+Parsing module <MUX4bit_4>.
+Analyzing Verilog file "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\Mux12bit_4.v" into library work
+Parsing module <Mux12bit_4>.
+Analyzing Verilog file "C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NOT.v" into library work
+Parsing module <PNU_NOT>.
+Analyzing Verilog file "C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_DFF_Ce.v" into library work
+Parsing module <PNU_DFF_Ce>.
+Analyzing Verilog file "C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_AND4.v" into library work
+Parsing module <PNU_AND4>.
+Analyzing Verilog file "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\ToneConverter.v" into library work
+Parsing module <ToneConverter>.
+Analyzing Verilog file "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\register.v" into library work
+Parsing module <register>.
+Analyzing Verilog file "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\MUX4bit_16.v" into library work
+Parsing module <MUX4bit_16>.
+Analyzing Verilog file "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\Decoder4bits.v" into library work
+Parsing module <Decoder4bits>.
+Analyzing Verilog file "C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_OR8.v" into library work
+Parsing module <PNU_OR8>.
+Analyzing Verilog file "C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_OR4.v" into library work
+Parsing module <PNU_OR4>.
+Analyzing Verilog file "C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_OR3.v" into library work
+Parsing module <PNU_OR3>.
+Analyzing Verilog file "C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_OR2.v" into library work
+Parsing module <PNU_OR2>.
+Analyzing Verilog file "C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_AND3.v" into library work
+Parsing module <PNU_AND3>.
+Analyzing Verilog file "C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_AND2.v" into library work
+Parsing module <PNU_AND2>.
+Analyzing Verilog file "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\SRAM12bits.v" into library work
+Parsing module <SRAM12bits>.
+Analyzing Verilog file "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PianoPlay.v" into library work
+Parsing module <PianoPlay>.
+Analyzing Verilog file "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\mod_converter.v" into library work
+Parsing module <mod_converter>.
+Analyzing Verilog file "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\encoder_12_to_4.v" into library work
+Parsing module <encoder_12_to_4>.
+Analyzing Verilog file "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\Accumulator.v" into library work
+Parsing module <Accumulator>.
+Analyzing Verilog file "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\LaunchPad.v" into library work
+Parsing module <LaunchPad>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <LaunchPad>.
+
+Elaborating module <mod_converter>.
+
+Elaborating module <PNU_NOT>.
+
+Elaborating module <PNU_AND3>.
+
+Elaborating module <PNU_OR3>.
+
+Elaborating module <PNU_AND2>.
+
+Elaborating module <PNU_OR2>.
+
+Elaborating module <encoder_12_to_4>.
+
+Elaborating module <PNU_OR4>.
+
+Elaborating module <PNU_OR8>.
+
+Elaborating module <PianoPlay>.
+
+Elaborating module <ToneConverter>.
+
+Elaborating module <PNU_CLK_DIV(cnt_num=7645)>.
+WARNING:HDLCompiler:413 - "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PNU_CLK_DIV.v" Line 26: Result of 21-bit expression is truncated to fit in 20-bit target.
+
+Elaborating module <PNU_CLK_DIV(cnt_num=6810)>.
+WARNING:HDLCompiler:413 - "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PNU_CLK_DIV.v" Line 26: Result of 21-bit expression is truncated to fit in 20-bit target.
+
+Elaborating module <PNU_CLK_DIV(cnt_num=6067)>.
+WARNING:HDLCompiler:413 - "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PNU_CLK_DIV.v" Line 26: Result of 21-bit expression is truncated to fit in 20-bit target.
+
+Elaborating module <PNU_CLK_DIV(cnt_num=5727)>.
+WARNING:HDLCompiler:413 - "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PNU_CLK_DIV.v" Line 26: Result of 21-bit expression is truncated to fit in 20-bit target.
+
+Elaborating module <PNU_CLK_DIV(cnt_num=5102)>.
+WARNING:HDLCompiler:413 - "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PNU_CLK_DIV.v" Line 26: Result of 21-bit expression is truncated to fit in 20-bit target.
+
+Elaborating module <PNU_CLK_DIV(cnt_num=4545)>.
+WARNING:HDLCompiler:413 - "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PNU_CLK_DIV.v" Line 26: Result of 21-bit expression is truncated to fit in 20-bit target.
+
+Elaborating module <PNU_CLK_DIV(cnt_num=4050)>.
+WARNING:HDLCompiler:413 - "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PNU_CLK_DIV.v" Line 26: Result of 21-bit expression is truncated to fit in 20-bit target.
+
+Elaborating module <PNU_CLK_DIV(cnt_num=3822)>.
+WARNING:HDLCompiler:413 - "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PNU_CLK_DIV.v" Line 26: Result of 21-bit expression is truncated to fit in 20-bit target.
+
+Elaborating module <PNU_CLK_DIV(cnt_num=3405)>.
+WARNING:HDLCompiler:413 - "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PNU_CLK_DIV.v" Line 26: Result of 21-bit expression is truncated to fit in 20-bit target.
+
+Elaborating module <PNU_CLK_DIV(cnt_num=3034)>.
+WARNING:HDLCompiler:413 - "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PNU_CLK_DIV.v" Line 26: Result of 21-bit expression is truncated to fit in 20-bit target.
+
+Elaborating module <PNU_CLK_DIV(cnt_num=2863)>.
+WARNING:HDLCompiler:413 - "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PNU_CLK_DIV.v" Line 26: Result of 21-bit expression is truncated to fit in 20-bit target.
+
+Elaborating module <PNU_CLK_DIV(cnt_num=2551)>.
+WARNING:HDLCompiler:413 - "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PNU_CLK_DIV.v" Line 26: Result of 21-bit expression is truncated to fit in 20-bit target.
+
+Elaborating module <Mux12bit_4>.
+
+Elaborating module <PNU_MUX8>.
+
+Elaborating module <PNU_MUX2>.
+
+Elaborating module <PNU_ZERO>.
+
+Elaborating module <Accumulator>.
+
+Elaborating module <PNU_DFF_Ce>.
+
+Elaborating module <register>.
+
+Elaborating module <SRAM12bits>.
+
+Elaborating module <Decoder4bits>.
+
+Elaborating module <PNU_AND4>.
+
+Elaborating module <MUX4bit_16>.
+
+Elaborating module <MUX4bit_4>.
+
+Elaborating module <PNU_MUX4>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <LaunchPad>.
+    Related source file is "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\LaunchPad.v".
+INFO:Xst:3210 - "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\LaunchPad.v" line 126: Output port <mod_3> of the instance <s0> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <LaunchPad> synthesized.
+
+Synthesizing Unit <mod_converter>.
+    Related source file is "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\mod_converter.v".
+    Summary:
+	no macro.
+Unit <mod_converter> synthesized.
+
+Synthesizing Unit <PNU_NOT>.
+    Related source file is "C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NOT.v".
+    Summary:
+	no macro.
+Unit <PNU_NOT> synthesized.
+
+Synthesizing Unit <PNU_AND3>.
+    Related source file is "C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_AND3.v".
+    Summary:
+	no macro.
+Unit <PNU_AND3> synthesized.
+
+Synthesizing Unit <PNU_OR3>.
+    Related source file is "C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_OR3.v".
+    Summary:
+	no macro.
+Unit <PNU_OR3> synthesized.
+
+Synthesizing Unit <PNU_AND2>.
+    Related source file is "C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_AND2.v".
+    Summary:
+	no macro.
+Unit <PNU_AND2> synthesized.
+
+Synthesizing Unit <PNU_OR2>.
+    Related source file is "C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_OR2.v".
+    Summary:
+	no macro.
+Unit <PNU_OR2> synthesized.
+
+Synthesizing Unit <encoder_12_to_4>.
+    Related source file is "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\encoder_12_to_4.v".
+    Summary:
+	no macro.
+Unit <encoder_12_to_4> synthesized.
+
+Synthesizing Unit <PNU_OR4>.
+    Related source file is "C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_OR4.v".
+    Summary:
+	no macro.
+Unit <PNU_OR4> synthesized.
+
+Synthesizing Unit <PNU_OR8>.
+    Related source file is "C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_OR8.v".
+    Summary:
+	no macro.
+Unit <PNU_OR8> synthesized.
+
+Synthesizing Unit <PianoPlay>.
+    Related source file is "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PianoPlay.v".
+    Summary:
+	no macro.
+Unit <PianoPlay> synthesized.
+
+Synthesizing Unit <ToneConverter>.
+    Related source file is "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\ToneConverter.v".
+    Summary:
+	no macro.
+Unit <ToneConverter> synthesized.
+
+Synthesizing Unit <PNU_CLK_DIV_1>.
+    Related source file is "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PNU_CLK_DIV.v".
+        cnt_num = 7645
+    Found 20-bit register for signal <cnt>.
+    Found 1-bit register for signal <buff>.
+    Found 20-bit adder for signal <cnt[19]_GND_13_o_add_1_OUT> created at line 26.
+    Found 20-bit comparator greater for signal <cnt[19]_GND_13_o_LessThan_1_o> created at line 25
+    Found 20-bit comparator lessequal for signal <cnt[19]_GND_13_o_LessThan_5_o> created at line 35
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  21 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <PNU_CLK_DIV_1> synthesized.
+
+Synthesizing Unit <PNU_CLK_DIV_2>.
+    Related source file is "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PNU_CLK_DIV.v".
+        cnt_num = 6810
+    Found 20-bit register for signal <cnt>.
+    Found 1-bit register for signal <buff>.
+    Found 20-bit adder for signal <cnt[19]_GND_14_o_add_1_OUT> created at line 26.
+    Found 20-bit comparator greater for signal <cnt[19]_GND_14_o_LessThan_1_o> created at line 25
+    Found 20-bit comparator lessequal for signal <cnt[19]_GND_14_o_LessThan_5_o> created at line 35
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  21 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <PNU_CLK_DIV_2> synthesized.
+
+Synthesizing Unit <PNU_CLK_DIV_3>.
+    Related source file is "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PNU_CLK_DIV.v".
+        cnt_num = 6067
+    Found 20-bit register for signal <cnt>.
+    Found 1-bit register for signal <buff>.
+    Found 20-bit adder for signal <cnt[19]_GND_15_o_add_1_OUT> created at line 26.
+    Found 20-bit comparator greater for signal <cnt[19]_GND_15_o_LessThan_1_o> created at line 25
+    Found 20-bit comparator lessequal for signal <cnt[19]_GND_15_o_LessThan_5_o> created at line 35
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  21 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <PNU_CLK_DIV_3> synthesized.
+
+Synthesizing Unit <PNU_CLK_DIV_4>.
+    Related source file is "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PNU_CLK_DIV.v".
+        cnt_num = 5727
+    Found 20-bit register for signal <cnt>.
+    Found 1-bit register for signal <buff>.
+    Found 20-bit adder for signal <cnt[19]_GND_16_o_add_1_OUT> created at line 26.
+    Found 20-bit comparator greater for signal <cnt[19]_GND_16_o_LessThan_1_o> created at line 25
+    Found 20-bit comparator lessequal for signal <cnt[19]_GND_16_o_LessThan_5_o> created at line 35
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  21 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <PNU_CLK_DIV_4> synthesized.
+
+Synthesizing Unit <PNU_CLK_DIV_5>.
+    Related source file is "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PNU_CLK_DIV.v".
+        cnt_num = 5102
+    Found 20-bit register for signal <cnt>.
+    Found 1-bit register for signal <buff>.
+    Found 20-bit adder for signal <cnt[19]_GND_17_o_add_1_OUT> created at line 26.
+    Found 20-bit comparator greater for signal <cnt[19]_GND_17_o_LessThan_1_o> created at line 25
+    Found 20-bit comparator lessequal for signal <cnt[19]_GND_17_o_LessThan_5_o> created at line 35
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  21 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <PNU_CLK_DIV_5> synthesized.
+
+Synthesizing Unit <PNU_CLK_DIV_6>.
+    Related source file is "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PNU_CLK_DIV.v".
+        cnt_num = 4545
+    Found 20-bit register for signal <cnt>.
+    Found 1-bit register for signal <buff>.
+    Found 20-bit adder for signal <cnt[19]_GND_18_o_add_1_OUT> created at line 26.
+    Found 20-bit comparator greater for signal <cnt[19]_GND_18_o_LessThan_1_o> created at line 25
+    Found 20-bit comparator lessequal for signal <cnt[19]_GND_18_o_LessThan_5_o> created at line 35
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  21 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <PNU_CLK_DIV_6> synthesized.
+
+Synthesizing Unit <PNU_CLK_DIV_7>.
+    Related source file is "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PNU_CLK_DIV.v".
+        cnt_num = 4050
+    Found 20-bit register for signal <cnt>.
+    Found 1-bit register for signal <buff>.
+    Found 20-bit adder for signal <cnt[19]_GND_19_o_add_1_OUT> created at line 26.
+    Found 20-bit comparator greater for signal <cnt[19]_GND_19_o_LessThan_1_o> created at line 25
+    Found 20-bit comparator lessequal for signal <cnt[19]_GND_19_o_LessThan_5_o> created at line 35
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  21 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <PNU_CLK_DIV_7> synthesized.
+
+Synthesizing Unit <PNU_CLK_DIV_8>.
+    Related source file is "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PNU_CLK_DIV.v".
+        cnt_num = 3822
+    Found 20-bit register for signal <cnt>.
+    Found 1-bit register for signal <buff>.
+    Found 20-bit adder for signal <cnt[19]_GND_20_o_add_1_OUT> created at line 26.
+    Found 20-bit comparator greater for signal <cnt[19]_GND_20_o_LessThan_1_o> created at line 25
+    Found 20-bit comparator lessequal for signal <cnt[19]_GND_20_o_LessThan_5_o> created at line 35
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  21 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <PNU_CLK_DIV_8> synthesized.
+
+Synthesizing Unit <PNU_CLK_DIV_9>.
+    Related source file is "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PNU_CLK_DIV.v".
+        cnt_num = 3405
+    Found 20-bit register for signal <cnt>.
+    Found 1-bit register for signal <buff>.
+    Found 20-bit adder for signal <cnt[19]_GND_21_o_add_1_OUT> created at line 26.
+    Found 20-bit comparator greater for signal <cnt[19]_GND_21_o_LessThan_1_o> created at line 25
+    Found 20-bit comparator lessequal for signal <cnt[19]_GND_21_o_LessThan_5_o> created at line 35
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  21 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <PNU_CLK_DIV_9> synthesized.
+
+Synthesizing Unit <PNU_CLK_DIV_10>.
+    Related source file is "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PNU_CLK_DIV.v".
+        cnt_num = 3034
+    Found 20-bit register for signal <cnt>.
+    Found 1-bit register for signal <buff>.
+    Found 20-bit adder for signal <cnt[19]_GND_22_o_add_1_OUT> created at line 26.
+    Found 20-bit comparator greater for signal <cnt[19]_GND_22_o_LessThan_1_o> created at line 25
+    Found 20-bit comparator lessequal for signal <cnt[19]_GND_22_o_LessThan_5_o> created at line 35
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  21 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <PNU_CLK_DIV_10> synthesized.
+
+Synthesizing Unit <PNU_CLK_DIV_11>.
+    Related source file is "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PNU_CLK_DIV.v".
+        cnt_num = 2863
+    Found 20-bit register for signal <cnt>.
+    Found 1-bit register for signal <buff>.
+    Found 20-bit adder for signal <cnt[19]_GND_23_o_add_1_OUT> created at line 26.
+    Found 20-bit comparator greater for signal <cnt[19]_GND_23_o_LessThan_1_o> created at line 25
+    Found 20-bit comparator lessequal for signal <cnt[19]_GND_23_o_LessThan_5_o> created at line 35
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  21 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <PNU_CLK_DIV_11> synthesized.
+
+Synthesizing Unit <PNU_CLK_DIV_12>.
+    Related source file is "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\PNU_CLK_DIV.v".
+        cnt_num = 2551
+    Found 20-bit register for signal <cnt>.
+    Found 1-bit register for signal <buff>.
+    Found 20-bit adder for signal <cnt[19]_GND_24_o_add_1_OUT> created at line 26.
+    Found 20-bit comparator greater for signal <cnt[19]_GND_24_o_LessThan_1_o> created at line 25
+    Found 20-bit comparator lessequal for signal <cnt[19]_GND_24_o_LessThan_5_o> created at line 35
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  21 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <PNU_CLK_DIV_12> synthesized.
+
+Synthesizing Unit <Mux12bit_4>.
+    Related source file is "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\Mux12bit_4.v".
+    Summary:
+	no macro.
+Unit <Mux12bit_4> synthesized.
+
+Synthesizing Unit <PNU_MUX8>.
+    Related source file is "C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_MUX8.v".
+    Found 1-bit 8-to-1 multiplexer for signal <o1> created at line 13.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <PNU_MUX8> synthesized.
+
+Synthesizing Unit <PNU_MUX2>.
+    Related source file is "C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_MUX2.v".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <PNU_MUX2> synthesized.
+
+Synthesizing Unit <PNU_ZERO>.
+    Related source file is "C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_ZERO.v".
+    Summary:
+	no macro.
+Unit <PNU_ZERO> synthesized.
+
+Synthesizing Unit <Accumulator>.
+    Related source file is "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\Accumulator.v".
+    Summary:
+	no macro.
+Unit <Accumulator> synthesized.
+
+Synthesizing Unit <PNU_DFF_Ce>.
+    Related source file is "C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_DFF_Ce.v".
+    Found 1-bit register for signal <Q>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <PNU_DFF_Ce> synthesized.
+
+Synthesizing Unit <register>.
+    Related source file is "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\register.v".
+    Summary:
+	no macro.
+Unit <register> synthesized.
+
+Synthesizing Unit <SRAM12bits>.
+    Related source file is "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\SRAM12bits.v".
+INFO:Xst:3210 - "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\SRAM12bits.v" line 70: Output port <p13> of the instance <s0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\SRAM12bits.v" line 70: Output port <p14> of the instance <s0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\SRAM12bits.v" line 70: Output port <p15> of the instance <s0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\SRAM12bits.v" line 70: Output port <p16> of the instance <s0> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <SRAM12bits> synthesized.
+
+Synthesizing Unit <Decoder4bits>.
+    Related source file is "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\Decoder4bits.v".
+    Summary:
+	no macro.
+Unit <Decoder4bits> synthesized.
+
+Synthesizing Unit <PNU_AND4>.
+    Related source file is "C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_AND4.v".
+    Summary:
+	no macro.
+Unit <PNU_AND4> synthesized.
+
+Synthesizing Unit <MUX4bit_16>.
+    Related source file is "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\MUX4bit_16.v".
+    Summary:
+	no macro.
+Unit <MUX4bit_16> synthesized.
+
+Synthesizing Unit <MUX4bit_4>.
+    Related source file is "C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\MUX4bit_4.v".
+    Summary:
+	no macro.
+Unit <MUX4bit_4> synthesized.
+
+Synthesizing Unit <PNU_MUX4>.
+    Related source file is "C:\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_MUX4.v".
+    Found 1-bit 4-to-1 multiplexer for signal <o1> created at line 13.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <PNU_MUX4> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 12
+ 20-bit adder                                          : 12
+# Registers                                            : 88
+ 1-bit register                                        : 76
+ 20-bit register                                       : 12
+# Comparators                                          : 24
+ 20-bit comparator greater                             : 12
+ 20-bit comparator lessequal                           : 12
+# Multiplexers                                         : 47
+ 1-bit 2-to-1 multiplexer                              : 1
+ 1-bit 4-to-1 multiplexer                              : 20
+ 1-bit 8-to-1 multiplexer                              : 2
+ 20-bit 2-to-1 multiplexer                             : 24
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <s12> is unconnected in block <s0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <s17> is unconnected in block <s0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <s19> is unconnected in block <s0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <s18> is unconnected in block <s0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <s16> is unconnected in block <s0>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 12
+ 20-bit adder                                          : 12
+# Registers                                            : 316
+ Flip-Flops                                            : 316
+# Comparators                                          : 24
+ 20-bit comparator greater                             : 12
+ 20-bit comparator lessequal                           : 12
+# Multiplexers                                         : 47
+ 1-bit 2-to-1 multiplexer                              : 1
+ 1-bit 4-to-1 multiplexer                              : 20
+ 1-bit 8-to-1 multiplexer                              : 2
+ 20-bit 2-to-1 multiplexer                             : 24
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1989 - Unit <mod_converter>: instances <s0>, <s1> of unit <PNU_NOT> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <mod_converter>: instances <s2>, <s3> of unit <PNU_NOT> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <mod_converter>: instances <s4>, <s5> of unit <PNU_NOT> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <encoder_12_to_4>: instances <s7>, <s9> of unit <PNU_OR4> are equivalent, second instance is removed
+
+Optimizing unit <LaunchPad> ...
+
+Optimizing unit <ToneConverter> ...
+
+Optimizing unit <PNU_CLK_DIV_1> ...
+
+Optimizing unit <PNU_CLK_DIV_2> ...
+
+Optimizing unit <PNU_CLK_DIV_3> ...
+
+Optimizing unit <PNU_CLK_DIV_4> ...
+
+Optimizing unit <PNU_CLK_DIV_5> ...
+
+Optimizing unit <PNU_CLK_DIV_6> ...
+
+Optimizing unit <PNU_CLK_DIV_7> ...
+
+Optimizing unit <PNU_CLK_DIV_8> ...
+
+Optimizing unit <PNU_CLK_DIV_9> ...
+
+Optimizing unit <PNU_CLK_DIV_10> ...
+
+Optimizing unit <PNU_CLK_DIV_11> ...
+
+Optimizing unit <PNU_CLK_DIV_12> ...
+
+Optimizing unit <Accumulator> ...
+
+Optimizing unit <SRAM12bits> ...
+WARNING:Xst:1710 - FF/Latch <s3/s0/s9/cnt_19> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s8/cnt_12> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s8/cnt_13> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s8/cnt_14> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s8/cnt_15> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s8/cnt_16> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s8/cnt_17> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s8/cnt_18> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s8/cnt_19> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s7/cnt_12> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s7/cnt_13> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s7/cnt_14> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s7/cnt_15> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s7/cnt_16> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s7/cnt_17> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s7/cnt_18> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s7/cnt_19> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s6/cnt_12> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s6/cnt_13> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s6/cnt_14> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s6/cnt_15> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s6/cnt_16> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s11/cnt_12> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s11/cnt_13> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s11/cnt_14> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s11/cnt_15> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s11/cnt_16> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s11/cnt_17> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s11/cnt_18> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s11/cnt_19> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s10/cnt_12> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s10/cnt_13> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s10/cnt_14> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s10/cnt_15> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s10/cnt_16> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s10/cnt_17> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s10/cnt_18> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s10/cnt_19> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s9/cnt_12> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s9/cnt_13> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s9/cnt_14> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s9/cnt_15> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s9/cnt_16> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s9/cnt_17> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s9/cnt_18> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s3/cnt_19> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s2/cnt_13> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s2/cnt_14> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s2/cnt_15> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s2/cnt_16> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s2/cnt_17> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s2/cnt_18> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s2/cnt_19> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s1/cnt_13> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s1/cnt_14> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s1/cnt_15> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s1/cnt_16> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s1/cnt_17> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s1/cnt_18> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s1/cnt_19> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s0/cnt_13> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s0/cnt_14> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s0/cnt_15> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s0/cnt_16> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s0/cnt_17> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s0/cnt_18> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s0/cnt_19> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s6/cnt_17> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s6/cnt_18> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s6/cnt_19> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s5/cnt_13> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s5/cnt_14> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s5/cnt_15> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s5/cnt_16> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s5/cnt_17> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s5/cnt_18> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s5/cnt_19> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s4/cnt_13> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s4/cnt_14> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s4/cnt_15> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s4/cnt_16> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s4/cnt_17> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s4/cnt_18> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s4/cnt_19> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s3/cnt_13> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s3/cnt_14> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s3/cnt_15> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s3/cnt_16> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s3/cnt_17> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <s3/s0/s3/cnt_18> (without init value) has a constant value of 0 in block <LaunchPad>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <s3/s0/s1/cnt_0> in Unit <LaunchPad> is equivalent to the following 4 FFs/Latches, which will be removed : <s3/s0/s4/cnt_0> <s3/s0/s6/cnt_0> <s3/s0/s7/cnt_0> <s3/s0/s9/cnt_0> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block LaunchPad, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 222
+ Flip-Flops                                            : 222
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : LaunchPad.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 934
+#      GND                         : 1
+#      INV                         : 12
+#      LUT1                        : 138
+#      LUT2                        : 7
+#      LUT3                        : 11
+#      LUT4                        : 28
+#      LUT5                        : 33
+#      LUT6                        : 357
+#      MUXCY                       : 138
+#      MUXF7                       : 62
+#      VCC                         : 1
+#      XORCY                       : 146
+# FlipFlops/Latches                : 222
+#      FDC                         : 170
+#      FDCE                        : 52
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 36
+#      IBUF                        : 17
+#      OBUF                        : 19
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx45fgg484-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             222  out of  54576     0%  
+ Number of Slice LUTs:                  586  out of  27288     2%  
+    Number used as Logic:               586  out of  27288     2%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    590
+   Number with an unused Flip Flop:     368  out of    590    62%  
+   Number with an unused LUT:             4  out of    590     0%  
+   Number of fully used LUT-FF pairs:   218  out of    590    36%  
+   Number of unique control sets:         5
+
+IO Utilization: 
+ Number of IOs:                          37
+ Number of bonded IOBs:                  37  out of    316    11%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 222   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 4.213ns (Maximum Frequency: 237.346MHz)
+   Minimum input arrival time before clock: 8.191ns
+   Maximum output required time after clock: 6.834ns
+   Maximum combinational path delay: 8.511ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 4.213ns (frequency: 237.346MHz)
+  Total number of paths / destination ports: 4044 / 266
+-------------------------------------------------------------------------
+Delay:               4.213ns (Levels of Logic = 2)
+  Source:            s5/s10/Q (FF)
+  Destination:       s11/s1/s3/Q (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: s5/s10/Q to s11/s1/s3/Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              4   0.447   1.028  s5/s10/Q (s5/s10/Q)
+     LUT6:I1->O           15   0.203   0.982  s7/s2/o11 (b47<0>)
+     LUT6:I5->O           17   0.205   1.027  s12/o1 (RW_OBUF)
+     FDCE:CE                   0.322          s11/s5/s3/Q
+    ----------------------------------------
+    Total                      4.213ns (1.177ns logic, 3.036ns route)
+                                       (27.9% logic, 72.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 5121 / 436
+-------------------------------------------------------------------------
+Offset:              8.191ns (Levels of Logic = 5)
+  Source:            BTN_star (PAD)
+  Destination:       s3/s0/s4/cnt_12 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: BTN_star to s3/s0/s4/cnt_12
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.222   1.028  BTN_star_IBUF (BTN_star_IBUF)
+     LUT6:I1->O           67   0.203   1.764  s2/s10/o11 (s2/s10/o1)
+     LUT2:I0->O           65   0.203   2.011  s2/s10/o13 (w59)
+     LUT6:I0->O           12   0.203   1.253  s3/s0/s4/cnt[19]_GND_17_o_LessThan_1_o33_SW1 (N269)
+     LUT6:I1->O            1   0.203   0.000  s3/s0/s4/Mmux_GND_17_o_GND_17_o_mux_3_OUT21 (s3/s0/s4/GND_17_o_GND_17_o_mux_3_OUT<10>)
+     FDC:D                     0.102          s3/s0/s4/cnt_10
+    ----------------------------------------
+    Total                      8.191ns (2.136ns logic, 6.055ns route)
+                                       (26.1% logic, 73.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 132 / 18
+-------------------------------------------------------------------------
+Offset:              6.834ns (Levels of Logic = 3)
+  Source:            s8/s2/Q (FF)
+  Destination:       Dout<3> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: s8/s2/Q to Dout<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            64   0.447   2.004  s8/s2/Q (s8/s2/Q)
+     LUT6:I0->O            1   0.203   0.827  s11/s25/s4/s0/Mmux_o1_7 (s11/s25/s4/s0/Mmux_o1_7)
+     LUT6:I2->O            1   0.203   0.579  s11/Address<3>1 (Dout_0_OBUF)
+     OBUF:I->O                 2.571          Dout_0_OBUF (Dout<0>)
+    ----------------------------------------
+    Total                      6.834ns (3.424ns logic, 3.410ns route)
+                                       (50.1% logic, 49.9% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 54 / 3
+-------------------------------------------------------------------------
+Delay:               8.511ns (Levels of Logic = 4)
+  Source:            Dip_1 (PAD)
+  Destination:       RW (PAD)
+
+  Data Path: Dip_1 to RW
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           143   1.222   2.237  Dip_1_IBUF (Dip_1_IBUF)
+     LUT4:I0->O            4   0.203   1.048  s12/o121 (CE_OBUF)
+     LUT6:I0->O           17   0.203   1.027  s12/o1 (RW_OBUF)
+     OBUF:I->O                 2.571          RW_OBUF (RW)
+    ----------------------------------------
+    Total                      8.511ns (4.199ns logic, 4.312ns route)
+                                       (49.3% logic, 50.7% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    4.213|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.90 secs
+ 
+--> 
+
+Total memory usage is 200520 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  111 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
+
