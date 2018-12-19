@@ -1,0 +1,101 @@
+SymbolianIcn ver1.00(2006.04.27)
+ModuleName event_9
+LanguageType Veirlog
+GridInterval 8
+MillimetersIn100RealScaledUnit 25
+ZoomOutScale 32
+NumberOfHorzPapaers 1
+NumberOfVertPapaers 1
+IfDrawModuleName True
+IfDrawPortnameText True
+ModuleNameDrawPosition middle
+Boxes
+Box Left: 344 Top: 560 ,Right: 496 ,Bottom: 752
+End
+Parameters
+End
+Ports
+Port Left: 320 Top: 568 ,SymbolSideLeft: 344 ,SymbolSideTop: 568
+Portname: button_inp ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+Port Left: 320 Top: 584 ,SymbolSideLeft: 344 ,SymbolSideTop: 584
+Portname: clk ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+Port Left: 520 Top: 568 ,SymbolSideLeft: 496 ,SymbolSideTop: 568
+Portname: led_1_B ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 520 Top: 584 ,SymbolSideLeft: 496 ,SymbolSideTop: 584
+Portname: led_1_G ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 520 Top: 600 ,SymbolSideLeft: 496 ,SymbolSideTop: 600
+Portname: led_1_R ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 520 Top: 616 ,SymbolSideLeft: 496 ,SymbolSideTop: 616
+Portname: led_2_B ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 520 Top: 632 ,SymbolSideLeft: 496 ,SymbolSideTop: 632
+Portname: led_2_G ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 520 Top: 648 ,SymbolSideLeft: 496 ,SymbolSideTop: 648
+Portname: led_2_R ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 520 Top: 664 ,SymbolSideLeft: 496 ,SymbolSideTop: 664
+Portname: led_3_B ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 520 Top: 680 ,SymbolSideLeft: 496 ,SymbolSideTop: 680
+Portname: led_3_G ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 520 Top: 696 ,SymbolSideLeft: 496 ,SymbolSideTop: 696
+Portname: led_3_R ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 520 Top: 712 ,SymbolSideLeft: 496 ,SymbolSideTop: 712
+Portname: led_4_B ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 520 Top: 728 ,SymbolSideLeft: 496 ,SymbolSideTop: 728
+Portname: led_4_G ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 520 Top: 744 ,SymbolSideLeft: 496 ,SymbolSideTop: 744
+Portname: led_4_R ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 320 Top: 600 ,SymbolSideLeft: 344 ,SymbolSideTop: 600
+Portname: rst ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+End
+Ellipses
+End
+Lines
+End
+Arcs
+End
+Texts
+End
