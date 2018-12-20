@@ -1,15 +1,7 @@
-Mux12bit_4_tb
-	B_in
-	D0
-	D1
-	D2
-	D3
-	D4
-	D5
-	D6
-	D7
-	D8
-	D9
-	D_out
-	D_sharp
-	D_star
+MuxTest_tb
+	Dout
+	S
+	p0
+	p1
+	p2
+	p3

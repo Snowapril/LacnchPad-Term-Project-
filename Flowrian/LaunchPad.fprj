@@ -1,7 +1,7 @@
 [project]
 projecttype=1
 [folder0]
-filen=47
+filen=48
 file0=Decoder4bits.v
 file1=Decoder4bits_tb.v
 file2=Mux12_4_4.v
@@ -49,8 +49,9 @@ file43=..\..\..\..\..\Program Files\System Centroid\Flowrian R7\Library\PNULib\s
 file44=..\..\..\..\..\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_XOR3.v
 file45=..\..\..\..\..\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_XOR4.v
 file46=..\..\..\..\..\Program Files\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_ZERO.v
+file47=MuxTest.v
 [folder1]
-filen=44
+filen=45
 file0=Add_two_decimal_to_5bit_binary.v
 file1=AddTwoDec.v
 file2=Compare_2bit.v
@@ -95,7 +96,7 @@ file40=Accumulator_tb.v
 file41=encoder_12_to_4.v
 file42=PianoPlay.v
 file43=encoder_12_to_4_tb.v
-file44=..\..\..\..\..\..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_AND3.v
+file44=MuxTest_tb.v
 file45=..\..\..\..\..\..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_AND4.v
 file46=..\..\..\..\..\..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_AND8.v
 file47=..\..\..\..\..\..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_BUF.v
@@ -139,9 +140,9 @@ usetasknamebymodulename - 0=-1
 useautoalign - linen=1
 useautoalign - 0=-1
 topmodule - linen=1
-topmodule - 0=Mux12bit_4_tb
+topmodule - 0=MuxTest_tb
 taskname - linen=1
-taskname - 0=Mux12bit_4_tb
+taskname - 0=MuxTest_tb
 compileordern - linen=1
 compileordern - 0=0
 [lastservicesetting - common]
@@ -149,13 +150,13 @@ advancedoptionn - linen=1
 advancedoptionn - 0=0
 [lastservicesetting - SimulateISim]
 taskname - linen=1
-taskname - 0=Mux12bit_4_tb
+taskname - 0=MuxTest_tb
 usetasknamebymodulename - linen=1
 usetasknamebymodulename - 0=-1
 useautoalign - linen=1
 useautoalign - 0=-1
 topmodule - linen=1
-topmodule - 0=Mux12bit_4_tb
+topmodule - 0=MuxTest_tb
 simulationtime - linen=1
 simulationtime - 0=10000
 simulationunit - linen=1

@@ -1,0 +1,39 @@
+$date
+   Thu Dec 20 12:20:41 2018
+$end
+$version
+  P.15xf
+$end
+$timescale
+  1ps
+$end
+$scope module MuxTest_tb $end
+$var wire 1 ! Dout [1] $end
+$var wire 1 " Dout [0] $end
+$var reg 2 # S [1:0] $end
+$var reg 2 $ p0 [1:0] $end
+$var reg 2 % p1 [1:0] $end
+$var reg 2 & p2 [1:0] $end
+$var reg 2 ' p3 [1:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 #
+b0 $
+b1 %
+b10 &
+b11 '
+0"
+0!
+$end
+#700000
+b1 #
+1!
+#1300000
+b10 #
+1"
+0!
+#2100000
+b11 #
+1!

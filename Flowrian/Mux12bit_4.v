@@ -33,11 +33,11 @@ wire  w26;
 wire  w24;
 wire  w27;
 wire  b2_3_w3;
-wire  b2_0_w18;
+wire  b2_2_w18;
 wire  b2_1_w19;
-wire  b2_2_w20;
-wire  b2_0_w21;
-wire  b2_2_w23;
+wire  b2_0_w20;
+wire  b2_2_w21;
+wire  b2_0_w23;
 wire  b2_1_w22;
 
 assign b2 = B_in;
@@ -56,11 +56,11 @@ assign w6 = D2;
 assign w5 = D1;
 
 assign b2_3_w3 = {b2[3]};
-assign b2_0_w18 = {b2[0]};
+assign b2_2_w18 = {b2[2]};
 assign b2_1_w19 = {b2[1]};
-assign b2_2_w20 = {b2[2]};
-assign b2_0_w21 = {b2[0]};
-assign b2_2_w23 = {b2[2]};
+assign b2_0_w20 = {b2[0]};
+assign b2_2_w21 = {b2[2]};
+assign b2_0_w23 = {b2[0]};
 assign b2_1_w22 = {b2[1]};
 
 PNU_MUX8
@@ -71,8 +71,8 @@ PNU_MUX8
       .i4(w8),
       .i5(w9),
       .i6(w10),
-      .e1(b2_0_w21),
-      .e3(b2_2_w23),
+      .e1(b2_2_w21),
+      .e3(b2_0_w23),
       .e2(b2_1_w22),
       .i8(w25),
       .i7(w26),
@@ -85,9 +85,9 @@ PNU_MUX8
       .i2(w12),
       .i3(w13),
       .i4(w14),
-      .e1(b2_0_w18),
+      .e1(b2_2_w18),
       .e2(b2_1_w19),
-      .e3(b2_2_w20),
+      .e3(b2_0_w20),
       .i6(w24),
       .i7(w24),
       .i8(w24),

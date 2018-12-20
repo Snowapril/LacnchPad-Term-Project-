@@ -484,160 +484,6 @@ Edge X1: 824 ,Y1: 936 ,X2: 840 ,Y2: 936
 End
 Branches
 End
-Wire Name: w77
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 296 ,Y1: 640 ,X2: 312 ,Y2: 640
-Edge X1: 312 ,Y1: 640 ,X2: 312 ,Y2: 712
-Edge X1: 312 ,Y1: 712 ,X2: 312 ,Y2: 1232
-Edge X1: 312 ,Y1: 712 ,X2: 480 ,Y2: 712
-Edge X1: 312 ,Y1: 1232 ,X2: 312 ,Y2: 1256
-Edge X1: 312 ,Y1: 1232 ,X2: 816 ,Y2: 1232
-End
-Branches
-End
-Wire Name: w67
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 296 ,Y1: 248 ,X2: 392 ,Y2: 248
-Edge X1: 392 ,Y1: 248 ,X2: 392 ,Y2: 728
-Edge X1: 392 ,Y1: 728 ,X2: 392 ,Y2: 1152
-Edge X1: 392 ,Y1: 728 ,X2: 480 ,Y2: 728
-Edge X1: 392 ,Y1: 1152 ,X2: 392 ,Y2: 1256
-Edge X1: 392 ,Y1: 1152 ,X2: 816 ,Y2: 1152
-End
-Branches
-End
-Wire Name: w68
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 296 ,Y1: 288 ,X2: 384 ,Y2: 288
-Edge X1: 384 ,Y1: 288 ,X2: 384 ,Y2: 744
-Edge X1: 384 ,Y1: 744 ,X2: 384 ,Y2: 1160
-Edge X1: 384 ,Y1: 744 ,X2: 480 ,Y2: 744
-Edge X1: 384 ,Y1: 1160 ,X2: 816 ,Y2: 1160
-Edge X1: 384 ,Y1: 1160 ,X2: 384 ,Y2: 1256
-End
-Branches
-End
-Wire Name: w69
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 296 ,Y1: 328 ,X2: 376 ,Y2: 328
-Edge X1: 376 ,Y1: 328 ,X2: 376 ,Y2: 760
-Edge X1: 376 ,Y1: 760 ,X2: 376 ,Y2: 1168
-Edge X1: 376 ,Y1: 760 ,X2: 480 ,Y2: 760
-Edge X1: 376 ,Y1: 1168 ,X2: 376 ,Y2: 1256
-Edge X1: 376 ,Y1: 1168 ,X2: 816 ,Y2: 1168
-End
-Branches
-End
-Wire Name: w70
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 296 ,Y1: 368 ,X2: 368 ,Y2: 368
-Edge X1: 368 ,Y1: 368 ,X2: 368 ,Y2: 776
-Edge X1: 368 ,Y1: 776 ,X2: 368 ,Y2: 1176
-Edge X1: 368 ,Y1: 776 ,X2: 480 ,Y2: 776
-Edge X1: 368 ,Y1: 1176 ,X2: 368 ,Y2: 1256
-Edge X1: 368 ,Y1: 1176 ,X2: 816 ,Y2: 1176
-End
-Branches
-End
-Wire Name: w71
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 296 ,Y1: 408 ,X2: 360 ,Y2: 408
-Edge X1: 360 ,Y1: 408 ,X2: 360 ,Y2: 792
-Edge X1: 360 ,Y1: 792 ,X2: 360 ,Y2: 1184
-Edge X1: 360 ,Y1: 792 ,X2: 480 ,Y2: 792
-Edge X1: 360 ,Y1: 1184 ,X2: 360 ,Y2: 1256
-Edge X1: 360 ,Y1: 1184 ,X2: 816 ,Y2: 1184
-End
-Branches
-End
-Wire Name: w72
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 296 ,Y1: 448 ,X2: 352 ,Y2: 448
-Edge X1: 352 ,Y1: 448 ,X2: 352 ,Y2: 808
-Edge X1: 352 ,Y1: 808 ,X2: 352 ,Y2: 1192
-Edge X1: 352 ,Y1: 808 ,X2: 480 ,Y2: 808
-Edge X1: 352 ,Y1: 1192 ,X2: 352 ,Y2: 1256
-Edge X1: 352 ,Y1: 1192 ,X2: 816 ,Y2: 1192
-End
-Branches
-End
-Wire Name: w73
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 296 ,Y1: 488 ,X2: 344 ,Y2: 488
-Edge X1: 344 ,Y1: 488 ,X2: 344 ,Y2: 824
-Edge X1: 344 ,Y1: 824 ,X2: 344 ,Y2: 1200
-Edge X1: 344 ,Y1: 824 ,X2: 480 ,Y2: 824
-Edge X1: 344 ,Y1: 1200 ,X2: 344 ,Y2: 1256
-Edge X1: 344 ,Y1: 1200 ,X2: 816 ,Y2: 1200
-End
-Branches
-End
-Wire Name: w74
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 296 ,Y1: 528 ,X2: 336 ,Y2: 528
-Edge X1: 336 ,Y1: 528 ,X2: 336 ,Y2: 840
-Edge X1: 336 ,Y1: 840 ,X2: 336 ,Y2: 1208
-Edge X1: 336 ,Y1: 840 ,X2: 480 ,Y2: 840
-Edge X1: 336 ,Y1: 1208 ,X2: 336 ,Y2: 1256
-Edge X1: 336 ,Y1: 1208 ,X2: 816 ,Y2: 1208
-End
-Branches
-End
-Wire Name: w75
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 296 ,Y1: 568 ,X2: 328 ,Y2: 568
-Edge X1: 328 ,Y1: 568 ,X2: 328 ,Y2: 856
-Edge X1: 328 ,Y1: 856 ,X2: 328 ,Y2: 1216
-Edge X1: 328 ,Y1: 856 ,X2: 480 ,Y2: 856
-Edge X1: 328 ,Y1: 1216 ,X2: 328 ,Y2: 1256
-Edge X1: 328 ,Y1: 1216 ,X2: 816 ,Y2: 1216
-End
-Branches
-End
-Wire Name: w76
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 296 ,Y1: 608 ,X2: 320 ,Y2: 608
-Edge X1: 320 ,Y1: 608 ,X2: 320 ,Y2: 872
-Edge X1: 320 ,Y1: 872 ,X2: 320 ,Y2: 1224
-Edge X1: 320 ,Y1: 872 ,X2: 480 ,Y2: 872
-Edge X1: 320 ,Y1: 1224 ,X2: 320 ,Y2: 1256
-Edge X1: 320 ,Y1: 1224 ,X2: 816 ,Y2: 1224
-End
-Branches
-End
 Wire Name: w78
 LV: 0
 RV: 0
@@ -649,6 +495,160 @@ Edge X1: 304 ,Y1: 888 ,X2: 304 ,Y2: 1240
 Edge X1: 304 ,Y1: 888 ,X2: 480 ,Y2: 888
 Edge X1: 304 ,Y1: 1240 ,X2: 304 ,Y2: 1256
 Edge X1: 304 ,Y1: 1240 ,X2: 816 ,Y2: 1240
+End
+Branches
+End
+Wire Name: w67
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 296 ,Y1: 248 ,X2: 392 ,Y2: 248
+Edge X1: 392 ,Y1: 248 ,X2: 392 ,Y2: 712
+Edge X1: 392 ,Y1: 712 ,X2: 480 ,Y2: 712
+Edge X1: 392 ,Y1: 712 ,X2: 392 ,Y2: 1152
+Edge X1: 392 ,Y1: 1152 ,X2: 392 ,Y2: 1256
+Edge X1: 392 ,Y1: 1152 ,X2: 816 ,Y2: 1152
+End
+Branches
+End
+Wire Name: w68
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 296 ,Y1: 328 ,X2: 376 ,Y2: 328
+Edge X1: 376 ,Y1: 328 ,X2: 376 ,Y2: 744
+Edge X1: 376 ,Y1: 744 ,X2: 480 ,Y2: 744
+Edge X1: 376 ,Y1: 744 ,X2: 376 ,Y2: 1168
+Edge X1: 376 ,Y1: 1168 ,X2: 376 ,Y2: 1256
+Edge X1: 376 ,Y1: 1168 ,X2: 816 ,Y2: 1168
+End
+Branches
+End
+Wire Name: w69
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 296 ,Y1: 288 ,X2: 384 ,Y2: 288
+Edge X1: 384 ,Y1: 288 ,X2: 384 ,Y2: 728
+Edge X1: 384 ,Y1: 728 ,X2: 480 ,Y2: 728
+Edge X1: 384 ,Y1: 728 ,X2: 384 ,Y2: 1160
+Edge X1: 384 ,Y1: 1160 ,X2: 816 ,Y2: 1160
+Edge X1: 384 ,Y1: 1160 ,X2: 384 ,Y2: 1256
+End
+Branches
+End
+Wire Name: w70
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 296 ,Y1: 368 ,X2: 368 ,Y2: 368
+Edge X1: 368 ,Y1: 368 ,X2: 368 ,Y2: 760
+Edge X1: 368 ,Y1: 760 ,X2: 368 ,Y2: 1176
+Edge X1: 368 ,Y1: 760 ,X2: 480 ,Y2: 760
+Edge X1: 368 ,Y1: 1176 ,X2: 368 ,Y2: 1256
+Edge X1: 368 ,Y1: 1176 ,X2: 816 ,Y2: 1176
+End
+Branches
+End
+Wire Name: w71
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 296 ,Y1: 408 ,X2: 360 ,Y2: 408
+Edge X1: 360 ,Y1: 408 ,X2: 360 ,Y2: 776
+Edge X1: 360 ,Y1: 776 ,X2: 480 ,Y2: 776
+Edge X1: 360 ,Y1: 776 ,X2: 360 ,Y2: 1184
+Edge X1: 360 ,Y1: 1184 ,X2: 360 ,Y2: 1256
+Edge X1: 360 ,Y1: 1184 ,X2: 816 ,Y2: 1184
+End
+Branches
+End
+Wire Name: w72
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 296 ,Y1: 448 ,X2: 352 ,Y2: 448
+Edge X1: 352 ,Y1: 448 ,X2: 352 ,Y2: 792
+Edge X1: 352 ,Y1: 792 ,X2: 480 ,Y2: 792
+Edge X1: 352 ,Y1: 792 ,X2: 352 ,Y2: 1192
+Edge X1: 352 ,Y1: 1192 ,X2: 352 ,Y2: 1256
+Edge X1: 352 ,Y1: 1192 ,X2: 816 ,Y2: 1192
+End
+Branches
+End
+Wire Name: w73
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 296 ,Y1: 488 ,X2: 344 ,Y2: 488
+Edge X1: 344 ,Y1: 488 ,X2: 344 ,Y2: 808
+Edge X1: 344 ,Y1: 808 ,X2: 480 ,Y2: 808
+Edge X1: 344 ,Y1: 808 ,X2: 344 ,Y2: 1200
+Edge X1: 344 ,Y1: 1200 ,X2: 344 ,Y2: 1256
+Edge X1: 344 ,Y1: 1200 ,X2: 816 ,Y2: 1200
+End
+Branches
+End
+Wire Name: w74
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 296 ,Y1: 528 ,X2: 336 ,Y2: 528
+Edge X1: 336 ,Y1: 528 ,X2: 336 ,Y2: 824
+Edge X1: 336 ,Y1: 824 ,X2: 336 ,Y2: 1208
+Edge X1: 336 ,Y1: 824 ,X2: 480 ,Y2: 824
+Edge X1: 336 ,Y1: 1208 ,X2: 336 ,Y2: 1256
+Edge X1: 336 ,Y1: 1208 ,X2: 816 ,Y2: 1208
+End
+Branches
+End
+Wire Name: w75
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 296 ,Y1: 568 ,X2: 328 ,Y2: 568
+Edge X1: 328 ,Y1: 568 ,X2: 328 ,Y2: 840
+Edge X1: 328 ,Y1: 840 ,X2: 480 ,Y2: 840
+Edge X1: 328 ,Y1: 840 ,X2: 328 ,Y2: 1216
+Edge X1: 328 ,Y1: 1216 ,X2: 328 ,Y2: 1256
+Edge X1: 328 ,Y1: 1216 ,X2: 816 ,Y2: 1216
+End
+Branches
+End
+Wire Name: w76
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 296 ,Y1: 608 ,X2: 320 ,Y2: 608
+Edge X1: 320 ,Y1: 608 ,X2: 320 ,Y2: 856
+Edge X1: 320 ,Y1: 856 ,X2: 480 ,Y2: 856
+Edge X1: 320 ,Y1: 856 ,X2: 320 ,Y2: 1224
+Edge X1: 320 ,Y1: 1224 ,X2: 320 ,Y2: 1256
+Edge X1: 320 ,Y1: 1224 ,X2: 816 ,Y2: 1224
+End
+Branches
+End
+Wire Name: w77
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 296 ,Y1: 640 ,X2: 312 ,Y2: 640
+Edge X1: 312 ,Y1: 640 ,X2: 312 ,Y2: 872
+Edge X1: 312 ,Y1: 872 ,X2: 312 ,Y2: 1232
+Edge X1: 312 ,Y1: 872 ,X2: 480 ,Y2: 872
+Edge X1: 312 ,Y1: 1232 ,X2: 312 ,Y2: 1256
+Edge X1: 312 ,Y1: 1232 ,X2: 816 ,Y2: 1232
 End
 Branches
 End
