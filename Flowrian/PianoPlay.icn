@@ -10,34 +10,39 @@ IfDrawModuleName True
 IfDrawPortnameText True
 ModuleNameDrawPosition middle
 Boxes
-Box Left: 368 Top: 560 ,Right: 480 ,Bottom: 624
+Box Left: 352 Top: 560 ,Right: 488 ,Bottom: 640
 End
 Parameters
 End
 Ports
-Port Left: 344 Top: 568 ,SymbolSideLeft: 368 ,SymbolSideTop: 568
+Port Left: 328 Top: 568 ,SymbolSideLeft: 352 ,SymbolSideTop: 568
 Portname: Bin ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 3
 ,RV:
 0
-Port Left: 344 Top: 584 ,SymbolSideLeft: 368 ,SymbolSideTop: 584
+Port Left: 328 Top: 584 ,SymbolSideLeft: 352 ,SymbolSideTop: 584
 Portname: CLK ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
-Port Left: 504 Top: 568 ,SymbolSideLeft: 480 ,SymbolSideTop: 568
+Port Left: 512 Top: 568 ,SymbolSideLeft: 488 ,SymbolSideTop: 568
 Portname: Dout ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,RV:
 0
-Port Left: 344 Top: 600 ,SymbolSideLeft: 368 ,SymbolSideTop: 600
+Port Left: 328 Top: 600 ,SymbolSideLeft: 352 ,SymbolSideTop: 600
 Portname: EN ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
-Port Left: 344 Top: 616 ,SymbolSideLeft: 368 ,SymbolSideTop: 616
+Port Left: 328 Top: 616 ,SymbolSideLeft: 352 ,SymbolSideTop: 616
 Portname: RST ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
+,RV:
+0
+Port Left: 328 Top: 632 ,SymbolSideLeft: 352 ,SymbolSideTop: 632
+Portname: octave ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+2
 ,RV:
 0
 End

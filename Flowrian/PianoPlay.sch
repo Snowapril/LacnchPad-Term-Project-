@@ -8,49 +8,59 @@ NumberOfVertPapaers 4
 Parameters
 End
 Wires
-Wire Name: w16
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 680 ,Y1: 608 ,X2: 680 ,Y2: 832
-Edge X1: 680 ,Y1: 608 ,X2: 696 ,Y2: 608
-End
-Branches
-End
-Wire Name: w17
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 696 ,Y1: 640 ,X2: 696 ,Y2: 832
-End
-Branches
-End
-Wire Name: b3
-LV: 3
-RV: 0
-Width: 4
-Edges
-Edge X1: 592 ,Y1: 592 ,X2: 696 ,Y2: 592
-End
-Branches
-End
-Wire Name: w3
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 592 ,Y1: 624 ,X2: 696 ,Y2: 624
-End
-Branches
-End
 Wire Name: w4
 LV: 0
 RV: 0
 Width: 1
 Edges
 Edge X1: 896 ,Y1: 592 ,X2: 920 ,Y2: 592
+End
+Branches
+End
+Wire Name: w5
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 696 ,Y1: 640 ,X2: 696 ,Y2: 832
+Edge X1: 696 ,Y1: 640 ,X2: 720 ,Y2: 640
+End
+Branches
+End
+Wire Name: w6
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 592 ,Y1: 624 ,X2: 720 ,Y2: 624
+End
+Branches
+End
+Wire Name: w7
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 680 ,Y1: 608 ,X2: 680 ,Y2: 832
+Edge X1: 680 ,Y1: 608 ,X2: 720 ,Y2: 608
+End
+Branches
+End
+Wire Name: b4
+LV: 3
+RV: 0
+Width: 4
+Edges
+Edge X1: 592 ,Y1: 592 ,X2: 720 ,Y2: 592
+End
+Branches
+End
+Wire Name: b5
+LV: 2
+RV: 0
+Width: 3
+Edges
+Edge X1: 592 ,Y1: 656 ,X2: 720 ,Y2: 656
 End
 Branches
 End
@@ -91,9 +101,16 @@ Portname: Dout ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,L
 1
 ,RV:
 0
+Port Left: 592 Top: 656 ,Orientation: 0
+Portname: octave ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+2
+,Width:
+3
+,RV:
+0
 End
 Symbols
-Symbol Left: 720 Top: 584
+Symbol Left: 744 Top: 584
 Name: s0
 LibraryName: (NoLibraryName)
 IpName: ToneConverter

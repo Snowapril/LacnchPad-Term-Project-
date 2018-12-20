@@ -1,0 +1,390 @@
+$date
+   Thu Dec 20 23:29:25 2018
+$end
+$version
+  P.15xf
+$end
+$timescale
+  1ps
+$end
+$scope module LaunchPad_tb $end
+$var wire 1 ! Dout [3] $end
+$var wire 1 " Dout [2] $end
+$var wire 1 # Dout [1] $end
+$var wire 1 $ Dout [0] $end
+$var wire 1 % Pout $end
+$var wire 1 & led_1 $end
+$var wire 1 ' led_1_B $end
+$var wire 1 ( led_1_G $end
+$var wire 1 ) led_1_R $end
+$var wire 1 * led_2 $end
+$var wire 1 + led_2_B $end
+$var wire 1 , led_2_G $end
+$var wire 1 - led_2_R $end
+$var wire 1 . led_3 $end
+$var wire 1 / led_3_B $end
+$var wire 1 0 led_3_G $end
+$var wire 1 1 led_3_R $end
+$var wire 1 2 led_4 $end
+$var wire 1 3 led_4_B $end
+$var wire 1 4 led_4_G $end
+$var wire 1 5 led_4_R $end
+$var wire 1 6 led_5 $end
+$var wire 1 7 led_6 $end
+$var wire 1 8 led_7 $end
+$var wire 1 9 led_8 $end
+$var reg 1 : BTN1 $end
+$var reg 1 ; BTN2 $end
+$var reg 1 < BTN3 $end
+$var reg 1 = BTN4 $end
+$var reg 1 > BTN5 $end
+$var reg 1 ? BTN6 $end
+$var reg 1 @ BTN7 $end
+$var reg 1 A BTN8 $end
+$var reg 1 B BTN9 $end
+$var reg 1 C BTN_0 $end
+$var reg 1 D BTN_sharp $end
+$var reg 1 E BTN_star $end
+$var reg 1 F CLK $end
+$var reg 1 G Dip_1 $end
+$var reg 1 H Dip_2 $end
+$var reg 1 I Dip_3 $end
+$var reg 1 J Dip_4 $end
+$var reg 1 K Dip_6 $end
+$var reg 1 L Dip_7 $end
+$var reg 1 M Dip_8 $end
+$var reg 1 N RST $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0$
+0#
+0"
+0!
+0%
+0&
+0'
+0(
+1:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+1F
+0G
+0H
+1I
+0J
+0K
+0L
+0M
+0N
+0)
+0*
+0+
+0,
+0-
+0.
+0/
+00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+$end
+#100000
+0F
+#200000
+1F
+#300000
+0F
+1N
+#400000
+1&
+1F
+#500000
+0F
+#600000
+1F
+1*
+#700000
+0F
+#800000
+1F
+1.
+#900000
+0F
+#1000000
+1F
+12
+#1100000
+0F
+#1200000
+1F
+16
+#1300000
+0F
+#1400000
+1F
+17
+#1500000
+0F
+#1600000
+0&
+0:
+1F
+0*
+0.
+02
+06
+07
+#1700000
+0F
+#1800000
+1F
+#1900000
+0F
+#2000000
+1;
+1F
+#2100000
+0F
+#2200000
+1F
+19
+#2300000
+0F
+#2400000
+1F
+18
+#2500000
+0F
+#2600000
+1F
+17
+#2700000
+0F
+#2800000
+1F
+16
+#2900000
+0F
+#3000000
+1F
+12
+#3100000
+0F
+#3200000
+1F
+1.
+#3300000
+0F
+#3400000
+1F
+1*
+#3500000
+0;
+0F
+0*
+0.
+02
+06
+07
+08
+09
+#3600000
+1F
+#3700000
+0F
+#3800000
+1F
+#3900000
+1<
+0F
+#4000000
+1&
+1F
+19
+#4100000
+0F
+#4200000
+1F
+1*
+18
+#4300000
+0F
+#4400000
+1F
+1.
+17
+#4500000
+0F
+#4600000
+1F
+12
+16
+#4700000
+0F
+#4800000
+1F
+02
+06
+#4900000
+0F
+#5000000
+1F
+0.
+07
+#5100000
+0F
+#5200000
+1F
+0*
+08
+#5300000
+0F
+#5400000
+0&
+1F
+09
+#5500000
+0F
+#5600000
+1F
+#5700000
+0F
+#5800000
+1&
+1F
+19
+#5900000
+0F
+#6000000
+1F
+1*
+18
+#6100000
+0F
+#6200000
+1F
+1.
+17
+#6300000
+0F
+#6400000
+1F
+12
+16
+#6500000
+0F
+#6600000
+1F
+02
+06
+#6700000
+0F
+#6800000
+1F
+0.
+07
+#6900000
+0F
+#7000000
+1F
+0*
+08
+#7100000
+0F
+#7200000
+0&
+1F
+09
+#7300000
+0F
+#7400000
+1F
+#7500000
+0F
+#7600000
+1&
+1F
+19
+#7700000
+0F
+#7800000
+1F
+1*
+18
+#7900000
+0F
+#8000000
+1F
+1.
+17
+#8100000
+0F
+#8200000
+1F
+12
+16
+#8300000
+0F
+#8400000
+1F
+02
+06
+#8500000
+0F
+#8600000
+1F
+0.
+07
+#8700000
+0F
+#8800000
+1F
+0*
+08
+#8900000
+0F
+#9000000
+0&
+1F
+09
+#9100000
+0F
+#9200000
+1F
+#9300000
+0F
+#9400000
+1&
+1F
+19
+#9500000
+0F
+#9600000
+1F
+1*
+18
+#9700000
+0F
+#9800000
+1F
+1.
+17
+#9900000
+0F

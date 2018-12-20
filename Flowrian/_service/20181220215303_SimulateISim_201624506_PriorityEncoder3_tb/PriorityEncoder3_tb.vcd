@@ -1,0 +1,41 @@
+$date
+   Thu Dec 20 21:53:08 2018
+$end
+$version
+  P.15xf
+$end
+$timescale
+  1ps
+$end
+$scope module PriorityEncoder3_tb $end
+$var wire 1 ! Dout [2] $end
+$var wire 1 " Dout [1] $end
+$var wire 1 # Dout [0] $end
+$var reg 1 $ D0 $end
+$var reg 1 % D1 $end
+$var reg 1 & D2 $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1$
+0%
+0&
+1#
+0"
+0!
+$end
+#400000
+1%
+0#
+1"
+#800000
+1&
+0"
+1!
+#1200000
+0%
+#1600000
+0$
+#2000000
+1%

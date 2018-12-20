@@ -10,7 +10,7 @@ IfDrawModuleName True
 IfDrawPortnameText True
 ModuleNameDrawPosition middle
 Boxes
-Box Left: 344 Top: 560 ,Right: 496 ,Bottom: 624
+Box Left: 344 Top: 560 ,Right: 496 ,Bottom: 640
 End
 Parameters
 End
@@ -38,6 +38,11 @@ Portname: EN ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 Port Left: 320 Top: 616 ,SymbolSideLeft: 344 ,SymbolSideTop: 616
 Portname: RST ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
+,RV:
+0
+Port Left: 320 Top: 632 ,SymbolSideLeft: 344 ,SymbolSideTop: 632
+Portname: octave ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+2
 ,RV:
 0
 End

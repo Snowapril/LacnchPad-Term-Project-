@@ -1,31 +1,60 @@
 StimulianSaveFile
 LanguageType Verilog
-tbModuleName Mux12bit_4_tb
-ModuleName Mux12bit_4
+tbModuleName LaunchPad_tb
+ModuleName LaunchPad
 TimeUnit ns
 TotalTime 10000
 GridInterval 100
 Parameters
 End
 Port
--1 "7 0 Binary B_in multibit in 3 0 Children "; [3] "< [2] "= [1] "> [0] ChildrenEnd PortEnd 0
--1 "? 1 Binary D0 singlebit in 0 0 PortEnd 0
--1 "@ 1 Binary D1 singlebit in 0 0 PortEnd 0
--1 "A 1 Binary D2 singlebit in 0 0 PortEnd 0
--1 "B 1 Binary D3 singlebit in 0 0 PortEnd 0
--1 "C 1 Binary D4 singlebit in 0 0 PortEnd 0
--1 "D 1 Binary D5 singlebit in 0 0 PortEnd 0
--1 "E 1 Binary D6 singlebit in 0 0 PortEnd 0
--1 "F 1 Binary D7 singlebit in 0 0 PortEnd 0
--1 "G 1 Binary D8 singlebit in 0 0 PortEnd 0
--1 "H 1 Binary D9 singlebit in 0 0 PortEnd 0
--1 "J 1 Binary D_sharp singlebit in 0 0 PortEnd 0
--1 "K 1 Binary D_star singlebit in 0 0 PortEnd 0
-0 "I 1 Binary D_out singlebit out 0 0 PortEnd 0
+-1 ! 1 Binary BTN1 singlebit in 0 0 PortEnd 0
+-1 " 1 Binary BTN2 singlebit in 0 0 PortEnd 0
+-1 # 1 Binary BTN3 singlebit in 0 0 PortEnd 0
+-1 $ 1 Binary BTN4 singlebit in 0 0 PortEnd 0
+-1 % 1 Binary BTN5 singlebit in 0 0 PortEnd 0
+-1 & 1 Binary BTN6 singlebit in 0 0 PortEnd 0
+-1 ' 1 Binary BTN7 singlebit in 0 0 PortEnd 0
+-1 ( 1 Binary BTN8 singlebit in 0 0 PortEnd 0
+-1 ) 1 Binary BTN9 singlebit in 0 0 PortEnd 0
+-1 * 1 Binary BTN_0 singlebit in 0 0 PortEnd 0
+-1 + 1 Binary BTN_sharp singlebit in 0 0 PortEnd 0
+-1 , 1 Binary BTN_star singlebit in 0 0 PortEnd 0
+-1 - 1 Binary CLK singlebit in 0 0 PortEnd 0
+-1 . 1 Binary Dip_1 singlebit in 0 0 PortEnd 0
+-1 / 1 Binary Dip_2 singlebit in 0 0 PortEnd 0
+-1 0 1 Binary Dip_3 singlebit in 0 0 PortEnd 0
+-1 1 1 Binary Dip_4 singlebit in 0 0 PortEnd 0
+-1 2 1 Binary Dip_6 singlebit in 0 0 PortEnd 0
+-1 3 1 Binary Dip_7 singlebit in 0 0 PortEnd 0
+-1 4 1 Binary Dip_8 singlebit in 0 0 PortEnd 0
+-1 > 1 Binary RST singlebit in 0 0 PortEnd 0
+0 5 0 Binary Dout multibit out 3 0 Children 9 [3] : [2] ; [1] < [0] ChildrenEnd PortEnd 0
+0 = 1 Binary Pout singlebit out 0 0 PortEnd 0
+0 ? 1 Binary led_1 singlebit out 0 0 PortEnd 0
+0 @ 1 Binary led_1_B singlebit out 0 0 PortEnd 0
+0 A 1 Binary led_1_G singlebit out 0 0 PortEnd 0
+0 B 1 Binary led_1_R singlebit out 0 0 PortEnd 0
+0 C 1 Binary led_2 singlebit out 0 0 PortEnd 0
+0 D 1 Binary led_2_B singlebit out 0 0 PortEnd 0
+0 E 1 Binary led_2_G singlebit out 0 0 PortEnd 0
+0 F 1 Binary led_2_R singlebit out 0 0 PortEnd 0
+0 G 1 Binary led_3 singlebit out 0 0 PortEnd 0
+0 H 1 Binary led_3_B singlebit out 0 0 PortEnd 0
+0 I 1 Binary led_3_G singlebit out 0 0 PortEnd 0
+0 J 1 Binary led_3_R singlebit out 0 0 PortEnd 0
+0 K 1 Binary led_4 singlebit out 0 0 PortEnd 0
+0 L 1 Binary led_4_B singlebit out 0 0 PortEnd 0
+0 M 1 Binary led_4_G singlebit out 0 0 PortEnd 0
+0 N 1 Binary led_4_R singlebit out 0 0 PortEnd 0
+0 O 1 Binary led_5 singlebit out 0 0 PortEnd 0
+0 P 1 Binary led_6 singlebit out 0 0 PortEnd 0
+0 Q 1 Binary led_7 singlebit out 0 0 PortEnd 0
+0 R 1 Binary led_8 singlebit out 0 0 PortEnd 0
 End
 pixelTimeRatio 5
-HorzZoomOutScale 143
-WavesHorzScrollBarMax 0
+HorzZoomOutScale 80
+WavesHorzScrollBarMax 196602
 WavesHorzScrollBarPosition 0
 WavesHorzScrollBarEnabled -1
 DefaultVertInterval 32
@@ -35,88 +64,162 @@ WavesVertScrollBarMax 100
 WavesVertScrollBarPosition 0
 WavesVertScrollBarEnabled 0
 Vars
-s";
-t0
-0 0 1 0
-7600 0 1 1
-s"<
-t0
-0 7600 2 0
-3600 0 1 1
-s"=
-t0
-0 3600 2 0
-1600 4100 2 1
-7600 0 1 0
-9400 0 1 1
-s">
-t0
-0 1600 2 0
-700 2000 3 1
-3600 2100 2 0
-6600 1900 2 1
-7600 1800 2 0
-s"?
-t0
-0 0 1 0
-s"@
+s!
 t0
 0 0 1 1
-400 0 1 0
-s"A
+1400 0 1 0
+s"
 t0
-0 1300 2 0
-900 0 1 1
-s"B
-t0
-0 2400 2 0
+0 3500 2 0
 1900 0 1 1
-s"C
+s#
 t0
-0 0 1 0
-2900 0 1 1
-3400 0 1 0
-s"D
-t0
-0 4400 2 0
+0 5800 2 0
 3900 0 1 1
-s"E
+s$
 t0
-0 5400 2 0
-4900 0 1 1
-s"F
-t0
-0 6400 2 0
-5900 0 1 1
-s"G
-t0
-0 7300 2 0
-6800 0 1 1
-s"H
+0 8300 2 0
+6300 0 1 1
+s%
 t0
 0 0 1 0
-7800 0 1 1
-8300 0 1 0
-s"I
+s&
 t0
 0 0 1 0
-s"J
+s'
 t0
-0 9200 2 0
-8700 0 1 1
-s"K
+0 0 1 1
+1400 0 1 0
+s(
 t0
 0 0 1 0
-9600 0 1 1
+s)
+t0
+0 3500 2 0
+1900 0 1 1
+s*
+t0
+0 0 1 0
+3900 0 1 1
+s+
+t0
+0 0 1 0
+s,
+t0
+0 0 1 0
+s-
+t0
+0 200 50 0
+100 200 50 1
+s.
+t0
+0 0 1 0
+s/
+t0
+0 0 1 0
+s0
+t0
+0 0 1 1
+s1
+t0
+0 0 1 0
+s2
+t0
+0 0 1 0
+s3
+t0
+0 0 1 0
+s4
+t0
+0 0 1 0
+s9
+t0
+0 0 1 0
+s:
+t0
+0 0 1 0
+s;
+t0
+0 0 1 0
+s<
+t0
+0 0 1 0
+s=
+t0
+0 0 1 0
+s>
+t0
+0 0 1 0
+100 0 1 1
+s?
+t0
+0 0 1 0
+s@
+t0
+0 0 1 0
+sA
+t0
+0 0 1 0
+sB
+t0
+0 0 1 0
+sC
+t0
+0 0 1 0
+sD
+t0
+0 0 1 0
+sE
+t0
+0 0 1 0
+sF
+t0
+0 0 1 0
+sG
+t0
+0 0 1 0
+sH
+t0
+0 0 1 0
+sI
+t0
+0 0 1 0
+sJ
+t0
+0 0 1 0
+sK
+t0
+0 0 1 0
+sL
+t0
+0 0 1 0
+sM
+t0
+0 0 1 0
+sN
+t0
+0 0 1 0
+sO
+t0
+0 0 1 0
+sP
+t0
+0 0 1 0
+sQ
+t0
+0 0 1 0
+sR
+t0
+0 0 1 0
 End
 Cursors
-9400
+3900
 End
 ActiveCursorIndex 0
 versionCode
 20070511
 psrFileName
-C:\Users\cse\Desktop\LaunchPad-Term-Project-\Flowrian\_analyze\Mux12bit_4.psr
+C:\Users\User\Desktop\Github\LaunchPad-Term-Project-\Flowrian\_analyze\LaunchPad.psr
 systemCExportSimulationTime
 10000
 systemCExportSimulationTimeUnit

@@ -5,25 +5,63 @@ if [ -f   /opt/Xilinx/14.1/ISE_DS/settings64.sh ]; then
  source /opt/Xilinx/14.1/ISE_DS/settings64.sh >> /tmp/log
 fi
  
-echo PNULib= $FLOWRIANLIBRARY/PNULib/ISim/PNULib >> MuxTest_tb.init
-echo work=./work >> MuxTest_tb.init
-echo verilog work PNU_MUX4.v >> MuxTest_tb.prj
-echo verilog work MuxTest.v >> MuxTest_tb.prj
-echo verilog work MuxTest_tb.v >> MuxTest_tb.prj
-echo vcd dumpfile MuxTest_tb.vcd >> MuxTest_tb.tcl
-echo vcd dumpvars -m /MuxTest_tb -l 1 >> MuxTest_tb.tcl
-echo run 10000 ns >> MuxTest_tb.tcl
-echo vcd dumpflush >> MuxTest_tb.tcl
-echo quit -f >> MuxTest_tb.tcl
-fuse -top work.MuxTest_tb -init MuxTest_tb.init -prj MuxTest_tb.prj  -lib PNULib -o MuxTest_tb.exe
-./MuxTest_tb.exe -tclbatch MuxTest_tb.tcl
-rm MuxTest_tb.tcl
-rm MuxTest_tb.init
-rm MuxTest_tb.prj
+echo PNULib= $FLOWRIANLIBRARY/PNULib/ISim/PNULib >> LaunchPad_tb.init
+echo work=./work >> LaunchPad_tb.init
+echo verilog work PNU_XOR2.v >> LaunchPad_tb.prj
+echo verilog work PNU_NOT.v >> LaunchPad_tb.prj
+echo verilog work PNU_AND2.v >> LaunchPad_tb.prj
+echo verilog work PNU_OR2.v >> LaunchPad_tb.prj
+echo verilog work PNU_DFF.v >> LaunchPad_tb.prj
+echo verilog work PNU_MUX4.v >> LaunchPad_tb.prj
+echo verilog work PNU_ZERO.v >> LaunchPad_tb.prj
+echo verilog work PNU_MUX2.v >> LaunchPad_tb.prj
+echo verilog work PNU_MUX8.v >> LaunchPad_tb.prj
+echo verilog work PNU_OR3.v >> LaunchPad_tb.prj
+echo verilog work event_11.v >> LaunchPad_tb.prj
+echo verilog work event_9.v >> LaunchPad_tb.prj
+echo verilog work event_7.v >> LaunchPad_tb.prj
+echo verilog work event_10.v >> LaunchPad_tb.prj
+echo verilog work PNU_OR4.v >> LaunchPad_tb.prj
+echo verilog work event_4.v >> LaunchPad_tb.prj
+echo verilog work event_2.v >> LaunchPad_tb.prj
+echo verilog work event_3.v >> LaunchPad_tb.prj
+echo verilog work event_1.v >> LaunchPad_tb.prj
+echo verilog work MUX4bit_4.v >> LaunchPad_tb.prj
+echo verilog work PNU_DFF_Ce.v >> LaunchPad_tb.prj
+echo verilog work PNU_AND4.v >> LaunchPad_tb.prj
+echo verilog work PNU_AND3.v >> LaunchPad_tb.prj
+echo verilog work Mux12bit_4.v >> LaunchPad_tb.prj
+echo verilog work PNU_CLK_DIV.v >> LaunchPad_tb.prj
+echo verilog work RGB_Handler.v >> LaunchPad_tb.prj
+echo verilog work LED_Handler.v >> LaunchPad_tb.prj
+echo verilog work MUX4bit_16.v >> LaunchPad_tb.prj
+echo verilog work register.v >> LaunchPad_tb.prj
+echo verilog work Decoder4bits.v >> LaunchPad_tb.prj
+echo verilog work ToneConverter.v >> LaunchPad_tb.prj
+echo verilog work PNU_OR8.v >> LaunchPad_tb.prj
+echo verilog work EventHandler.v >> LaunchPad_tb.prj
+echo verilog work PriorityEncoder3.v >> LaunchPad_tb.prj
+echo verilog work SRAM12bits.v >> LaunchPad_tb.prj
+echo verilog work Accumulator.v >> LaunchPad_tb.prj
+echo verilog work PianoPlay.v >> LaunchPad_tb.prj
+echo verilog work encoder_12_to_4.v >> LaunchPad_tb.prj
+echo verilog work mod_converter.v >> LaunchPad_tb.prj
+echo verilog work LaunchPad.v >> LaunchPad_tb.prj
+echo verilog work LaunchPad_tb.v >> LaunchPad_tb.prj
+echo vcd dumpfile LaunchPad_tb.vcd >> LaunchPad_tb.tcl
+echo vcd dumpvars -m /LaunchPad_tb -l 1 >> LaunchPad_tb.tcl
+echo run 10000 ns >> LaunchPad_tb.tcl
+echo vcd dumpflush >> LaunchPad_tb.tcl
+echo quit -f >> LaunchPad_tb.tcl
+fuse -top work.LaunchPad_tb -init LaunchPad_tb.init -prj LaunchPad_tb.prj  -lib PNULib -o LaunchPad_tb.exe
+./LaunchPad_tb.exe -tclbatch LaunchPad_tb.tcl
+rm LaunchPad_tb.tcl
+rm LaunchPad_tb.init
+rm LaunchPad_tb.prj
 rm fuse.xmsgs
 rm fuseRelaunch.cmd
 rm isim.wdb
-rm -f MuxTest_tb.exe fuse.log isim.log
+rm -f LaunchPad_tb.exe fuse.log isim.log
 rm -rf isim
 rm list of verilog or VHDL files
 rm -rf ./work
@@ -40,41 +78,6 @@ rm -rf LaunchPad.v
 rm -rf LaunchPad_tb.v
 rm -rf mod_converter.v
 rm -rf PianoPlay_tb.v
-rm -rf PNU_AND2.v
-rm -rf PNU_AND3.v
-rm -rf PNU_AND4.v
-rm -rf PNU_AND8.v
-rm -rf PNU_BUF.v
-rm -rf PNU_DFF.v
-rm -rf PNU_DFF_Ce.v
-rm -rf PNU_JKFF.v
-rm -rf PNU_MUX2.v
-rm -rf PNU_MUX4.v
-rm -rf PNU_MUX8.v
-rm -rf PNU_NAND2.v
-rm -rf PNU_NAND3.v
-rm -rf PNU_NAND4.v
-rm -rf PNU_NAND8.v
-rm -rf PNU_NOR2.v
-rm -rf PNU_NOR3.v
-rm -rf PNU_NOR4.v
-rm -rf PNU_NOR8.v
-rm -rf PNU_NOT.v
-rm -rf PNU_ONE.v
-rm -rf PNU_OR2.v
-rm -rf PNU_OR3.v
-rm -rf PNU_OR4.v
-rm -rf PNU_OR8.v
-rm -rf PNU_SRAM.v
-rm -rf PNU_TBUF.v
-rm -rf PNU_XNOR2.v
-rm -rf PNU_XNOR3.v
-rm -rf PNU_XNOR4.v
-rm -rf PNU_XOR2.v
-rm -rf PNU_XOR3.v
-rm -rf PNU_XOR4.v
-rm -rf PNU_ZERO.v
-rm -rf MuxTest.v
 rm -rf Add_two_decimal_to_5bit_binary.v
 rm -rf AddTwoDec.v
 rm -rf Compare_2bit.v
@@ -119,5 +122,53 @@ rm -rf Accumulator_tb.v
 rm -rf encoder_12_to_4.v
 rm -rf PianoPlay.v
 rm -rf encoder_12_to_4_tb.v
-rm -rf MuxTest_tb.v
+rm -rf PNU_AND2.v
+rm -rf PNU_AND3.v
+rm -rf PNU_AND4.v
+rm -rf PNU_AND8.v
+rm -rf PNU_BUF.v
+rm -rf PNU_DFF.v
+rm -rf PNU_DFF_Ce.v
+rm -rf PNU_JKFF.v
+rm -rf PNU_MUX2.v
+rm -rf PNU_MUX4.v
+rm -rf PNU_MUX8.v
+rm -rf PNU_NAND2.v
+rm -rf PNU_NAND3.v
+rm -rf PNU_NAND4.v
+rm -rf PNU_NAND8.v
+rm -rf PNU_NOR2.v
+rm -rf PNU_NOR3.v
+rm -rf PNU_NOR4.v
+rm -rf PNU_NOR8.v
+rm -rf PNU_NOT.v
+rm -rf PNU_ONE.v
+rm -rf PNU_OR2.v
+rm -rf PNU_OR3.v
+rm -rf PNU_OR4.v
+rm -rf PNU_OR8.v
+rm -rf PNU_SRAM.v
+rm -rf PNU_TBUF.v
+rm -rf PNU_XNOR2.v
+rm -rf PNU_XNOR3.v
+rm -rf PNU_XNOR4.v
+rm -rf PNU_XOR2.v
+rm -rf PNU_XOR3.v
+rm -rf PNU_XOR4.v
+rm -rf PNU_ZERO.v
+rm -rf PriorityEncoder3.v
+rm -rf PriorityEncoder3_tb.v
+rm -rf event_1.v
+rm -rf event_2.v
+rm -rf event_3.v
+rm -rf event_4.v
+rm -rf event_7.v
+rm -rf event_8.v
+rm -rf event_9.v
+rm -rf event_10.v
+rm -rf event_11.v
+rm -rf event_12.v
+rm -rf LED_Handler.v
+rm -rf RGB_Handler.v
+rm -rf EventHandler.v
 echo Finish simulation!!
