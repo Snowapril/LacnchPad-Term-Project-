@@ -92,29 +92,27 @@ LaunchPad
 
   initial
   begin
-    BTN1 = 1'b1;
-    #1400 BTN1 = 1'b0;
+    BTN1 = 1'b0;
+    #200 BTN1 = 1'b1;
+    #1200 BTN1 = 1'b0;
   end
 
   initial
   begin
     BTN2 = 1'b0;
-    #1900 BTN2 = 1'b1;
-    #1600 BTN2 = 1'b0;
   end
 
   initial
   begin
     BTN3 = 1'b0;
-    #3900 BTN3 = 1'b1;
+    #1900 BTN3 = 1'b1;
     #1900 BTN3 = 1'b0;
   end
 
   initial
   begin
     BTN4 = 1'b0;
-    #6300 BTN4 = 1'b1;
-    #2000 BTN4 = 1'b0;
+    #4100 BTN4 = 1'b1;
   end
 
   initial
@@ -129,8 +127,7 @@ LaunchPad
 
   initial
   begin
-    BTN7 = 1'b1;
-    #1400 BTN7 = 1'b0;
+    BTN7 = 1'b0;
   end
 
   initial
@@ -141,14 +138,11 @@ LaunchPad
   initial
   begin
     BTN9 = 1'b0;
-    #1900 BTN9 = 1'b1;
-    #1600 BTN9 = 1'b0;
   end
 
   initial
   begin
     BTN_0 = 1'b0;
-    #3900 BTN_0 = 1'b1;
   end
 
   initial
@@ -163,106 +157,206 @@ LaunchPad
 
   initial
   begin
-    CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
-    #100 CLK = 1'b0;
-    #100 CLK = 1'b1;
+    CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
+    #50 CLK = 1'b1;
+    #50 CLK = 1'b0;
   end
 
   initial
@@ -303,7 +397,7 @@ LaunchPad
   initial
   begin
     RST = 1'b0;
-    #100 RST = 1'b1;
+    #200 RST = 1'b1;
   end
 
 endmodule

@@ -30,52 +30,52 @@ Portname: Din_1 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,
 0
 ,RV:
 0
-Port Left: 320 Top: 744 ,SymbolSideLeft: 344 ,SymbolSideTop: 744
+Port Left: 320 Top: 616 ,SymbolSideLeft: 344 ,SymbolSideTop: 616
 Portname: Din_10 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
-Port Left: 320 Top: 760 ,SymbolSideLeft: 344 ,SymbolSideTop: 760
+Port Left: 320 Top: 632 ,SymbolSideLeft: 344 ,SymbolSideTop: 632
 Portname: Din_11 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
-Port Left: 320 Top: 616 ,SymbolSideLeft: 344 ,SymbolSideTop: 616
+Port Left: 320 Top: 648 ,SymbolSideLeft: 344 ,SymbolSideTop: 648
 Portname: Din_2 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
-Port Left: 320 Top: 632 ,SymbolSideLeft: 344 ,SymbolSideTop: 632
+Port Left: 320 Top: 664 ,SymbolSideLeft: 344 ,SymbolSideTop: 664
 Portname: Din_3 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
-Port Left: 320 Top: 648 ,SymbolSideLeft: 344 ,SymbolSideTop: 648
+Port Left: 320 Top: 680 ,SymbolSideLeft: 344 ,SymbolSideTop: 680
 Portname: Din_4 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
-Port Left: 320 Top: 664 ,SymbolSideLeft: 344 ,SymbolSideTop: 664
+Port Left: 320 Top: 696 ,SymbolSideLeft: 344 ,SymbolSideTop: 696
 Portname: Din_5 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
-Port Left: 320 Top: 680 ,SymbolSideLeft: 344 ,SymbolSideTop: 680
+Port Left: 320 Top: 712 ,SymbolSideLeft: 344 ,SymbolSideTop: 712
 Portname: Din_6 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
-Port Left: 320 Top: 696 ,SymbolSideLeft: 344 ,SymbolSideTop: 696
+Port Left: 320 Top: 728 ,SymbolSideLeft: 344 ,SymbolSideTop: 728
 Portname: Din_7 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
-Port Left: 320 Top: 712 ,SymbolSideLeft: 344 ,SymbolSideTop: 712
+Port Left: 320 Top: 744 ,SymbolSideLeft: 344 ,SymbolSideTop: 744
 Portname: Din_8 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
-Port Left: 320 Top: 728 ,SymbolSideLeft: 344 ,SymbolSideTop: 728
+Port Left: 320 Top: 760 ,SymbolSideLeft: 344 ,SymbolSideTop: 760
 Portname: Din_9 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:

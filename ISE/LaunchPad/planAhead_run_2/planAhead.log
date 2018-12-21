@@ -1,14 +1,14 @@
 #-----------------------------------------------------------
 # PlanAhead v14.7
 # Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
-# Start of session at: Tue Dec 11 15:28:29 2018
-# Process ID: 3540
+# Start of session at: Fri Dec 21 11:26:22 2018
+# Process ID: 3404
 # Log file: C:/Users/cse/Desktop/LaunchPad-Term-Project-/ISE/LaunchPad/planAhead_run_2/planAhead.log
 # Journal file: C:/Users/cse/Desktop/LaunchPad-Term-Project-/ISE/LaunchPad/planAhead_run_2/planAhead.jou
 #-----------------------------------------------------------
 INFO: [Common 17-78] Attempting to get a license: PlanAhead
 INFO: [Common 17-290] Got license for PlanAhead
-INFO: [Common 17-86] Your PlanAhead license expires in -498 day(s)
+INFO: [Common 17-86] Your PlanAhead license expires in -508 day(s)
 INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
 Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
 Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
@@ -22,6 +22,15 @@ Adding file 'C:/Users/cse/Desktop/LaunchPad-Term-Project-/ISE/LaunchPad/LaunchPa
 # set hdlfile [add_files [list {../../../../../../Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_ZERO.v}]]
 # set_property file_type Verilog $hdlfile
 # set_property library work $hdlfile
+# set hdlfile [add_files [list {../../../../../../Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_XOR2.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../../../../../Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_OR2.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../../../../../Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_NOT.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
 # set hdlfile [add_files [list {../../../../../../Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_MUX8.v}]]
 # set_property file_type Verilog $hdlfile
 # set_property library work $hdlfile
@@ -29,6 +38,12 @@ Adding file 'C:/Users/cse/Desktop/LaunchPad-Term-Project-/ISE/LaunchPad/LaunchPa
 # set_property file_type Verilog $hdlfile
 # set_property library work $hdlfile
 # set hdlfile [add_files [list {../../../../../../Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_MUX2.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../../../../../Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_DFF.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../../../../../Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_AND2.v}]]
 # set_property file_type Verilog $hdlfile
 # set_property library work $hdlfile
 # set hdlfile [add_files [list {../../Flowrian/PNU_CLK_DIV.v}]]
@@ -40,28 +55,28 @@ Adding file 'C:/Users/cse/Desktop/LaunchPad-Term-Project-/ISE/LaunchPad/LaunchPa
 # set hdlfile [add_files [list {../../Flowrian/Mux12bit_4.v}]]
 # set_property file_type Verilog $hdlfile
 # set_property library work $hdlfile
-# set hdlfile [add_files [list {../../../../../../Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_NOT.v}]]
+# set hdlfile [add_files [list {../../Flowrian/event_9.v}]]
 # set_property file_type Verilog $hdlfile
 # set_property library work $hdlfile
-# set hdlfile [add_files [list {../../../../../../Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_DFF_Ce.v}]]
+# set hdlfile [add_files [list {../../Flowrian/event_7.v}]]
 # set_property file_type Verilog $hdlfile
 # set_property library work $hdlfile
-# set hdlfile [add_files [list {../../../../../../Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_AND4.v}]]
+# set hdlfile [add_files [list {../../Flowrian/event_4.v}]]
 # set_property file_type Verilog $hdlfile
 # set_property library work $hdlfile
-# set hdlfile [add_files [list {../../Flowrian/ToneConverter.v}]]
+# set hdlfile [add_files [list {../../Flowrian/event_3.v}]]
 # set_property file_type Verilog $hdlfile
 # set_property library work $hdlfile
-# set hdlfile [add_files [list {../../Flowrian/register.v}]]
+# set hdlfile [add_files [list {../../Flowrian/event_2.v}]]
 # set_property file_type Verilog $hdlfile
 # set_property library work $hdlfile
-# set hdlfile [add_files [list {../../Flowrian/MUX4bit_16.v}]]
+# set hdlfile [add_files [list {../../Flowrian/event_11.v}]]
 # set_property file_type Verilog $hdlfile
 # set_property library work $hdlfile
-# set hdlfile [add_files [list {../../Flowrian/Decoder4bits.v}]]
+# set hdlfile [add_files [list {../../Flowrian/event_10.v}]]
 # set_property file_type Verilog $hdlfile
 # set_property library work $hdlfile
-# set hdlfile [add_files [list {../../../../../../Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_OR8.v}]]
+# set hdlfile [add_files [list {../../Flowrian/event_1.v}]]
 # set_property file_type Verilog $hdlfile
 # set_property library work $hdlfile
 # set hdlfile [add_files [list {../../../../../../Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_OR4.v}]]
@@ -70,22 +85,49 @@ Adding file 'C:/Users/cse/Desktop/LaunchPad-Term-Project-/ISE/LaunchPad/LaunchPa
 # set hdlfile [add_files [list {../../../../../../Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_OR3.v}]]
 # set_property file_type Verilog $hdlfile
 # set_property library work $hdlfile
-# set hdlfile [add_files [list {../../../../../../Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_OR2.v}]]
+# set hdlfile [add_files [list {../../../../../../Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_DFF_Ce.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../../../../../Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_AND4.v}]]
 # set_property file_type Verilog $hdlfile
 # set_property library work $hdlfile
 # set hdlfile [add_files [list {../../../../../../Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_AND3.v}]]
 # set_property file_type Verilog $hdlfile
 # set_property library work $hdlfile
-# set hdlfile [add_files [list {../../../../../../Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_AND2.v}]]
+# set hdlfile [add_files [list {../../Flowrian/ToneConverter.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../Flowrian/RGB_Handler.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../Flowrian/register.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../Flowrian/MUX4bit_16.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../Flowrian/LED_Handler.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../Flowrian/Decoder4bits.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../../../../../Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_OR8.v}]]
 # set_property file_type Verilog $hdlfile
 # set_property library work $hdlfile
 # set hdlfile [add_files [list {../../Flowrian/SRAM12bits.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../Flowrian/PriorityEncoder3.v}]]
 # set_property file_type Verilog $hdlfile
 # set_property library work $hdlfile
 # set hdlfile [add_files [list {../../Flowrian/PianoPlay.v}]]
 # set_property file_type Verilog $hdlfile
 # set_property library work $hdlfile
 # set hdlfile [add_files [list {../../Flowrian/mod_converter.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../Flowrian/EventHandler.v}]]
 # set_property file_type Verilog $hdlfile
 # set_property library work $hdlfile
 # set hdlfile [add_files [list {../../Flowrian/encoder_12_to_4.v}]]
@@ -103,28 +145,42 @@ Adding file 'C:/Users/cse/Desktop/LaunchPad-Term-Project-/ISE/LaunchPad/LaunchPa
 Using Verific elaboration
 Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
 Analyzing Verilog file "C:/Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_ZERO.v" into library work
+Analyzing Verilog file "C:/Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_XOR2.v" into library work
+Analyzing Verilog file "C:/Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_OR2.v" into library work
+Analyzing Verilog file "C:/Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_NOT.v" into library work
 Analyzing Verilog file "C:/Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_MUX8.v" into library work
 Analyzing Verilog file "C:/Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_MUX4.v" into library work
 Analyzing Verilog file "C:/Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_MUX2.v" into library work
+Analyzing Verilog file "C:/Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_DFF.v" into library work
+Analyzing Verilog file "C:/Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_AND2.v" into library work
 Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/PNU_CLK_DIV.v" into library work
 Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/MUX4bit_4.v" into library work
 Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/Mux12bit_4.v" into library work
-Analyzing Verilog file "C:/Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_NOT.v" into library work
-Analyzing Verilog file "C:/Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_DFF_Ce.v" into library work
-Analyzing Verilog file "C:/Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_AND4.v" into library work
-Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/ToneConverter.v" into library work
-Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/register.v" into library work
-Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/MUX4bit_16.v" into library work
-Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/Decoder4bits.v" into library work
-Analyzing Verilog file "C:/Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_OR8.v" into library work
+Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/event_9.v" into library work
+Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/event_7.v" into library work
+Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/event_4.v" into library work
+Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/event_3.v" into library work
+Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/event_2.v" into library work
+Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/event_11.v" into library work
+Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/event_10.v" into library work
+Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/event_1.v" into library work
 Analyzing Verilog file "C:/Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_OR4.v" into library work
 Analyzing Verilog file "C:/Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_OR3.v" into library work
-Analyzing Verilog file "C:/Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_OR2.v" into library work
+Analyzing Verilog file "C:/Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_DFF_Ce.v" into library work
+Analyzing Verilog file "C:/Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_AND4.v" into library work
 Analyzing Verilog file "C:/Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_AND3.v" into library work
-Analyzing Verilog file "C:/Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_AND2.v" into library work
+Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/ToneConverter.v" into library work
+Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/RGB_Handler.v" into library work
+Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/register.v" into library work
+Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/MUX4bit_16.v" into library work
+Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/LED_Handler.v" into library work
+Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/Decoder4bits.v" into library work
+Analyzing Verilog file "C:/Program Files/System Centroid/Flowrian R7/Library/PNULib/sources/PNU_OR8.v" into library work
 Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/SRAM12bits.v" into library work
+Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/PriorityEncoder3.v" into library work
 Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/PianoPlay.v" into library work
 Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/mod_converter.v" into library work
+Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/EventHandler.v" into library work
 Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/encoder_12_to_4.v" into library work
 Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/Accumulator.v" into library work
 Analyzing Verilog file "C:/Users/cse/Desktop/LaunchPad-Term-Project-/Flowrian/LaunchPad.v" into library work
@@ -140,77 +196,84 @@ Finished Parsing UCF File [C:/Users/cse/Desktop/LaunchPad-Term-Project-/ISE/Laun
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Phase 0 | Netlist Checksum: db5b6e2c
-open_rtl_design: Time (s): elapsed = 00:00:10 . Memory (MB): peak = 521.453 ; gain = 96.117
+Phase 0 | Netlist Checksum: 70ed0108
+open_rtl_design: Time (s): elapsed = 00:00:07 . Memory (MB): peak = 529.246 ; gain = 98.258
 update_compile_order -fileset sim_1
-startgroup
-set_property package_pin K2 [get_ports BTN1]
-endgroup
-startgroup
-set_property package_pin M3 [get_ports BTN2]
-endgroup
-set_property package_pin "" [get_ports [list  BTN4]]
-startgroup
-set_property package_pin M1 [get_ports BTN3]
-endgroup
-startgroup
-set_property package_pin N3 [get_ports BTN4]
-endgroup
-set_property package_pin "" [get_ports [list  BTN6]]
-startgroup
-set_property package_pin N1 [get_ports BTN5]
-endgroup
-startgroup
-set_property package_pin M2 [get_ports BTN6]
-endgroup
-startgroup
-set_property package_pin L3 [get_ports BTN7]
-endgroup
-startgroup
-set_property package_pin K4 [get_ports BTN8]
-endgroup
-startgroup
-set_property package_pin K1 [get_ports BTN9]
-endgroup
-startgroup
-set_property package_pin L1 [get_ports BTN_0]
-endgroup
-startgroup
-set_property package_pin K3 [get_ports BTN_sharp]
-endgroup
-startgroup
-set_property package_pin L4 [get_ports BTN_star]
-endgroup
 startgroup
 set_property package_pin AB16 [get_ports CLK]
 endgroup
 startgroup
-set_property package_pin V1 [get_ports Dip_1]
+set_property package_pin W14 [get_ports RST]
 endgroup
 startgroup
-set_property package_pin Y2 [get_ports Dip_2]
+set_property package_pin W3 [get_ports Dip_6]
 endgroup
 startgroup
-set_property package_pin U4 [get_ports Dip_3]
+set_property package_pin W1 [get_ports Dip_7]
 endgroup
 startgroup
-set_property package_pin R7 [get_ports Dip_4]
+set_property package_pin T4 [get_ports Dip_8]
 endgroup
 startgroup
-set_property package_pin W15 [get_ports Pout]
+set_property package_pin K8 [get_ports led_1]
+endgroup
+set_property package_pin "" [get_ports [list  led_1_B]]
+startgroup
+set_property package_pin M4 [get_ports led_2]
 endgroup
 startgroup
-set_property package_pin T4 [get_ports RST]
+set_property package_pin M6 [get_ports led_3]
 endgroup
-set_property package_pin "" [get_ports [list  RW]]
+startgroup
+set_property package_pin M8 [get_ports led_4]
+endgroup
+startgroup
+set_property package_pin L6 [get_ports led_5]
+endgroup
+startgroup
+set_property package_pin M5 [get_ports led_6]
+endgroup
+startgroup
+set_property package_pin M7 [get_ports led_7]
+endgroup
+startgroup
+set_property package_pin N4 [get_ports led_8]
+endgroup
+startgroup
+set_property package_pin U3 [get_ports led_1_B]
+endgroup
+set_property package_pin "" [get_ports [list  led_1_R]]
+startgroup
+set_property package_pin T1 [get_ports led_1_G]
+endgroup
+startgroup
+set_property package_pin T2 [get_ports led_1_R]
+endgroup
+startgroup
+set_property package_pin V2 [get_ports led_2_B]
+endgroup
+startgroup
+set_property package_pin V3 [get_ports led_2_G]
+endgroup
+startgroup
+set_property package_pin U1 [get_ports led_2_R]
+endgroup
+startgroup
+set_property package_pin M6 [get_ports led_3]
+endgroup
+startgroup
+set_property package_pin P1 [get_ports led_3_B]
+endgroup
+startgroup
+set_property package_pin P2 [get_ports led_3_G]
+endgroup
+startgroup
+set_property package_pin P3 [get_ports led_3_R]
+endgroup
+startgroup
+set_property package_pin T3 [get_ports led_4_B]
+endgroup
+startgroup
+set_property package_pin R1 [get_ports led_4_G]
+endgroup
 save_constraints
-exit
-ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
-HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
-HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
-HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
-HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
- (See C:/Users/cse/Desktop/LaunchPad-Term-Project-/ISE/LaunchPad\planAhead_pid3540.debug)
-ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
-INFO: [Common 17-206] Exiting PlanAhead at Tue Dec 11 15:32:03 2018...
-INFO: [Common 17-83] Releasing license: PlanAhead

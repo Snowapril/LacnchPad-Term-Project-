@@ -16,9 +16,6 @@ input Din_2;
 input Din_3;
 output Dout;
 
-wire  w0;
-wire  w1;
-wire  w2;
 wire [3:0] b3;
 wire  w4;
 wire  w5;
@@ -33,9 +30,14 @@ wire  w13;
 wire  w14;
 wire  w15;
 wire  w16;
+wire  w17;
+wire  w20;
+wire  w18;
+wire  w22;
+wire  w19;
 
-assign w1 = CLK;
-assign w2 = RST;
+assign w17 = CLK;
+assign w18 = RST;
 assign w4 = Din_0;
 assign w5 = Din_1;
 assign w8 = Din_4;
@@ -52,16 +54,9 @@ assign Dout = w16;
 
 Counter12
      s0 (
-      .CLK(w0),
-      .RST(w2),
-      .VAL(b3));
-
-Counter3
-     s1 (
-      .CR(w0),
-      .CLK(w1),
-      .RST(w2),
-      .VAL());
+      .VAL(b3),
+      .RST(w18),
+      .CLK(w19));
 
 Mux12bit_4
      s2 (
@@ -79,6 +74,25 @@ Mux12bit_4
       .D0(w14),
       .D_sharp(w15),
       .D_out(w16));
+
+Counter10
+     s3 (
+      .CLK(w17),
+      .CR(w20),
+      .RST(w18),
+      .CNT10());
+
+PNU_DFF
+     s4 (
+      .clock(w20),
+      .reset(w18),
+      .D(w22),
+      .Q(w19));
+
+PNU_NOT
+     s5 (
+      .o1(w22),
+      .i1(w19));
 
 endmodule
 

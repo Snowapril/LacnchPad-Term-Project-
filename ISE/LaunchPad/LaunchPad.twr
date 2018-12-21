@@ -37,23 +37,24 @@ Setup/Hold to clock CLK
             |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
 Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
 ------------+------------+------------+------------+------------+------------------+--------+
-BTN1        |    4.444(R)|      SLOW  |    3.159(R)|      SLOW  |CLK_BUFGP         |   0.000|
-BTN2        |    4.816(R)|      SLOW  |    2.791(R)|      SLOW  |CLK_BUFGP         |   0.000|
-BTN3        |    3.821(R)|      SLOW  |    3.642(R)|      SLOW  |CLK_BUFGP         |   0.000|
-BTN4        |    4.251(R)|      SLOW  |    3.541(R)|      SLOW  |CLK_BUFGP         |   0.000|
-BTN5        |    4.194(R)|      SLOW  |    3.825(R)|      SLOW  |CLK_BUFGP         |   0.000|
-BTN6        |    4.444(R)|      SLOW  |    2.948(R)|      SLOW  |CLK_BUFGP         |   0.000|
-BTN7        |    4.914(R)|      SLOW  |    3.131(R)|      SLOW  |CLK_BUFGP         |   0.000|
-BTN8        |    4.021(R)|      SLOW  |    2.779(R)|      SLOW  |CLK_BUFGP         |   0.000|
-BTN9        |    3.917(R)|      SLOW  |    3.414(R)|      SLOW  |CLK_BUFGP         |   0.000|
-BTN_0       |    4.103(R)|      SLOW  |    3.147(R)|      SLOW  |CLK_BUFGP         |   0.000|
-BTN_sharp   |    4.304(R)|      SLOW  |    2.825(R)|      SLOW  |CLK_BUFGP         |   0.000|
-BTN_star    |    4.922(R)|      SLOW  |    3.214(R)|      SLOW  |CLK_BUFGP         |   0.000|
-Dip_1       |    2.706(R)|      SLOW  |    3.931(R)|      SLOW  |CLK_BUFGP         |   0.000|
-Dip_2       |    4.449(R)|      SLOW  |    3.089(R)|      SLOW  |CLK_BUFGP         |   0.000|
-Dip_3       |    3.411(R)|      SLOW  |    3.623(R)|      SLOW  |CLK_BUFGP         |   0.000|
-Dip_4       |    0.510(R)|      FAST  |    2.791(R)|      SLOW  |CLK_BUFGP         |   0.000|
-RST         |    1.440(R)|      SLOW  |    4.035(R)|      SLOW  |CLK_BUFGP         |   0.000|
+BTN1        |    5.050(R)|      SLOW  |    1.861(R)|      SLOW  |CLK_BUFGP         |   0.000|
+BTN2        |    5.163(R)|      SLOW  |    2.540(R)|      SLOW  |CLK_BUFGP         |   0.000|
+BTN3        |    5.044(R)|      SLOW  |    2.980(R)|      SLOW  |CLK_BUFGP         |   0.000|
+BTN4        |    4.690(R)|      SLOW  |    3.402(R)|      SLOW  |CLK_BUFGP         |   0.000|
+BTN5        |    4.899(R)|      SLOW  |    3.430(R)|      SLOW  |CLK_BUFGP         |   0.000|
+BTN6        |    5.437(R)|      SLOW  |    4.180(R)|      SLOW  |CLK_BUFGP         |   0.000|
+BTN7        |    5.562(R)|      SLOW  |    2.624(R)|      SLOW  |CLK_BUFGP         |   0.000|
+BTN8        |    5.907(R)|      SLOW  |    3.459(R)|      SLOW  |CLK_BUFGP         |   0.000|
+BTN9        |    6.280(R)|      SLOW  |    1.585(R)|      SLOW  |CLK_BUFGP         |   0.000|
+BTN_0       |    4.695(R)|      SLOW  |    2.842(R)|      SLOW  |CLK_BUFGP         |   0.000|
+BTN_sharp   |    5.521(R)|      SLOW  |    2.984(R)|      SLOW  |CLK_BUFGP         |   0.000|
+BTN_star    |    4.724(R)|      SLOW  |    3.058(R)|      SLOW  |CLK_BUFGP         |   0.000|
+Dip_1       |    3.520(R)|      SLOW  |    4.416(R)|      SLOW  |CLK_BUFGP         |   0.000|
+Dip_2       |    4.017(R)|      SLOW  |    3.353(R)|      SLOW  |CLK_BUFGP         |   0.000|
+Dip_3       |    3.612(R)|      SLOW  |    4.050(R)|      SLOW  |CLK_BUFGP         |   0.000|
+Dip_4       |    1.784(R)|      SLOW  |    3.548(R)|      SLOW  |CLK_BUFGP         |   0.000|
+Dip_5       |    4.594(R)|      SLOW  |    2.635(R)|      SLOW  |CLK_BUFGP         |   0.000|
+RST         |    7.197(R)|      SLOW  |    4.259(R)|      SLOW  |CLK_BUFGP         |   0.000|
 ------------+------------+------------+------------+------------+------------------+--------+
 
 Clock CLK to Pad
@@ -61,24 +62,15 @@ Clock CLK to Pad
             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
 Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
-Accout<0>   |        14.061(R)|      SLOW  |         8.133(R)|      FAST  |CLK_BUFGP         |   0.000|
-Accout<1>   |        13.812(R)|      SLOW  |         8.001(R)|      FAST  |CLK_BUFGP         |   0.000|
-Accout<2>   |        14.432(R)|      SLOW  |         8.381(R)|      FAST  |CLK_BUFGP         |   0.000|
-Accout<3>   |        13.987(R)|      SLOW  |         8.132(R)|      FAST  |CLK_BUFGP         |   0.000|
-Accout<4>   |        14.061(R)|      SLOW  |         8.184(R)|      FAST  |CLK_BUFGP         |   0.000|
-Accout<5>   |        14.195(R)|      SLOW  |         8.266(R)|      FAST  |CLK_BUFGP         |   0.000|
-Accout<6>   |        14.107(R)|      SLOW  |         8.169(R)|      FAST  |CLK_BUFGP         |   0.000|
-Accout<7>   |        14.331(R)|      SLOW  |         8.309(R)|      FAST  |CLK_BUFGP         |   0.000|
-Accout<8>   |        13.919(R)|      SLOW  |         8.072(R)|      FAST  |CLK_BUFGP         |   0.000|
-Accout<9>   |        13.729(R)|      SLOW  |         7.962(R)|      FAST  |CLK_BUFGP         |   0.000|
-Accout<10>  |        14.344(R)|      SLOW  |         8.319(R)|      FAST  |CLK_BUFGP         |   0.000|
-Accout<11>  |        14.024(R)|      SLOW  |         8.108(R)|      FAST  |CLK_BUFGP         |   0.000|
-Dout<0>     |        17.236(R)|      SLOW  |         8.386(R)|      FAST  |CLK_BUFGP         |   0.000|
-Dout<1>     |        17.054(R)|      SLOW  |         8.328(R)|      FAST  |CLK_BUFGP         |   0.000|
-Dout<2>     |        16.781(R)|      SLOW  |         8.092(R)|      FAST  |CLK_BUFGP         |   0.000|
-Dout<3>     |        16.984(R)|      SLOW  |         8.224(R)|      FAST  |CLK_BUFGP         |   0.000|
-Pout        |        17.955(R)|      SLOW  |         9.447(R)|      FAST  |CLK_BUFGP         |   0.000|
-RW          |        15.990(R)|      SLOW  |         8.905(R)|      FAST  |CLK_BUFGP         |   0.000|
+Pout        |        20.439(R)|      SLOW  |         9.149(R)|      FAST  |CLK_BUFGP         |   0.000|
+com1        |        14.684(R)|      SLOW  |         8.000(R)|      FAST  |CLK_BUFGP         |   0.000|
+com2        |        13.174(R)|      SLOW  |         7.132(R)|      FAST  |CLK_BUFGP         |   0.000|
+com3        |        14.504(R)|      SLOW  |         7.937(R)|      FAST  |CLK_BUFGP         |   0.000|
+com4        |        12.763(R)|      SLOW  |         6.985(R)|      FAST  |CLK_BUFGP         |   0.000|
+com5        |        13.186(R)|      SLOW  |         7.245(R)|      FAST  |CLK_BUFGP         |   0.000|
+com6        |        13.309(R)|      SLOW  |         7.234(R)|      FAST  |CLK_BUFGP         |   0.000|
+com7        |        14.300(R)|      SLOW  |         7.812(R)|      FAST  |CLK_BUFGP         |   0.000|
+com8        |        13.390(R)|      SLOW  |         7.274(R)|      FAST  |CLK_BUFGP         |   0.000|
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
 
 Clock to Setup on destination clock CLK
@@ -86,43 +78,173 @@ Clock to Setup on destination clock CLK
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-CLK            |    3.859|         |         |         |
+CLK            |    6.546|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Pad to Pad
----------------+---------------+---------+
-Source Pad     |Destination Pad|  Delay  |
----------------+---------------+---------+
-BTN1           |Pout           |   12.937|
-BTN2           |Pout           |   13.654|
-BTN3           |Pout           |   12.748|
-BTN4           |Pout           |   12.630|
-BTN5           |Pout           |   12.439|
-BTN6           |Pout           |   13.487|
-BTN7           |Pout           |   13.287|
-BTN8           |Pout           |   12.690|
-BTN9           |Pout           |   12.666|
-BTN_sharp      |Pout           |   13.613|
-BTN_star       |Pout           |   13.201|
-Dip_1          |CE             |   12.444|
-Dip_1          |RW             |   14.454|
-Dip_2          |CE             |   10.386|
-Dip_2          |RW             |   12.396|
-Dip_3          |CE             |    9.422|
-Dip_3          |RW             |   11.432|
-Dip_4          |CE             |    9.807|
-Dip_4          |RW             |   11.817|
----------------+---------------+---------+
+---------------+----------------+---------+
+Source Pad     |Destination Pad |  Delay  |
+---------------+----------------+---------+
+BTN1           |led_1           |    9.960|
+BTN1           |led_2           |    8.523|
+BTN1           |led_3           |    8.790|
+BTN1           |led_4           |    8.927|
+BTN1           |led_5           |    8.615|
+BTN1           |led_6           |    8.574|
+BTN1           |led_7           |    8.518|
+BTN1           |led_8           |    9.092|
+BTN2           |Pout            |   17.669|
+BTN2           |led_1           |   10.087|
+BTN2           |led_2           |    8.170|
+BTN2           |led_3           |    7.624|
+BTN2           |led_4           |    8.494|
+BTN2           |led_5           |    8.323|
+BTN2           |led_6           |    8.169|
+BTN2           |led_7           |    8.672|
+BTN2           |led_8           |    7.671|
+BTN3           |Pout            |   17.880|
+BTN3           |led_1           |   10.104|
+BTN3           |led_2           |    8.677|
+BTN3           |led_3           |    8.379|
+BTN3           |led_4           |    8.816|
+BTN3           |led_5           |    8.071|
+BTN3           |led_6           |    8.429|
+BTN3           |led_7           |    8.691|
+BTN3           |led_8           |    8.814|
+BTN4           |Pout            |   17.547|
+BTN4           |led_1           |   10.767|
+BTN4           |led_2           |    9.126|
+BTN4           |led_3           |    9.035|
+BTN4           |led_4           |    9.048|
+BTN4           |led_5           |    8.754|
+BTN4           |led_6           |    8.763|
+BTN4           |led_7           |    9.046|
+BTN4           |led_8           |    8.878|
+BTN5           |Pout            |   17.149|
+BTN5           |led_1_B         |    7.371|
+BTN5           |led_1_G         |    7.763|
+BTN5           |led_1_R         |    7.447|
+BTN5           |led_2_B         |    7.860|
+BTN5           |led_2_G         |    9.436|
+BTN5           |led_2_R         |    7.198|
+BTN5           |led_3_B         |    7.763|
+BTN5           |led_3_G         |    7.947|
+BTN5           |led_3_R         |    7.600|
+BTN5           |led_4_B         |    8.868|
+BTN5           |led_4_G         |    7.727|
+BTN5           |led_4_R         |    7.751|
+BTN6           |Pout            |   18.101|
+BTN6           |single_segout<0>|   11.267|
+BTN6           |single_segout<1>|   10.601|
+BTN6           |single_segout<2>|   10.780|
+BTN6           |single_segout<3>|   11.262|
+BTN6           |single_segout<4>|   10.578|
+BTN6           |single_segout<5>|   11.582|
+BTN6           |single_segout<6>|   11.582|
+BTN7           |Pout            |   18.411|
+BTN7           |led_1_G         |    7.302|
+BTN7           |led_1_R         |    7.415|
+BTN7           |led_2_B         |    7.869|
+BTN7           |led_2_G         |    9.435|
+BTN7           |led_3_B         |    7.467|
+BTN7           |led_3_G         |    7.872|
+BTN7           |led_4_G         |    7.456|
+BTN7           |led_4_R         |    7.894|
+BTN8           |Pout            |   19.118|
+BTN8           |segout<3>       |   10.026|
+BTN8           |segout<6>       |    8.163|
+BTN9           |Pout            |   15.142|
+BTN9           |led_1_B         |    7.306|
+BTN9           |led_1_G         |    7.596|
+BTN9           |led_1_R         |    7.313|
+BTN9           |led_2_B         |    8.214|
+BTN9           |led_2_G         |    9.414|
+BTN9           |led_2_R         |    7.752|
+BTN9           |led_3_B         |    7.527|
+BTN9           |led_3_G         |    7.865|
+BTN9           |led_3_R         |    8.368|
+BTN9           |led_4_B         |   10.077|
+BTN9           |led_4_G         |    7.610|
+BTN9           |led_4_R         |    6.789|
+BTN_0          |Pout            |   18.278|
+BTN_0          |led_1_B         |    7.619|
+BTN_0          |led_1_G         |    7.904|
+BTN_0          |led_1_R         |    7.744|
+BTN_0          |led_2_B         |    8.477|
+BTN_0          |led_2_G         |    9.386|
+BTN_0          |led_2_R         |    8.103|
+BTN_0          |led_3_B         |    8.238|
+BTN_0          |led_3_G         |    8.067|
+BTN_0          |led_3_R         |    8.354|
+BTN_0          |led_4_B         |    9.719|
+BTN_0          |led_4_G         |    8.055|
+BTN_0          |led_4_R         |    6.915|
+BTN_sharp      |Pout            |   18.570|
+BTN_sharp      |segout<5>       |    8.198|
+BTN_sharp      |segout<6>       |    8.333|
+BTN_star       |Pout            |   17.118|
+BTN_star       |led_1           |    9.823|
+BTN_star       |led_2           |    8.346|
+BTN_star       |led_3           |    8.571|
+BTN_star       |led_4           |    8.597|
+BTN_star       |led_5           |    8.011|
+BTN_star       |led_6           |    8.127|
+BTN_star       |led_7           |    8.450|
+BTN_star       |led_8           |    8.687|
+Dip_1          |led_1           |   11.107|
+Dip_1          |led_2           |    9.466|
+Dip_1          |led_3           |    9.375|
+Dip_1          |led_4           |    9.388|
+Dip_1          |led_5           |    9.094|
+Dip_1          |led_6           |    9.103|
+Dip_1          |led_7           |    9.386|
+Dip_1          |led_8           |    9.218|
+Dip_2          |led_1           |   13.820|
+Dip_2          |led_2           |   12.179|
+Dip_2          |led_3           |   12.088|
+Dip_2          |led_4           |   12.101|
+Dip_2          |led_5           |   11.807|
+Dip_2          |led_6           |   11.816|
+Dip_2          |led_7           |   12.099|
+Dip_2          |led_8           |   11.931|
+Dip_3          |led_1           |   13.231|
+Dip_3          |led_2           |   11.590|
+Dip_3          |led_3           |   11.499|
+Dip_3          |led_4           |   11.512|
+Dip_3          |led_5           |   11.218|
+Dip_3          |led_6           |   11.227|
+Dip_3          |led_7           |   11.510|
+Dip_3          |led_8           |   11.342|
+Dip_5          |led_1           |   14.626|
+Dip_5          |led_2           |   12.985|
+Dip_5          |led_3           |   12.894|
+Dip_5          |led_4           |   12.907|
+Dip_5          |led_5           |   12.613|
+Dip_5          |led_6           |   12.622|
+Dip_5          |led_7           |   12.905|
+Dip_5          |led_8           |   12.737|
+Dip_6          |Pout            |   15.764|
+Dip_7          |Pout            |   14.452|
+Dip_8          |Pout            |   14.650|
+RST            |led_1           |   17.229|
+RST            |led_2           |   15.588|
+RST            |led_3           |   15.497|
+RST            |led_4           |   15.510|
+RST            |led_5           |   15.216|
+RST            |led_6           |   15.225|
+RST            |led_7           |   15.508|
+RST            |led_8           |   15.340|
+---------------+----------------+---------+
 
 
-Analysis completed Tue Dec 11 16:12:55 2018 
+Analysis completed Fri Dec 21 17:03:27 2018 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 190 MB
+Peak Memory Usage: 205 MB
 
 
 

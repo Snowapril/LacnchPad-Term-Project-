@@ -8,107 +8,6 @@ NumberOfVertPapaers 4
 Parameters
 End
 Wires
-Wire Name: w5
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 56 ,Y1: 936 ,X2: 832 ,Y2: 936
-Edge X1: 56 ,Y1: 64 ,X2: 56 ,Y2: 936
-Edge X1: 832 ,Y1: 856 ,X2: 832 ,Y2: 936
-Edge X1: 832 ,Y1: 784 ,X2: 832 ,Y2: 856
-Edge X1: 832 ,Y1: 856 ,X2: 840 ,Y2: 856
-Edge X1: 832 ,Y1: 712 ,X2: 832 ,Y2: 784
-Edge X1: 832 ,Y1: 784 ,X2: 840 ,Y2: 784
-Edge X1: 832 ,Y1: 640 ,X2: 832 ,Y2: 712
-Edge X1: 832 ,Y1: 712 ,X2: 840 ,Y2: 712
-Edge X1: 832 ,Y1: 568 ,X2: 832 ,Y2: 640
-Edge X1: 832 ,Y1: 640 ,X2: 840 ,Y2: 640
-Edge X1: 832 ,Y1: 496 ,X2: 832 ,Y2: 568
-Edge X1: 832 ,Y1: 568 ,X2: 840 ,Y2: 568
-Edge X1: 832 ,Y1: 424 ,X2: 832 ,Y2: 496
-Edge X1: 832 ,Y1: 496 ,X2: 840 ,Y2: 496
-Edge X1: 832 ,Y1: 352 ,X2: 832 ,Y2: 424
-Edge X1: 832 ,Y1: 424 ,X2: 840 ,Y2: 424
-Edge X1: 832 ,Y1: 280 ,X2: 832 ,Y2: 352
-Edge X1: 832 ,Y1: 352 ,X2: 840 ,Y2: 352
-Edge X1: 832 ,Y1: 208 ,X2: 832 ,Y2: 280
-Edge X1: 832 ,Y1: 280 ,X2: 840 ,Y2: 280
-Edge X1: 832 ,Y1: 136 ,X2: 832 ,Y2: 208
-Edge X1: 832 ,Y1: 208 ,X2: 840 ,Y2: 208
-Edge X1: 832 ,Y1: 64 ,X2: 832 ,Y2: 136
-Edge X1: 832 ,Y1: 136 ,X2: 840 ,Y2: 136
-Edge X1: 832 ,Y1: 64 ,X2: 840 ,Y2: 64
-End
-Branches
-End
-Wire Name: w4
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 80 ,Y1: 64 ,X2: 80 ,Y2: 928
-Edge X1: 80 ,Y1: 928 ,X2: 824 ,Y2: 928
-Edge X1: 824 ,Y1: 904 ,X2: 824 ,Y2: 928
-Edge X1: 824 ,Y1: 832 ,X2: 824 ,Y2: 904
-Edge X1: 824 ,Y1: 904 ,X2: 840 ,Y2: 904
-Edge X1: 824 ,Y1: 760 ,X2: 824 ,Y2: 832
-Edge X1: 824 ,Y1: 832 ,X2: 840 ,Y2: 832
-Edge X1: 824 ,Y1: 688 ,X2: 824 ,Y2: 760
-Edge X1: 824 ,Y1: 760 ,X2: 840 ,Y2: 760
-Edge X1: 824 ,Y1: 616 ,X2: 824 ,Y2: 688
-Edge X1: 824 ,Y1: 688 ,X2: 840 ,Y2: 688
-Edge X1: 824 ,Y1: 544 ,X2: 824 ,Y2: 616
-Edge X1: 824 ,Y1: 616 ,X2: 840 ,Y2: 616
-Edge X1: 824 ,Y1: 472 ,X2: 824 ,Y2: 544
-Edge X1: 824 ,Y1: 544 ,X2: 840 ,Y2: 544
-Edge X1: 824 ,Y1: 400 ,X2: 824 ,Y2: 472
-Edge X1: 824 ,Y1: 472 ,X2: 840 ,Y2: 472
-Edge X1: 824 ,Y1: 328 ,X2: 824 ,Y2: 400
-Edge X1: 824 ,Y1: 400 ,X2: 840 ,Y2: 400
-Edge X1: 824 ,Y1: 256 ,X2: 824 ,Y2: 328
-Edge X1: 824 ,Y1: 328 ,X2: 840 ,Y2: 328
-Edge X1: 824 ,Y1: 184 ,X2: 824 ,Y2: 256
-Edge X1: 824 ,Y1: 256 ,X2: 840 ,Y2: 256
-Edge X1: 824 ,Y1: 112 ,X2: 824 ,Y2: 184
-Edge X1: 824 ,Y1: 184 ,X2: 840 ,Y2: 184
-Edge X1: 824 ,Y1: 112 ,X2: 840 ,Y2: 112
-End
-Branches
-End
-Wire Name: b4
-LV: 3
-RV: 0
-Width: 4
-Edges
-Edge X1: 128 ,Y1: 912 ,X2: 816 ,Y2: 912
-Edge X1: 816 ,Y1: 888 ,X2: 816 ,Y2: 912
-Edge X1: 816 ,Y1: 888 ,X2: 840 ,Y2: 888
-Edge X1: 816 ,Y1: 816 ,X2: 816 ,Y2: 888
-Edge X1: 816 ,Y1: 744 ,X2: 816 ,Y2: 816
-Edge X1: 816 ,Y1: 816 ,X2: 840 ,Y2: 816
-Edge X1: 816 ,Y1: 672 ,X2: 816 ,Y2: 744
-Edge X1: 816 ,Y1: 744 ,X2: 840 ,Y2: 744
-Edge X1: 816 ,Y1: 600 ,X2: 816 ,Y2: 672
-Edge X1: 816 ,Y1: 672 ,X2: 840 ,Y2: 672
-Edge X1: 816 ,Y1: 528 ,X2: 816 ,Y2: 600
-Edge X1: 816 ,Y1: 600 ,X2: 840 ,Y2: 600
-Edge X1: 816 ,Y1: 456 ,X2: 816 ,Y2: 528
-Edge X1: 816 ,Y1: 528 ,X2: 840 ,Y2: 528
-Edge X1: 816 ,Y1: 384 ,X2: 816 ,Y2: 456
-Edge X1: 816 ,Y1: 456 ,X2: 840 ,Y2: 456
-Edge X1: 816 ,Y1: 312 ,X2: 816 ,Y2: 384
-Edge X1: 816 ,Y1: 384 ,X2: 840 ,Y2: 384
-Edge X1: 816 ,Y1: 240 ,X2: 816 ,Y2: 312
-Edge X1: 816 ,Y1: 312 ,X2: 840 ,Y2: 312
-Edge X1: 816 ,Y1: 168 ,X2: 816 ,Y2: 240
-Edge X1: 816 ,Y1: 240 ,X2: 840 ,Y2: 240
-Edge X1: 816 ,Y1: 96 ,X2: 816 ,Y2: 168
-Edge X1: 816 ,Y1: 168 ,X2: 840 ,Y2: 168
-Edge X1: 816 ,Y1: 96 ,X2: 840 ,Y2: 96
-End
-Branches
-End
 Wire Name: w6
 LV: 0
 RV: 0
@@ -142,15 +41,6 @@ RV: 0
 Width: 1
 Edges
 Edge X1: 808 ,Y1: 296 ,X2: 840 ,Y2: 296
-End
-Branches
-End
-Wire Name: w10
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 808 ,Y1: 368 ,X2: 840 ,Y2: 368
 End
 Branches
 End
@@ -196,15 +86,6 @@ RV: 0
 Width: 1
 Edges
 Edge X1: 808 ,Y1: 728 ,X2: 840 ,Y2: 728
-End
-Branches
-End
-Wire Name: w16
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 808 ,Y1: 800 ,X2: 840 ,Y2: 800
 End
 Branches
 End
@@ -349,190 +230,6 @@ Edge X1: 336 ,Y1: 112 ,X2: 664 ,Y2: 112
 End
 Branches
 End
-Wire Name: b29
-LV: 3
-RV: 0
-Width: 4
-Edges
-Edge X1: 992 ,Y1: 64 ,X2: 1032 ,Y2: 64
-Edge X1: 1032 ,Y1: 64 ,X2: 1032 ,Y2: 128
-Edge X1: 1032 ,Y1: 128 ,X2: 1112 ,Y2: 128
-End
-Branches
-End
-Wire Name: b30
-LV: 3
-RV: 0
-Width: 4
-Edges
-Edge X1: 992 ,Y1: 136 ,X2: 1104 ,Y2: 136
-Edge X1: 1104 ,Y1: 136 ,X2: 1104 ,Y2: 144
-Edge X1: 1104 ,Y1: 144 ,X2: 1112 ,Y2: 144
-End
-Branches
-End
-Wire Name: b32
-LV: 3
-RV: 0
-Width: 4
-Edges
-Edge X1: 992 ,Y1: 280 ,X2: 1096 ,Y2: 280
-Edge X1: 1096 ,Y1: 272 ,X2: 1096 ,Y2: 280
-Edge X1: 1096 ,Y1: 272 ,X2: 1112 ,Y2: 272
-End
-Branches
-End
-Wire Name: b33
-LV: 3
-RV: 0
-Width: 4
-Edges
-Edge X1: 992 ,Y1: 352 ,X2: 1096 ,Y2: 352
-Edge X1: 1096 ,Y1: 288 ,X2: 1096 ,Y2: 352
-Edge X1: 1096 ,Y1: 288 ,X2: 1112 ,Y2: 288
-End
-Branches
-End
-Wire Name: b34
-LV: 3
-RV: 0
-Width: 4
-Edges
-Edge X1: 992 ,Y1: 424 ,X2: 1088 ,Y2: 424
-Edge X1: 1088 ,Y1: 304 ,X2: 1088 ,Y2: 424
-Edge X1: 1088 ,Y1: 304 ,X2: 1112 ,Y2: 304
-End
-Branches
-End
-Wire Name: b35
-LV: 3
-RV: 0
-Width: 4
-Edges
-Edge X1: 1080 ,Y1: 320 ,X2: 1112 ,Y2: 320
-Edge X1: 1080 ,Y1: 320 ,X2: 1080 ,Y2: 496
-Edge X1: 992 ,Y1: 496 ,X2: 1080 ,Y2: 496
-End
-Branches
-End
-Wire Name: b36
-LV: 3
-RV: 0
-Width: 4
-Edges
-Edge X1: 1104 ,Y1: 352 ,X2: 1112 ,Y2: 352
-Edge X1: 1104 ,Y1: 352 ,X2: 1104 ,Y2: 640
-Edge X1: 992 ,Y1: 640 ,X2: 1104 ,Y2: 640
-End
-Branches
-End
-Wire Name: b37
-LV: 3
-RV: 0
-Width: 4
-Edges
-Edge X1: 1072 ,Y1: 336 ,X2: 1112 ,Y2: 336
-Edge X1: 1072 ,Y1: 336 ,X2: 1072 ,Y2: 568
-Edge X1: 992 ,Y1: 568 ,X2: 1072 ,Y2: 568
-End
-Branches
-End
-Wire Name: b38
-LV: 3
-RV: 0
-Width: 4
-Edges
-Edge X1: 1064 ,Y1: 368 ,X2: 1112 ,Y2: 368
-Edge X1: 1064 ,Y1: 368 ,X2: 1064 ,Y2: 712
-Edge X1: 992 ,Y1: 712 ,X2: 1064 ,Y2: 712
-End
-Branches
-End
-Wire Name: b39
-LV: 3
-RV: 0
-Width: 4
-Edges
-Edge X1: 992 ,Y1: 784 ,X2: 1056 ,Y2: 784
-Edge X1: 1056 ,Y1: 160 ,X2: 1056 ,Y2: 784
-Edge X1: 1056 ,Y1: 160 ,X2: 1112 ,Y2: 160
-End
-Branches
-End
-Wire Name: b41
-LV: 3
-RV: 0
-Width: 4
-Edges
-Edge X1: 136 ,Y1: 64 ,X2: 152 ,Y2: 64
-Edge X1: 152 ,Y1: 32 ,X2: 152 ,Y2: 64
-Edge X1: 152 ,Y1: 64 ,X2: 168 ,Y2: 64
-Edge X1: 152 ,Y1: 32 ,X2: 1072 ,Y2: 32
-Edge X1: 1072 ,Y1: 32 ,X2: 1072 ,Y2: 120
-End
-Branches
-Branch Left: 1072 ,Top: 112
-BranchStrList
-3
-End
-Branch Left: 1072 ,Top: 96
-BranchStrList
-2
-End
-Branch Left: 1072 ,Top: 80
-BranchStrList
-1
-End
-Branch Left: 1072 ,Top: 64
-BranchStrList
-0
-End
-End
-Wire Name: w41
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 1072 ,Y1: 112 ,X2: 1112 ,Y2: 112
-End
-Branches
-End
-Wire Name: w42
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 1072 ,Y1: 96 ,X2: 1112 ,Y2: 96
-End
-Branches
-End
-Wire Name: w43
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 1072 ,Y1: 80 ,X2: 1112 ,Y2: 80
-End
-Branches
-End
-Wire Name: w44
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 1072 ,Y1: 64 ,X2: 1112 ,Y2: 64
-End
-Branches
-End
-Wire Name: b45
-LV: 3
-RV: 0
-Width: 4
-Edges
-Edge X1: 1280 ,Y1: 64 ,X2: 1288 ,Y2: 64
-End
-Branches
-End
 Wire Name: w18
 LV: 0
 RV: 0
@@ -567,33 +264,274 @@ Edge X1: 736 ,Y1: 88 ,X2: 744 ,Y2: 88
 End
 Branches
 End
-Wire Name: b46
-LV: 3
+Wire Name: w16
+LV: 0
 RV: 0
-Width: 4
+Width: 1
 Edges
-Edge X1: 1096 ,Y1: 192 ,X2: 1112 ,Y2: 192
-Edge X1: 1096 ,Y1: 176 ,X2: 1096 ,Y2: 192
-Edge X1: 1048 ,Y1: 176 ,X2: 1096 ,Y2: 176
-Edge X1: 1096 ,Y1: 176 ,X2: 1112 ,Y2: 176
-Edge X1: 1048 ,Y1: 176 ,X2: 1048 ,Y2: 856
-Edge X1: 992 ,Y1: 856 ,X2: 1048 ,Y2: 856
+Edge X1: 808 ,Y1: 800 ,X2: 840 ,Y2: 800
 End
 Branches
 End
-Wire Name: b47
+Wire Name: w5
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 56 ,Y1: 936 ,X2: 832 ,Y2: 936
+Edge X1: 56 ,Y1: 64 ,X2: 56 ,Y2: 936
+Edge X1: 832 ,Y1: 856 ,X2: 832 ,Y2: 936
+Edge X1: 832 ,Y1: 784 ,X2: 832 ,Y2: 856
+Edge X1: 832 ,Y1: 856 ,X2: 840 ,Y2: 856
+Edge X1: 832 ,Y1: 712 ,X2: 832 ,Y2: 784
+Edge X1: 832 ,Y1: 784 ,X2: 840 ,Y2: 784
+Edge X1: 832 ,Y1: 640 ,X2: 832 ,Y2: 712
+Edge X1: 832 ,Y1: 712 ,X2: 840 ,Y2: 712
+Edge X1: 832 ,Y1: 568 ,X2: 832 ,Y2: 640
+Edge X1: 832 ,Y1: 640 ,X2: 840 ,Y2: 640
+Edge X1: 832 ,Y1: 496 ,X2: 832 ,Y2: 568
+Edge X1: 832 ,Y1: 568 ,X2: 840 ,Y2: 568
+Edge X1: 832 ,Y1: 424 ,X2: 832 ,Y2: 496
+Edge X1: 832 ,Y1: 496 ,X2: 840 ,Y2: 496
+Edge X1: 832 ,Y1: 352 ,X2: 832 ,Y2: 424
+Edge X1: 832 ,Y1: 424 ,X2: 840 ,Y2: 424
+Edge X1: 832 ,Y1: 280 ,X2: 832 ,Y2: 352
+Edge X1: 832 ,Y1: 352 ,X2: 840 ,Y2: 352
+Edge X1: 832 ,Y1: 208 ,X2: 832 ,Y2: 280
+Edge X1: 832 ,Y1: 280 ,X2: 840 ,Y2: 280
+Edge X1: 832 ,Y1: 136 ,X2: 832 ,Y2: 208
+Edge X1: 832 ,Y1: 208 ,X2: 840 ,Y2: 208
+Edge X1: 832 ,Y1: 64 ,X2: 832 ,Y2: 136
+Edge X1: 832 ,Y1: 136 ,X2: 840 ,Y2: 136
+Edge X1: 832 ,Y1: 64 ,X2: 840 ,Y2: 64
+End
+Branches
+End
+Wire Name: w10
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 808 ,Y1: 368 ,X2: 840 ,Y2: 368
+End
+Branches
+End
+Wire Name: b48
+LV: 11
+RV: 0
+Width: 12
+Edges
+Edge X1: 128 ,Y1: 912 ,X2: 816 ,Y2: 912
+Edge X1: 816 ,Y1: 888 ,X2: 816 ,Y2: 912
+Edge X1: 816 ,Y1: 816 ,X2: 816 ,Y2: 888
+Edge X1: 816 ,Y1: 888 ,X2: 840 ,Y2: 888
+Edge X1: 816 ,Y1: 744 ,X2: 816 ,Y2: 816
+Edge X1: 816 ,Y1: 816 ,X2: 840 ,Y2: 816
+Edge X1: 816 ,Y1: 672 ,X2: 816 ,Y2: 744
+Edge X1: 816 ,Y1: 744 ,X2: 840 ,Y2: 744
+Edge X1: 816 ,Y1: 600 ,X2: 816 ,Y2: 672
+Edge X1: 816 ,Y1: 672 ,X2: 840 ,Y2: 672
+Edge X1: 816 ,Y1: 528 ,X2: 816 ,Y2: 600
+Edge X1: 816 ,Y1: 600 ,X2: 840 ,Y2: 600
+Edge X1: 816 ,Y1: 528 ,X2: 840 ,Y2: 528
+Edge X1: 816 ,Y1: 456 ,X2: 816 ,Y2: 528
+Edge X1: 816 ,Y1: 384 ,X2: 816 ,Y2: 456
+Edge X1: 816 ,Y1: 456 ,X2: 840 ,Y2: 456
+Edge X1: 816 ,Y1: 312 ,X2: 816 ,Y2: 384
+Edge X1: 816 ,Y1: 384 ,X2: 840 ,Y2: 384
+Edge X1: 816 ,Y1: 240 ,X2: 816 ,Y2: 312
+Edge X1: 816 ,Y1: 312 ,X2: 840 ,Y2: 312
+Edge X1: 816 ,Y1: 168 ,X2: 816 ,Y2: 240
+Edge X1: 816 ,Y1: 240 ,X2: 840 ,Y2: 240
+Edge X1: 816 ,Y1: 96 ,X2: 816 ,Y2: 168
+Edge X1: 816 ,Y1: 168 ,X2: 840 ,Y2: 168
+Edge X1: 816 ,Y1: 96 ,X2: 840 ,Y2: 96
+End
+Branches
+End
+Wire Name: b31
+LV: 11
+RV: 0
+Width: 12
+Edges
+Edge X1: 1024 ,Y1: 64 ,X2: 1136 ,Y2: 64
+End
+Branches
+End
+Wire Name: b32
+LV: 11
+RV: 0
+Width: 12
+Edges
+Edge X1: 1024 ,Y1: 80 ,X2: 1024 ,Y2: 136
+Edge X1: 1024 ,Y1: 80 ,X2: 1136 ,Y2: 80
+End
+Branches
+End
+Wire Name: b33
+LV: 11
+RV: 0
+Width: 12
+Edges
+Edge X1: 1024 ,Y1: 208 ,X2: 1032 ,Y2: 208
+Edge X1: 1032 ,Y1: 128 ,X2: 1032 ,Y2: 208
+Edge X1: 1032 ,Y1: 128 ,X2: 1136 ,Y2: 128
+End
+Branches
+End
+Wire Name: b34
+LV: 11
+RV: 0
+Width: 12
+Edges
+Edge X1: 1024 ,Y1: 280 ,X2: 1040 ,Y2: 280
+Edge X1: 1040 ,Y1: 144 ,X2: 1040 ,Y2: 280
+Edge X1: 1040 ,Y1: 144 ,X2: 1136 ,Y2: 144
+End
+Branches
+End
+Wire Name: b35
+LV: 11
+RV: 0
+Width: 12
+Edges
+Edge X1: 1024 ,Y1: 352 ,X2: 1048 ,Y2: 352
+Edge X1: 1048 ,Y1: 160 ,X2: 1048 ,Y2: 352
+Edge X1: 1048 ,Y1: 160 ,X2: 1136 ,Y2: 160
+End
+Branches
+End
+Wire Name: b36
+LV: 11
+RV: 0
+Width: 12
+Edges
+Edge X1: 1024 ,Y1: 424 ,X2: 1056 ,Y2: 424
+Edge X1: 1056 ,Y1: 176 ,X2: 1056 ,Y2: 424
+Edge X1: 1056 ,Y1: 176 ,X2: 1136 ,Y2: 176
+End
+Branches
+End
+Wire Name: b37
+LV: 11
+RV: 0
+Width: 12
+Edges
+Edge X1: 1024 ,Y1: 496 ,X2: 1064 ,Y2: 496
+Edge X1: 1064 ,Y1: 192 ,X2: 1064 ,Y2: 496
+Edge X1: 1064 ,Y1: 192 ,X2: 1136 ,Y2: 192
+End
+Branches
+End
+Wire Name: b38
+LV: 11
+RV: 0
+Width: 12
+Edges
+Edge X1: 1024 ,Y1: 568 ,X2: 1072 ,Y2: 568
+Edge X1: 1072 ,Y1: 208 ,X2: 1072 ,Y2: 568
+Edge X1: 1072 ,Y1: 208 ,X2: 1136 ,Y2: 208
+End
+Branches
+End
+Wire Name: b39
+LV: 11
+RV: 0
+Width: 12
+Edges
+Edge X1: 1024 ,Y1: 640 ,X2: 1080 ,Y2: 640
+Edge X1: 1080 ,Y1: 224 ,X2: 1080 ,Y2: 640
+Edge X1: 1080 ,Y1: 224 ,X2: 1136 ,Y2: 224
+End
+Branches
+End
+Wire Name: b40
+LV: 11
+RV: 0
+Width: 12
+Edges
+Edge X1: 1024 ,Y1: 712 ,X2: 1088 ,Y2: 712
+Edge X1: 1088 ,Y1: 240 ,X2: 1088 ,Y2: 712
+Edge X1: 1088 ,Y1: 240 ,X2: 1136 ,Y2: 240
+End
+Branches
+End
+Wire Name: b41
+LV: 11
+RV: 0
+Width: 12
+Edges
+Edge X1: 1024 ,Y1: 784 ,X2: 1096 ,Y2: 784
+Edge X1: 1096 ,Y1: 96 ,X2: 1096 ,Y2: 784
+Edge X1: 1096 ,Y1: 96 ,X2: 1136 ,Y2: 96
+End
+Branches
+End
+Wire Name: b42
+LV: 11
+RV: 0
+Width: 12
+Edges
+Edge X1: 1024 ,Y1: 856 ,X2: 1104 ,Y2: 856
+Edge X1: 1104 ,Y1: 112 ,X2: 1104 ,Y2: 856
+Edge X1: 1104 ,Y1: 112 ,X2: 1136 ,Y2: 112
+End
+Branches
+End
+Wire Name: b43
 LV: 3
 RV: 0
 Width: 4
 Edges
-Edge X1: 992 ,Y1: 208 ,X2: 1096 ,Y2: 208
-Edge X1: 1096 ,Y1: 208 ,X2: 1112 ,Y2: 208
-Edge X1: 1096 ,Y1: 208 ,X2: 1096 ,Y2: 224
-Edge X1: 1096 ,Y1: 224 ,X2: 1112 ,Y2: 224
-Edge X1: 1096 ,Y1: 224 ,X2: 1096 ,Y2: 240
-Edge X1: 1096 ,Y1: 240 ,X2: 1096 ,Y2: 256
-Edge X1: 1096 ,Y1: 240 ,X2: 1112 ,Y2: 240
-Edge X1: 1096 ,Y1: 256 ,X2: 1112 ,Y2: 256
+Edge X1: 136 ,Y1: 64 ,X2: 152 ,Y2: 64
+Edge X1: 152 ,Y1: 32 ,X2: 152 ,Y2: 64
+Edge X1: 152 ,Y1: 64 ,X2: 168 ,Y2: 64
+Edge X1: 152 ,Y1: 32 ,X2: 1072 ,Y2: 32
+Edge X1: 1072 ,Y1: 32 ,X2: 1072 ,Y2: 48
+Edge X1: 1072 ,Y1: 48 ,X2: 1136 ,Y2: 48
+End
+Branches
+End
+Wire Name: b44
+LV: 11
+RV: 0
+Width: 12
+Edges
+Edge X1: 1336 ,Y1: 48 ,X2: 1368 ,Y2: 48
+End
+Branches
+End
+Wire Name: w41
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 824 ,Y1: 688 ,X2: 824 ,Y2: 760
+Edge X1: 824 ,Y1: 616 ,X2: 824 ,Y2: 688
+Edge X1: 824 ,Y1: 688 ,X2: 840 ,Y2: 688
+Edge X1: 824 ,Y1: 760 ,X2: 840 ,Y2: 760
+Edge X1: 824 ,Y1: 760 ,X2: 824 ,Y2: 832
+Edge X1: 824 ,Y1: 832 ,X2: 824 ,Y2: 904
+Edge X1: 824 ,Y1: 832 ,X2: 840 ,Y2: 832
+Edge X1: 824 ,Y1: 904 ,X2: 824 ,Y2: 928
+Edge X1: 824 ,Y1: 904 ,X2: 840 ,Y2: 904
+Edge X1: 80 ,Y1: 928 ,X2: 824 ,Y2: 928
+Edge X1: 80 ,Y1: 64 ,X2: 80 ,Y2: 928
+Edge X1: 824 ,Y1: 544 ,X2: 824 ,Y2: 616
+Edge X1: 824 ,Y1: 616 ,X2: 840 ,Y2: 616
+Edge X1: 824 ,Y1: 472 ,X2: 824 ,Y2: 544
+Edge X1: 824 ,Y1: 544 ,X2: 840 ,Y2: 544
+Edge X1: 824 ,Y1: 400 ,X2: 824 ,Y2: 472
+Edge X1: 824 ,Y1: 472 ,X2: 840 ,Y2: 472
+Edge X1: 824 ,Y1: 328 ,X2: 824 ,Y2: 400
+Edge X1: 824 ,Y1: 400 ,X2: 840 ,Y2: 400
+Edge X1: 824 ,Y1: 256 ,X2: 824 ,Y2: 328
+Edge X1: 824 ,Y1: 328 ,X2: 840 ,Y2: 328
+Edge X1: 824 ,Y1: 184 ,X2: 824 ,Y2: 256
+Edge X1: 824 ,Y1: 256 ,X2: 840 ,Y2: 256
+Edge X1: 824 ,Y1: 112 ,X2: 824 ,Y2: 184
+Edge X1: 824 ,Y1: 184 ,X2: 840 ,Y2: 184
+Edge X1: 824 ,Y1: 112 ,X2: 840 ,Y2: 112
 End
 Branches
 End
@@ -601,9 +539,9 @@ End
 Ports
 Port Left: 128 Top: 912 ,Orientation: 0
 Portname: Din ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
-3
+11
 ,Width:
-4
+12
 ,RV:
 0
 Port Left: 104 Top: 64 ,Orientation: 3
@@ -634,11 +572,11 @@ Portname: Address ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 0 
 4
 ,RV:
 0
-Port Left: 1288 Top: 64 ,Orientation: 0
+Port Left: 1368 Top: 48 ,Orientation: 0
 Portname: Dout ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
-3
+11
 ,Width:
-4
+12
 ,RV:
 0
 End
@@ -647,78 +585,6 @@ Symbol Left: 192 Top: 56
 Name: s0
 LibraryName: (NoLibraryName)
 IpName: Decoder4bits
-SymbolParameters
-End
-Symbol Left: 864 Top: 56
-Name: s1
-LibraryName: (NoLibraryName)
-IpName: register
-SymbolParameters
-End
-Symbol Left: 864 Top: 128
-Name: s2
-LibraryName: (NoLibraryName)
-IpName: register
-SymbolParameters
-End
-Symbol Left: 864 Top: 200
-Name: s3
-LibraryName: (NoLibraryName)
-IpName: register
-SymbolParameters
-End
-Symbol Left: 864 Top: 272
-Name: s4
-LibraryName: (NoLibraryName)
-IpName: register
-SymbolParameters
-End
-Symbol Left: 864 Top: 344
-Name: s5
-LibraryName: (NoLibraryName)
-IpName: register
-SymbolParameters
-End
-Symbol Left: 864 Top: 416
-Name: s6
-LibraryName: (NoLibraryName)
-IpName: register
-SymbolParameters
-End
-Symbol Left: 864 Top: 488
-Name: s7
-LibraryName: (NoLibraryName)
-IpName: register
-SymbolParameters
-End
-Symbol Left: 864 Top: 560
-Name: s8
-LibraryName: (NoLibraryName)
-IpName: register
-SymbolParameters
-End
-Symbol Left: 864 Top: 632
-Name: s9
-LibraryName: (NoLibraryName)
-IpName: register
-SymbolParameters
-End
-Symbol Left: 864 Top: 704
-Name: s10
-LibraryName: (NoLibraryName)
-IpName: register
-SymbolParameters
-End
-Symbol Left: 864 Top: 776
-Name: s11
-LibraryName: (NoLibraryName)
-IpName: register
-SymbolParameters
-End
-Symbol Left: 864 Top: 848
-Name: s12
-LibraryName: (NoLibraryName)
-IpName: register
 SymbolParameters
 End
 Symbol Left: 744 Top: 64
@@ -781,22 +647,94 @@ LibraryName: PNULib
 IpName: PNU_AND2
 SymbolParameters
 End
-Symbol Left: 744 Top: 784
-Name: s23
-LibraryName: PNULib
-IpName: PNU_AND2
-SymbolParameters
-End
 Symbol Left: 744 Top: 856
 Name: s24
 LibraryName: PNULib
 IpName: PNU_AND2
 SymbolParameters
 End
-Symbol Left: 1136 Top: 56
+Symbol Left: 864 Top: 56
+Name: s26
+LibraryName: (NoLibraryName)
+IpName: regiset_12bits
+SymbolParameters
+End
+Symbol Left: 744 Top: 784
+Name: s23
+LibraryName: PNULib
+IpName: PNU_AND2
+SymbolParameters
+End
+Symbol Left: 864 Top: 128
+Name: s27
+LibraryName: (NoLibraryName)
+IpName: regiset_12bits
+SymbolParameters
+End
+Symbol Left: 864 Top: 200
+Name: s28
+LibraryName: (NoLibraryName)
+IpName: regiset_12bits
+SymbolParameters
+End
+Symbol Left: 864 Top: 272
+Name: s29
+LibraryName: (NoLibraryName)
+IpName: regiset_12bits
+SymbolParameters
+End
+Symbol Left: 864 Top: 344
+Name: s30
+LibraryName: (NoLibraryName)
+IpName: regiset_12bits
+SymbolParameters
+End
+Symbol Left: 864 Top: 416
+Name: s31
+LibraryName: (NoLibraryName)
+IpName: regiset_12bits
+SymbolParameters
+End
+Symbol Left: 864 Top: 488
+Name: s32
+LibraryName: (NoLibraryName)
+IpName: regiset_12bits
+SymbolParameters
+End
+Symbol Left: 864 Top: 560
+Name: s33
+LibraryName: (NoLibraryName)
+IpName: regiset_12bits
+SymbolParameters
+End
+Symbol Left: 864 Top: 632
+Name: s34
+LibraryName: (NoLibraryName)
+IpName: regiset_12bits
+SymbolParameters
+End
+Symbol Left: 864 Top: 704
+Name: s35
+LibraryName: (NoLibraryName)
+IpName: regiset_12bits
+SymbolParameters
+End
+Symbol Left: 864 Top: 776
+Name: s36
+LibraryName: (NoLibraryName)
+IpName: regiset_12bits
+SymbolParameters
+End
+Symbol Left: 864 Top: 848
+Name: s37
+LibraryName: (NoLibraryName)
+IpName: regiset_12bits
+SymbolParameters
+End
+Symbol Left: 1160 Top: 40
 Name: s25
 LibraryName: (NoLibraryName)
-IpName: MUX4bit_16
+IpName: Mux12bit_12
 SymbolParameters
 End
 End

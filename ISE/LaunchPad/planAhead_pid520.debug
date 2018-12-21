@@ -1,19 +1,19 @@
 #-------------------------------------------------------------------------------
 # PlanAhead v14.7
 # Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
-# Current time: 12/11/18 3:26:40 PM
-# Process ID: 4368
+# Current time: 12/21/18 3:56:07 PM
+# Process ID: 520
 # Platform: Windows
 #
 # This file is an indication that an internal application error occurred.
 # This information is useful for debugging. Please open a case with Xilinx
 # Technical Support with this file and a testcase attached.
 #-------------------------------------------------------------------------------
-12/11/18 3:26:40 PM
+12/21/18 3:56:07 PM
 ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
 HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
-HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
 HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
 HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
 
 	at ui.h.e.CF(SourceFile:217)
@@ -40,6 +40,7 @@ HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR
 	at ui.aL.aHs(SourceFile:824)
 	at ui.bk.windowClosing(SourceFile:503)
 	at java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:350)
+	at java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:349)
 	at java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:349)
 	at java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:349)
 	at java.awt.Window.processWindowEvent(Window.java:2051)

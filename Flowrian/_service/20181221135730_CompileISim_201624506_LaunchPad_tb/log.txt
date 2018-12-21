@@ -1,0 +1,308 @@
+script> if [ -f   /opt/Xilinx/14.1/ISE_DS/settings32.sh ]; then 
+script>  source /opt/Xilinx/14.1/ISE_DS/settings32.sh >> /tmp/log 
+script> fi
+script> if [ -f   /opt/Xilinx/14.1/ISE_DS/settings64.sh ]; then
+script>  source /opt/Xilinx/14.1/ISE_DS/settings64.sh >> /tmp/log
+script> fi
+script>  
+script> echo PNULib= $FLOWRIANLIBRARY/PNULib/ISim/PNULib >> LaunchPad_tb.init
+script> echo work=./work >> LaunchPad_tb.init
+script> echo verilog work PNU_AND3.v >> LaunchPad_tb.prj
+script> echo verilog work PNU_XOR2.v >> LaunchPad_tb.prj
+script> echo verilog work PNU_NOT.v >> LaunchPad_tb.prj
+script> echo verilog work PNU_AND2.v >> LaunchPad_tb.prj
+script> echo verilog work PNU_OR2.v >> LaunchPad_tb.prj
+script> echo verilog work PNU_DFF.v >> LaunchPad_tb.prj
+script> echo verilog work PNU_MUX4.v >> LaunchPad_tb.prj
+script> echo verilog work PNU_ZERO.v >> LaunchPad_tb.prj
+script> echo verilog work PNU_MUX2.v >> LaunchPad_tb.prj
+script> echo verilog work PNU_MUX8.v >> LaunchPad_tb.prj
+script> echo verilog work PNU_NOR4.v >> LaunchPad_tb.prj
+script> echo verilog work event_11.v >> LaunchPad_tb.prj
+script> echo verilog work event_9.v >> LaunchPad_tb.prj
+script> echo verilog work event_7.v >> LaunchPad_tb.prj
+script> echo verilog work event_10.v >> LaunchPad_tb.prj
+script> echo verilog work PNU_OR4.v >> LaunchPad_tb.prj
+script> echo verilog work event_4.v >> LaunchPad_tb.prj
+script> echo verilog work event_2.v >> LaunchPad_tb.prj
+script> echo verilog work event_3.v >> LaunchPad_tb.prj
+script> echo verilog work event_1.v >> LaunchPad_tb.prj
+script> echo verilog work MUX4bit_4.v >> LaunchPad_tb.prj
+script> echo verilog work PNU_DFF_Ce.v >> LaunchPad_tb.prj
+script> echo verilog work PNU_AND4.v >> LaunchPad_tb.prj
+script> echo verilog work PNU_OR3.v >> LaunchPad_tb.prj
+script> echo verilog work Mux12bit_4.v >> LaunchPad_tb.prj
+script> echo verilog work PNU_CLK_DIV.v >> LaunchPad_tb.prj
+script> echo verilog work Counter10.v >> LaunchPad_tb.prj
+script> echo verilog work RGB_Handler.v >> LaunchPad_tb.prj
+script> echo verilog work LED_Handler.v >> LaunchPad_tb.prj
+script> echo verilog work MUX4bit_16.v >> LaunchPad_tb.prj
+script> echo verilog work register.v >> LaunchPad_tb.prj
+script> echo verilog work Decoder4bits.v >> LaunchPad_tb.prj
+script> echo verilog work ToneConverter.v >> LaunchPad_tb.prj
+script> echo verilog work PNU_OR8.v >> LaunchPad_tb.prj
+script> echo verilog work Counter100.v >> LaunchPad_tb.prj
+script> echo verilog work EventHandler.v >> LaunchPad_tb.prj
+script> echo verilog work PriorityEncoder3.v >> LaunchPad_tb.prj
+script> echo verilog work SRAM12bits.v >> LaunchPad_tb.prj
+script> echo verilog work Accumulator.v >> LaunchPad_tb.prj
+script> echo verilog work PianoPlay.v >> LaunchPad_tb.prj
+script> echo verilog work encoder_12_to_4.v >> LaunchPad_tb.prj
+script> echo verilog work mod_converter.v >> LaunchPad_tb.prj
+script> echo verilog work LaunchPad.v >> LaunchPad_tb.prj
+INFO:Simulator:908 - Using init file passed via -initfile option
+   "LaunchPad_tb.init"
+Running: /opt/Xilinx/14.1/ISE_DS/ISE/bin/lin/unwrapped/fuse -top work.LaunchPad_tb -init LaunchPad_tb.init -prj LaunchPad_tb.prj -lib PNULib -o LaunchPad_tb.exe
+ISim P.15xf (signature 0x8ddf5b5d)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8
+Determining compilation order of HDL files
+Analyzing Verilog file "PNU_AND3.v" into library work
+Analyzing Verilog file "PNU_XOR2.v" into library work
+Analyzing Verilog file "PNU_NOT.v" into library work
+Analyzing Verilog file "PNU_AND2.v" into library work
+Analyzing Verilog file "PNU_OR2.v" into library work
+Analyzing Verilog file "PNU_DFF.v" into library work
+Analyzing Verilog file "PNU_MUX4.v" into library work
+Analyzing Verilog file "PNU_ZERO.v" into library work
+Analyzing Verilog file "PNU_MUX2.v" into library work
+Analyzing Verilog file "PNU_MUX8.v" into library work
+Analyzing Verilog file "PNU_NOR4.v" into library work
+Analyzing Verilog file "event_11.v" into library work
+Analyzing Verilog file "event_9.v" into library work
+Analyzing Verilog file "event_7.v" into library work
+Analyzing Verilog file "event_10.v" into library work
+Analyzing Verilog file "PNU_OR4.v" into library work
+Analyzing Verilog file "event_4.v" into library work
+Analyzing Verilog file "event_2.v" into library work
+Analyzing Verilog file "event_3.v" into library work
+Analyzing Verilog file "event_1.v" into library work
+Analyzing Verilog file "MUX4bit_4.v" into library work
+Analyzing Verilog file "PNU_DFF_Ce.v" into library work
+Analyzing Verilog file "PNU_AND4.v" into library work
+Analyzing Verilog file "PNU_OR3.v" into library work
+Analyzing Verilog file "Mux12bit_4.v" into library work
+Analyzing Verilog file "PNU_CLK_DIV.v" into library work
+Analyzing Verilog file "Counter10.v" into library work
+Analyzing Verilog file "RGB_Handler.v" into library work
+Analyzing Verilog file "LED_Handler.v" into library work
+Analyzing Verilog file "MUX4bit_16.v" into library work
+Analyzing Verilog file "register.v" into library work
+Analyzing Verilog file "Decoder4bits.v" into library work
+Analyzing Verilog file "ToneConverter.v" into library work
+Analyzing Verilog file "PNU_OR8.v" into library work
+Analyzing Verilog file "Counter100.v" into library work
+Analyzing Verilog file "EventHandler.v" into library work
+Analyzing Verilog file "PriorityEncoder3.v" into library work
+Analyzing Verilog file "SRAM12bits.v" into library work
+Analyzing Verilog file "Accumulator.v" into library work
+Analyzing Verilog file "PianoPlay.v" into library work
+Analyzing Verilog file "encoder_12_to_4.v" into library work
+Analyzing Verilog file "mod_converter.v" into library work
+Analyzing Verilog file "LaunchPad.v" into library work
+Analyzing Verilog file "LaunchPad_tb.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 36660 KB
+Fuse CPU Usage: 1770 ms
+Compiling module PNU_NOT
+Compiling module PNU_AND3
+Compiling module PNU_OR3
+Compiling module PNU_AND2
+Compiling module mod_converter
+Compiling module PNU_OR2
+Compiling module PNU_OR4
+Compiling module PNU_OR8
+Compiling module encoder_12_to_4
+Compiling module PNU_CLK_DIV(cnt_num=7645)
+Compiling module PNU_CLK_DIV(cnt_num=6810)
+Compiling module PNU_CLK_DIV(cnt_num=6067)
+Compiling module PNU_CLK_DIV(cnt_num=5727)
+Compiling module PNU_CLK_DIV(cnt_num=5102)
+Compiling module PNU_MUX8
+Compiling module PNU_MUX2
+Compiling module PNU_ZERO
+Compiling module Mux12bit_4
+Compiling module PNU_CLK_DIV(cnt_num=4545)
+Compiling module PNU_CLK_DIV(cnt_num=4050)
+Compiling module PNU_CLK_DIV(cnt_num=3822)
+Compiling module PNU_CLK_DIV(cnt_num=3405)
+Compiling module PNU_CLK_DIV(cnt_num=3034)
+Compiling module PNU_CLK_DIV(cnt_num=2863)
+Compiling module PNU_CLK_DIV(cnt_num=2551)
+Compiling module PNU_CLK_DIV(cnt_num=2273)
+Compiling module PNU_CLK_DIV(cnt_num=2024)
+Compiling module PNU_CLK_DIV(cnt_num=1911)
+Compiling module PNU_CLK_DIV(cnt_num=1703)
+Compiling module PNU_CLK_DIV(cnt_num=1517)
+Compiling module PNU_CLK_DIV(cnt_num=1432)
+Compiling module PNU_CLK_DIV(cnt_num=1276)
+Compiling module PNU_CLK_DIV(cnt_num=1136)
+Compiling module PNU_CLK_DIV(cnt_num=1012)
+Compiling module PNU_CLK_DIV(cnt_num=956)
+Compiling module PNU_CLK_DIV(cnt_num=851)
+Compiling module PNU_CLK_DIV(cnt_num=758)
+Compiling module PNU_CLK_DIV(cnt_num=716)
+Compiling module PNU_CLK_DIV(cnt_num=638)
+Compiling module PNU_CLK_DIV(cnt_num=568)
+Compiling module PNU_CLK_DIV(cnt_num=506)
+Compiling module PNU_CLK_DIV(cnt_num=478)
+Compiling module PNU_CLK_DIV(cnt_num=425)
+Compiling module PNU_CLK_DIV(cnt_num=379)
+Compiling module PNU_CLK_DIV(cnt_num=357)
+Compiling module PNU_CLK_DIV(cnt_num=319)
+Compiling module PNU_CLK_DIV(cnt_num=284)
+Compiling module PNU_CLK_DIV(cnt_num=268)
+Compiling module PNU_CLK_DIV(cnt_num=253)
+Compiling module ToneConverter
+Compiling module PianoPlay
+Compiling module PNU_DFF_Ce
+Compiling module Accumulator
+Compiling module register
+Compiling module PNU_AND4
+Compiling module Decoder4bits
+Compiling module PNU_MUX4
+Compiling module MUX4bit_4
+Compiling module MUX4bit_16
+Compiling module SRAM12bits
+Compiling module PriorityEncoder3
+Compiling module PNU_DFF
+Compiling module event_1
+Compiling module PNU_XOR2
+Compiling module event_3
+Compiling module event_2
+Compiling module event_4
+Compiling module event_10
+Compiling module LED_Handler
+Compiling module event_7
+Compiling module event_9
+Compiling module event_11
+Compiling module RGB_Handler
+Compiling module EventHandler
+Compiling module PNU_NOR4
+Compiling module Counter10
+Compiling module Counter100
+Compiling module LaunchPad
+Compiling module LaunchPad_tb
+Time Resolution for simulation is 1ps.
+Waiting for 45 sub-compilation(s) to finish...
+Compiled 79 Verilog Units
+Built simulation executable LaunchPad_tb.exe
+Fuse Memory Usage: 81200 KB
+Fuse CPU Usage: 2020 ms
+GCC CPU Usage: 4550 ms
+script> echo verilog work LaunchPad_tb.v >> LaunchPad_tb.prj
+script> fuse -top work.LaunchPad_tb -init LaunchPad_tb.init -prj LaunchPad_tb.prj  -lib PNULib -o LaunchPad_tb.exe
+script> rm LaunchPad_tb.init
+script> rm LaunchPad_tb.prj
+script> rm fuse.xmsgs
+script> rm fuseRelaunch.cmd
+script> rm LaunchPad_tb.exe  fuse.log 
+script> rm -rf isim
+script> rm -rf ./work
+script> rm -rf Decoder4bits.v
+script> rm -rf Decoder4bits_tb.v
+script> rm -rf Mux12_4_4.v
+script> rm -rf Mux12_4_4_tb.v
+script> rm -rf MUX4bit_4_tb.v
+script> rm -rf MUX4bit_16.v
+script> rm -rf MUX4bit_16_tb.v
+script> rm -rf SRAM12bits.v
+script> rm -rf SRAM12bits_tb.v
+script> rm -rf LaunchPad.v
+script> rm -rf LaunchPad_tb.v
+script> rm -rf mod_converter.v
+script> rm -rf PianoPlay_tb.v
+script> rm -rf Add_two_decimal_to_5bit_binary.v
+script> rm -rf AddTwoDec.v
+script> rm -rf Compare_2bit.v
+script> rm -rf Compare_4bit.v
+script> rm -rf Counter10.v
+script> rm -rf Counter100.v
+script> rm -rf Decoder2bit.v
+script> rm -rf Decoder3bit.v
+script> rm -rf DFlipflop.v
+script> rm -rf DFlipflopCE.v
+script> rm -rf DigitToShiftRegister.v
+script> rm -rf eight_counter.v
+script> rm -rf Encode_decimal_to_binary.v
+script> rm -rf FullAdder.v
+script> rm -rf FullColorTest.v
+script> rm -rf HalfAdder.v
+script> rm -rf LevelToPulse.v
+script> rm -rf LogicTest.v
+script> rm -rf MUX4bit_4.v
+script> rm -rf PiezoTest.v
+script> rm -rf PiezoTest_tb.v
+script> rm -rf PNU_CLK_DIV.v
+script> rm -rf register.v
+script> rm -rf Register4bit.v
+script> rm -rf Register5bit.v
+script> rm -rf RightShiftRegister.v
+script> rm -rf Ripple_carray_adder_4bit.v
+script> rm -rf seven_segment.v
+script> rm -rf SevenSegments.v
+script> rm -rf shift_register.v
+script> rm -rf Shift4bitRegister.v
+script> rm -rf SRAM4.v
+script> rm -rf StepMotor.v
+script> rm -rf StepMotor_tb.v
+script> rm -rf Mux12bit_4.v
+script> rm -rf Mux12bit_4_tb.v
+script> rm -rf ToneConverter.v
+script> rm -rf ToneConverter_tb.v
+script> rm -rf regiset_12bits.v
+script> rm -rf Accumulator.v
+script> rm -rf Accumulator_tb.v
+script> rm -rf encoder_12_to_4.v
+script> rm -rf PianoPlay.v
+script> rm -rf encoder_12_to_4_tb.v
+script> rm -rf PriorityEncoder3.v
+script> rm -rf PriorityEncoder3_tb.v
+script> rm -rf event_1.v
+script> rm -rf event_2.v
+script> rm -rf event_3.v
+script> rm -rf event_4.v
+script> rm -rf event_7.v
+script> rm -rf event_8.v
+script> rm -rf event_9.v
+script> rm -rf event_10.v
+script> rm -rf event_11.v
+script> rm -rf event_12.v
+script> rm -rf LED_Handler.v
+script> rm -rf RGB_Handler.v
+script> rm -rf EventHandler.v
+script> rm -rf PNU_AND2.v
+script> rm -rf PNU_AND3.v
+script> rm -rf PNU_AND4.v
+script> rm -rf PNU_AND8.v
+script> rm -rf PNU_BUF.v
+script> rm -rf PNU_DFF.v
+script> rm -rf PNU_DFF_Ce.v
+script> rm -rf PNU_JKFF.v
+script> rm -rf PNU_MUX2.v
+script> rm -rf PNU_MUX4.v
+script> rm -rf PNU_MUX8.v
+script> rm -rf PNU_NAND2.v
+script> rm -rf PNU_NAND3.v
+script> rm -rf PNU_NAND4.v
+script> rm -rf PNU_NAND8.v
+script> rm -rf PNU_NOR2.v
+script> rm -rf PNU_NOR3.v
+script> rm -rf PNU_NOR4.v
+script> rm -rf PNU_NOR8.v
+script> rm -rf PNU_NOT.v
+script> rm -rf PNU_ONE.v
+script> rm -rf PNU_OR2.v
+script> rm -rf PNU_OR3.v
+script> rm -rf PNU_OR4.v
+script> rm -rf PNU_OR8.v
+script> rm -rf PNU_SRAM.v
+script> rm -rf PNU_TBUF.v
+script> rm -rf PNU_XNOR2.v
+script> rm -rf PNU_XNOR3.v
+script> rm -rf PNU_XNOR4.v
+script> rm -rf PNU_XOR2.v
+script> rm -rf PNU_XOR3.v
+script> rm -rf PNU_XOR4.v
+Finish compilation!!

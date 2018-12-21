@@ -72,72 +72,9 @@ assign b43_2_w56 = {b43[2]};
 
 PNU_CLK_DIV
      #(
-      .cnt_num(15289))
-     s0 (
-      .div_clk(w11),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(13621))
-     s1 (
-      .div_clk(w12),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(12135))
-     s2 (
-      .div_clk(w13),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(11454))
-     s3 (
-      .div_clk(w16),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(10204))
-     s4 (
-      .div_clk(w15),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(9091))
-     s5 (
-      .div_clk(w14),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(8099))
-     s6 (
-      .div_clk(w17),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
       .cnt_num(7645))
      s7 (
-      .div_clk(w9),
+      .div_clk(w11),
       .en(w48),
       .clk(w49),
       .rst(w50));
@@ -146,7 +83,7 @@ PNU_CLK_DIV
      #(
       .cnt_num(6810))
      s8 (
-      .div_clk(w8),
+      .div_clk(w12),
       .en(w48),
       .clk(w49),
       .rst(w50));
@@ -155,7 +92,7 @@ PNU_CLK_DIV
      #(
       .cnt_num(6067))
      s9 (
-      .div_clk(w7),
+      .div_clk(w13),
       .en(w48),
       .clk(w49),
       .rst(w50));
@@ -164,7 +101,7 @@ PNU_CLK_DIV
      #(
       .cnt_num(5727))
      s10 (
-      .div_clk(w6),
+      .div_clk(w16),
       .en(w48),
       .clk(w49),
       .rst(w50));
@@ -173,7 +110,7 @@ PNU_CLK_DIV
      #(
       .cnt_num(5102))
      s11 (
-      .div_clk(w5),
+      .div_clk(w15),
       .en(w48),
       .clk(w49),
       .rst(w50));
@@ -195,114 +132,6 @@ Mux12bit_4
       .B_in(b42),
       .D_out(w52));
 
-PNU_CLK_DIV
-     #(
-      .cnt_num(4545))
-     s13 (
-      .div_clk(w33),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(4050))
-     s14 (
-      .div_clk(w32),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(3822))
-     s15 (
-      .div_clk(w31),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(3405))
-     s16 (
-      .div_clk(w30),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(3034))
-     s17 (
-      .div_clk(w27),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(2863))
-     s18 (
-      .div_clk(w26),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(2551))
-     s19 (
-      .div_clk(w28),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(2273))
-     s20 (
-      .div_clk(w25),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(2024))
-     s21 (
-      .div_clk(w24),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(1911))
-     s22 (
-      .div_clk(w23),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(1703))
-     s23 (
-      .div_clk(w34),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(1517))
-     s24 (
-      .div_clk(w22),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
 Mux12bit_4
      s25 (
       .D_sharp(w22),
@@ -319,114 +148,6 @@ Mux12bit_4
       .D0(w34),
       .B_in(b42),
       .D_out(w51));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(1432))
-     s26 (
-      .div_clk(w46),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(1276))
-     s27 (
-      .div_clk(w45),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(1136))
-     s28 (
-      .div_clk(w44),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(1012))
-     s29 (
-      .div_clk(w43),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(956))
-     s30 (
-      .div_clk(w40),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(851))
-     s31 (
-      .div_clk(w39),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(758))
-     s32 (
-      .div_clk(w41),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(716))
-     s33 (
-      .div_clk(w38),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(638))
-     s34 (
-      .div_clk(w37),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(568))
-     s35 (
-      .div_clk(w36),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(506))
-     s36 (
-      .div_clk(w47),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
-
-PNU_CLK_DIV
-     #(
-      .cnt_num(478))
-     s37 (
-      .div_clk(w35),
-      .en(w48),
-      .clk(w49),
-      .rst(w50));
 
 Mux12bit_4
      s38 (
@@ -463,12 +184,291 @@ PNU_AND2
       .i2(w53),
       .o1(w59));
 
-PNU_AND3
+PNU_OR3
      s42 (
       .i2(w57),
       .i1(w58),
       .i3(w59),
       .o1(w60));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(4545))
+     s13 (
+      .div_clk(w14),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(4050))
+     s14 (
+      .div_clk(w17),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(3822))
+     s15 (
+      .div_clk(w9),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(3405))
+     s16 (
+      .div_clk(w8),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(3034))
+     s17 (
+      .div_clk(w7),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(2863))
+     s18 (
+      .div_clk(w6),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(2551))
+     s19 (
+      .div_clk(w5),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(2273))
+     s20 (
+      .div_clk(w33),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(2024))
+     s21 (
+      .div_clk(w32),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(1911))
+     s22 (
+      .div_clk(w31),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(1703))
+     s23 (
+      .div_clk(w30),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(1517))
+     s24 (
+      .div_clk(w27),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(1432))
+     s26 (
+      .div_clk(w26),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(1276))
+     s27 (
+      .div_clk(w28),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(1136))
+     s28 (
+      .div_clk(w25),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(1012))
+     s29 (
+      .div_clk(w24),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(956))
+     s30 (
+      .div_clk(w23),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(851))
+     s31 (
+      .div_clk(w34),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(758))
+     s32 (
+      .div_clk(w22),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(716))
+     s33 (
+      .div_clk(w46),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(638))
+     s34 (
+      .div_clk(w45),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(568))
+     s35 (
+      .div_clk(w44),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(506))
+     s36 (
+      .div_clk(w43),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(478))
+     s37 (
+      .div_clk(w40),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(425))
+     s43 (
+      .div_clk(w39),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(379))
+     s44 (
+      .div_clk(w41),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(357))
+     s45 (
+      .div_clk(w38),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(319))
+     s46 (
+      .div_clk(w37),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(284))
+     s47 (
+      .div_clk(w36),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(268))
+     s48 (
+      .div_clk(w47),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
+
+PNU_CLK_DIV
+     #(
+      .cnt_num(253))
+     s49 (
+      .div_clk(w35),
+      .en(w48),
+      .clk(w49),
+      .rst(w50));
 
 endmodule
 

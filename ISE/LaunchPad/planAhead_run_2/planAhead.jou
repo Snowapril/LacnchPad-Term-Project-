@@ -1,8 +1,8 @@
 #-----------------------------------------------------------
 # PlanAhead v14.7
 # Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
-# Start of session at: Tue Dec 11 15:28:29 2018
-# Process ID: 3540
+# Start of session at: Fri Dec 21 11:26:22 2018
+# Process ID: 3404
 # Log file: C:/Users/cse/Desktop/LaunchPad-Term-Project-/ISE/LaunchPad/planAhead_run_2/planAhead.log
 # Journal file: C:/Users/cse/Desktop/LaunchPad-Term-Project-/ISE/LaunchPad/planAhead_run_2/planAhead.jou
 #-----------------------------------------------------------
@@ -10,63 +10,80 @@ start_gui
 source C:/Users/cse/Desktop/LaunchPad-Term-Project-/ISE/LaunchPad/pa.fromHdl.tcl
 update_compile_order -fileset sim_1
 startgroup
-set_property package_pin K2 [get_ports BTN1]
-endgroup
-startgroup
-set_property package_pin M3 [get_ports BTN2]
-endgroup
-set_property package_pin "" [get_ports [list  BTN4]]
-startgroup
-set_property package_pin M1 [get_ports BTN3]
-endgroup
-startgroup
-set_property package_pin N3 [get_ports BTN4]
-endgroup
-set_property package_pin "" [get_ports [list  BTN6]]
-startgroup
-set_property package_pin N1 [get_ports BTN5]
-endgroup
-startgroup
-set_property package_pin M2 [get_ports BTN6]
-endgroup
-startgroup
-set_property package_pin L3 [get_ports BTN7]
-endgroup
-startgroup
-set_property package_pin K4 [get_ports BTN8]
-endgroup
-startgroup
-set_property package_pin K1 [get_ports BTN9]
-endgroup
-startgroup
-set_property package_pin L1 [get_ports BTN_0]
-endgroup
-startgroup
-set_property package_pin K3 [get_ports BTN_sharp]
-endgroup
-startgroup
-set_property package_pin L4 [get_ports BTN_star]
-endgroup
-startgroup
 set_property package_pin AB16 [get_ports CLK]
 endgroup
 startgroup
-set_property package_pin V1 [get_ports Dip_1]
+set_property package_pin W14 [get_ports RST]
 endgroup
 startgroup
-set_property package_pin Y2 [get_ports Dip_2]
+set_property package_pin W3 [get_ports Dip_6]
 endgroup
 startgroup
-set_property package_pin U4 [get_ports Dip_3]
+set_property package_pin W1 [get_ports Dip_7]
 endgroup
 startgroup
-set_property package_pin R7 [get_ports Dip_4]
+set_property package_pin T4 [get_ports Dip_8]
 endgroup
 startgroup
-set_property package_pin W15 [get_ports Pout]
+set_property package_pin K8 [get_ports led_1]
+endgroup
+set_property package_pin "" [get_ports [list  led_1_B]]
+startgroup
+set_property package_pin M4 [get_ports led_2]
 endgroup
 startgroup
-set_property package_pin T4 [get_ports RST]
+set_property package_pin M6 [get_ports led_3]
 endgroup
-set_property package_pin "" [get_ports [list  RW]]
+startgroup
+set_property package_pin M8 [get_ports led_4]
+endgroup
+startgroup
+set_property package_pin L6 [get_ports led_5]
+endgroup
+startgroup
+set_property package_pin M5 [get_ports led_6]
+endgroup
+startgroup
+set_property package_pin M7 [get_ports led_7]
+endgroup
+startgroup
+set_property package_pin N4 [get_ports led_8]
+endgroup
+startgroup
+set_property package_pin U3 [get_ports led_1_B]
+endgroup
+set_property package_pin "" [get_ports [list  led_1_R]]
+startgroup
+set_property package_pin T1 [get_ports led_1_G]
+endgroup
+startgroup
+set_property package_pin T2 [get_ports led_1_R]
+endgroup
+startgroup
+set_property package_pin V2 [get_ports led_2_B]
+endgroup
+startgroup
+set_property package_pin V3 [get_ports led_2_G]
+endgroup
+startgroup
+set_property package_pin U1 [get_ports led_2_R]
+endgroup
+startgroup
+set_property package_pin M6 [get_ports led_3]
+endgroup
+startgroup
+set_property package_pin P1 [get_ports led_3_B]
+endgroup
+startgroup
+set_property package_pin P2 [get_ports led_3_G]
+endgroup
+startgroup
+set_property package_pin P3 [get_ports led_3_R]
+endgroup
+startgroup
+set_property package_pin T3 [get_ports led_4_B]
+endgroup
+startgroup
+set_property package_pin R1 [get_ports led_4_G]
+endgroup
 save_constraints

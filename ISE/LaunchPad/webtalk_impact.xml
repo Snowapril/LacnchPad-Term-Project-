@@ -3,9 +3,9 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="impact" timeStamp="Tue Dec 11 16:28:47 2018">
+<application name="impact" timeStamp="Fri Dec 21 17:08:15 2018">
 <section name="Project Information" visible="false">
-<property name="ProjectID" value="22a157572ed34492bf09ea396c31d51e"/>
+<property name="ProjectID" value="67a5ddf39e69474a80579372e4c23288"/>
 <property name="ProjectIteration" value="1"/>
 </section>
 <section name="iMPACT Project Info" visible="true">
@@ -14,7 +14,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="OS Name" value="Microsoft Windows 7"/>
 <property name="User Lic. Info" value="210741417_177179877_0_439"/>
 </section>
-<section name="iMPACT Boundary Scan Mode" visible="true">
+<section name="iMPACT One Step SVF File Mode" visible="true">
 <item name="Chain Summary">
 <property name="Number of device" value="2"/>
 <property name="Number of Xilinx device" value="2"/>

@@ -10,40 +10,40 @@ Target Device  : xc6slx45
 Target Package : fgg484
 Target Speed   : -3
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Tue Dec 11 16:12:30 2018
+Mapped Date    : Fri Dec 21 17:02:47 2018
 
 Design Summary
 --------------
 Number of errors:      0
-Number of warnings:    1
+Number of warnings:    6
 Slice Logic Utilization:
-  Number of Slice Registers:                   222 out of  54,576    1%
-    Number used as Flip Flops:                 222
+  Number of Slice Registers:                 1,123 out of  54,576    2%
+    Number used as Flip Flops:               1,123
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                0
-  Number of Slice LUTs:                        572 out of  27,288    2%
-    Number used as logic:                      560 out of  27,288    2%
-      Number using O6 output only:             408
-      Number using O5 output only:             126
-      Number using O5 and O6:                   26
+  Number of Slice LUTs:                      1,953 out of  27,288    7%
+    Number used as logic:                    1,854 out of  27,288    6%
+      Number using O6 output only:             926
+      Number using O5 output only:             645
+      Number using O5 and O6:                  283
       Number used as ROM:                        0
     Number used as Memory:                       0 out of   6,408    0%
-    Number used exclusively as route-thrus:     12
-      Number with same-slice register load:      0
-      Number with same-slice carry load:        12
+    Number used exclusively as route-thrus:     99
+      Number with same-slice register load:     27
+      Number with same-slice carry load:        72
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                   198 out of   6,822    2%
-  Number of MUXCYs used:                       168 out of  13,644    1%
-  Number of LUT Flip Flop pairs used:          572
-    Number with an unused Flip Flop:           355 out of     572   62%
-    Number with an unused LUT:                   0 out of     572    0%
-    Number of fully used LUT-FF pairs:         217 out of     572   37%
-    Number of unique control sets:               5
+  Number of occupied Slices:                   719 out of   6,822   10%
+  Number of MUXCYs used:                       924 out of  13,644    6%
+  Number of LUT Flip Flop pairs used:        2,058
+    Number with an unused Flip Flop:         1,130 out of   2,058   54%
+    Number with an unused LUT:                 105 out of   2,058    5%
+    Number of fully used LUT-FF pairs:         823 out of   2,058   39%
+    Number of unique control sets:              32
     Number of slice register sites lost
-      to control set restrictions:              18 out of  54,576    1%
+      to control set restrictions:             141 out of  54,576    1%
 
   A LUT Flip Flop pair for this architecture represents one LUT paired with
   one Flip Flop within a slice.  A control set is a unique combination of
@@ -52,16 +52,16 @@ Slice Logic Distribution:
   over-mapped for a non-slice resource or if Placement fails.
 
 IO Utilization:
-  Number of bonded IOBs:                        37 out of     316   11%
-    Number of LOCed IOBs:                       19 out of      37   51%
+  Number of bonded IOBs:                        65 out of     316   20%
+    Number of LOCed IOBs:                       64 out of      65   98%
 
 Specific Feature Utilization:
   Number of RAMB16BWERs:                         0 out of     116    0%
   Number of RAMB8BWERs:                          0 out of     232    0%
   Number of BUFIO2/BUFIO2_2CLKs:                 0 out of      32    0%
   Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
-  Number of BUFG/BUFGMUXs:                       1 out of      16    6%
-    Number used as BUFGs:                        1
+  Number of BUFG/BUFGMUXs:                       2 out of      16   12%
+    Number used as BUFGs:                        2
     Number used as BUFGMUX:                      0
   Number of DCM/DCM_CLKGENs:                     0 out of       8    0%
   Number of ILOGIC2/ISERDES2s:                   0 out of     376    0%
@@ -80,11 +80,11 @@ Specific Feature Utilization:
   Number of STARTUPs:                            0 out of       1    0%
   Number of SUSPEND_SYNCs:                       0 out of       1    0%
 
-Average Fanout of Non-Clock Nets:                5.18
+Average Fanout of Non-Clock Nets:                2.91
 
-Peak Memory Usage:  322 MB
-Total REAL time to MAP completion:  9 secs 
-Total CPU time to MAP completion:   9 secs 
+Peak Memory Usage:  338 MB
+Total REAL time to MAP completion:  18 secs 
+Total CPU time to MAP completion:   18 secs 
 
 Table of Contents
 -----------------
@@ -110,7 +110,7 @@ Section 2 - Warnings
 WARNING:Place:1109 - A clock IOB / BUFGMUX clock component pair have been found
    that are not placed at an optimal clock IOB / BUFGMUX site pair. The clock
    IOB component <CLK> is placed at site <AB16>. The corresponding BUFG
-   component <CLK_BUFGP/BUFG> is placed at site <BUFGMUX_X2Y3>. There is only a
+   component <CLK_BUFGP/BUFG> is placed at site <BUFGMUX_X2Y2>. There is only a
    select set of IOBs that can use the fast path to the Clocker buffer, and they
    are not being used. You may want to analyze why this problem exists and
    correct it. This is normally an ERROR but the CLOCK_DEDICATED_ROUTE
@@ -119,6 +119,21 @@ WARNING:Place:1109 - A clock IOB / BUFGMUX clock component pair have been found
    specified COMP.PIN. The use of this override is highly discouraged as it may
    lead to very poor timing results. It is recommended that this error condition
    be corrected in the design.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net s14/s22/s0/s0/w1 is sourced
+   by a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net s14/s22/s0/w3 is sourced by
+   a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net s14/s22/w3 is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net s14/s22/s0/s1/w1 is sourced
+   by a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net s34/w20 is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
 
 Section 3 - Informational
 -------------------------
@@ -132,8 +147,8 @@ INFO:Pack:1720 - Initializing voltage to 1.140 Volts. (default - Range: 1.140 to
    1.260 Volts)
 INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
    (.mrp).
-INFO:Place:834 - Only a subset of IOs are locked. Out of 37 IOs, 19 are locked
-   and 18 are not locked. If you would like to print the names of these IOs,
+INFO:Place:834 - Only a subset of IOs are locked. Out of 65 IOs, 64 are locked
+   and 1 are not locked. If you would like to print the names of these IOs,
    please set the environment variable XIL_PAR_DESIGN_CHECK_VERBOSE to 1. 
 INFO:Pack:1650 - Map created a placed design.
 
@@ -159,18 +174,6 @@ Section 6 - IOB Properties
 | IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
 |                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Accout<0>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| Accout<1>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| Accout<2>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| Accout<3>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| Accout<4>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| Accout<5>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| Accout<6>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| Accout<7>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| Accout<8>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| Accout<9>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| Accout<10>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| Accout<11>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
 | BTN1                               | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
 | BTN2                               | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
 | BTN3                               | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
@@ -183,19 +186,59 @@ Section 6 - IOB Properties
 | BTN_0                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
 | BTN_sharp                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
 | BTN_star                           | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
-| CE                                 | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
 | CLK                                | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
 | Dip_1                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
 | Dip_2                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
 | Dip_3                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
 | Dip_4                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
-| Dout<0>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| Dout<1>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| Dout<2>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| Dout<3>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Dip_5                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| Dip_6                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| Dip_7                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| Dip_8                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
 | Pout                               | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
 | RST                                | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
-| RW                                 | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| com1                               | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| com2                               | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| com3                               | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| com4                               | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| com5                               | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| com6                               | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| com7                               | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| com8                               | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led_1                              | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led_2                              | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led_3                              | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led_4                              | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led_5                              | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led_6                              | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led_7                              | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led_8                              | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led_1_B                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led_1_G                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led_1_R                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led_2_B                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led_2_G                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led_2_R                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led_3_B                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led_3_G                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led_3_R                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led_4_B                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led_4_G                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led_4_R                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| segout<0>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| segout<1>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| segout<2>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| segout<3>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| segout<4>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| segout<5>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| segout<6>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| single_segout<0>                   | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| single_segout<1>                   | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| single_segout<2>                   | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| single_segout<3>                   | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| single_segout<4>                   | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| single_segout<5>                   | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| single_segout<6>                   | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Section 7 - RPMs

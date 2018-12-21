@@ -10,159 +10,229 @@ IfDrawModuleName True
 IfDrawPortnameText True
 ModuleNameDrawPosition middle
 Boxes
-Box Left: 336 Top: 560 ,Right: 504 ,Bottom: 880
+Box Left: 312 Top: 560 ,Right: 528 ,Bottom: 1040
 End
 Parameters
 End
 Ports
-Port Left: 312 Top: 568 ,SymbolSideLeft: 336 ,SymbolSideTop: 568
+Port Left: 288 Top: 568 ,SymbolSideLeft: 312 ,SymbolSideTop: 568
 Portname: CLK ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
-Port Left: 312 Top: 584 ,SymbolSideLeft: 336 ,SymbolSideTop: 584
+Port Left: 288 Top: 584 ,SymbolSideLeft: 312 ,SymbolSideTop: 584
 Portname: RST ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
-Port Left: 312 Top: 600 ,SymbolSideLeft: 336 ,SymbolSideTop: 600
+Port Left: 552 Top: 568 ,SymbolSideLeft: 528 ,SymbolSideTop: 568
+Portname: Segout ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+6
+,RV:
+0
+Port Left: 552 Top: 584 ,SymbolSideLeft: 528 ,SymbolSideTop: 584
+Portname: com1 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 552 Top: 600 ,SymbolSideLeft: 528 ,SymbolSideTop: 600
+Portname: com2 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 552 Top: 616 ,SymbolSideLeft: 528 ,SymbolSideTop: 616
+Portname: com3 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 552 Top: 632 ,SymbolSideLeft: 528 ,SymbolSideTop: 632
+Portname: com4 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 552 Top: 648 ,SymbolSideLeft: 528 ,SymbolSideTop: 648
+Portname: com5 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 552 Top: 664 ,SymbolSideLeft: 528 ,SymbolSideTop: 664
+Portname: com6 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 552 Top: 680 ,SymbolSideLeft: 528 ,SymbolSideTop: 680
+Portname: com7 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 552 Top: 696 ,SymbolSideLeft: 528 ,SymbolSideTop: 696
+Portname: com8 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 288 Top: 600 ,SymbolSideLeft: 312 ,SymbolSideTop: 600
 Portname: event_1 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
-Port Left: 312 Top: 616 ,SymbolSideLeft: 336 ,SymbolSideTop: 616
+Port Left: 288 Top: 616 ,SymbolSideLeft: 312 ,SymbolSideTop: 616
 Portname: event_10 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
-Port Left: 312 Top: 632 ,SymbolSideLeft: 336 ,SymbolSideTop: 632
+Port Left: 288 Top: 632 ,SymbolSideLeft: 312 ,SymbolSideTop: 632
 Portname: event_11 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
-Port Left: 312 Top: 648 ,SymbolSideLeft: 336 ,SymbolSideTop: 648
+Port Left: 288 Top: 648 ,SymbolSideLeft: 312 ,SymbolSideTop: 648
+Portname: event_12 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+Port Left: 288 Top: 664 ,SymbolSideLeft: 312 ,SymbolSideTop: 664
 Portname: event_2 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
-Port Left: 312 Top: 664 ,SymbolSideLeft: 336 ,SymbolSideTop: 664
+Port Left: 288 Top: 680 ,SymbolSideLeft: 312 ,SymbolSideTop: 680
 Portname: event_3 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
-Port Left: 312 Top: 680 ,SymbolSideLeft: 336 ,SymbolSideTop: 680
+Port Left: 288 Top: 696 ,SymbolSideLeft: 312 ,SymbolSideTop: 696
 Portname: event_4 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
-Port Left: 312 Top: 696 ,SymbolSideLeft: 336 ,SymbolSideTop: 696
+Port Left: 288 Top: 712 ,SymbolSideLeft: 312 ,SymbolSideTop: 712
+Portname: event_5 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+Port Left: 288 Top: 728 ,SymbolSideLeft: 312 ,SymbolSideTop: 728
+Portname: event_6 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+Port Left: 288 Top: 744 ,SymbolSideLeft: 312 ,SymbolSideTop: 744
 Portname: event_7 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
-Port Left: 312 Top: 712 ,SymbolSideLeft: 336 ,SymbolSideTop: 712
+Port Left: 288 Top: 760 ,SymbolSideLeft: 312 ,SymbolSideTop: 760
+Portname: event_8 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+Port Left: 288 Top: 776 ,SymbolSideLeft: 312 ,SymbolSideTop: 776
 Portname: event_9 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
-Port Left: 528 Top: 568 ,SymbolSideLeft: 504 ,SymbolSideTop: 568
+Port Left: 552 Top: 712 ,SymbolSideLeft: 528 ,SymbolSideTop: 712
 Portname: led_1 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,RV:
 0
-Port Left: 528 Top: 584 ,SymbolSideLeft: 504 ,SymbolSideTop: 584
+Port Left: 552 Top: 728 ,SymbolSideLeft: 528 ,SymbolSideTop: 728
 Portname: led_1_B ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,RV:
 0
-Port Left: 528 Top: 600 ,SymbolSideLeft: 504 ,SymbolSideTop: 600
+Port Left: 552 Top: 744 ,SymbolSideLeft: 528 ,SymbolSideTop: 744
 Portname: led_1_G ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,RV:
 0
-Port Left: 528 Top: 616 ,SymbolSideLeft: 504 ,SymbolSideTop: 616
+Port Left: 552 Top: 760 ,SymbolSideLeft: 528 ,SymbolSideTop: 760
 Portname: led_1_R ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,RV:
 0
-Port Left: 528 Top: 632 ,SymbolSideLeft: 504 ,SymbolSideTop: 632
+Port Left: 552 Top: 776 ,SymbolSideLeft: 528 ,SymbolSideTop: 776
 Portname: led_2 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,RV:
 0
-Port Left: 528 Top: 648 ,SymbolSideLeft: 504 ,SymbolSideTop: 648
+Port Left: 552 Top: 792 ,SymbolSideLeft: 528 ,SymbolSideTop: 792
 Portname: led_2_B ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,RV:
 0
-Port Left: 528 Top: 664 ,SymbolSideLeft: 504 ,SymbolSideTop: 664
+Port Left: 552 Top: 808 ,SymbolSideLeft: 528 ,SymbolSideTop: 808
 Portname: led_2_G ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,RV:
 0
-Port Left: 528 Top: 680 ,SymbolSideLeft: 504 ,SymbolSideTop: 680
+Port Left: 552 Top: 824 ,SymbolSideLeft: 528 ,SymbolSideTop: 824
 Portname: led_2_R ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,RV:
 0
-Port Left: 528 Top: 696 ,SymbolSideLeft: 504 ,SymbolSideTop: 696
+Port Left: 552 Top: 840 ,SymbolSideLeft: 528 ,SymbolSideTop: 840
 Portname: led_3 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,RV:
 0
-Port Left: 528 Top: 712 ,SymbolSideLeft: 504 ,SymbolSideTop: 712
+Port Left: 552 Top: 856 ,SymbolSideLeft: 528 ,SymbolSideTop: 856
 Portname: led_3_B ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,RV:
 0
-Port Left: 528 Top: 728 ,SymbolSideLeft: 504 ,SymbolSideTop: 728
+Port Left: 552 Top: 872 ,SymbolSideLeft: 528 ,SymbolSideTop: 872
 Portname: led_3_G ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,RV:
 0
-Port Left: 528 Top: 744 ,SymbolSideLeft: 504 ,SymbolSideTop: 744
+Port Left: 552 Top: 888 ,SymbolSideLeft: 528 ,SymbolSideTop: 888
 Portname: led_3_R ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,RV:
 0
-Port Left: 528 Top: 760 ,SymbolSideLeft: 504 ,SymbolSideTop: 760
+Port Left: 552 Top: 904 ,SymbolSideLeft: 528 ,SymbolSideTop: 904
 Portname: led_4 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,RV:
 0
-Port Left: 528 Top: 776 ,SymbolSideLeft: 504 ,SymbolSideTop: 776
+Port Left: 552 Top: 920 ,SymbolSideLeft: 528 ,SymbolSideTop: 920
 Portname: led_4_B ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,RV:
 0
-Port Left: 528 Top: 792 ,SymbolSideLeft: 504 ,SymbolSideTop: 792
+Port Left: 552 Top: 936 ,SymbolSideLeft: 528 ,SymbolSideTop: 936
 Portname: led_4_G ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,RV:
 0
-Port Left: 528 Top: 808 ,SymbolSideLeft: 504 ,SymbolSideTop: 808
+Port Left: 552 Top: 952 ,SymbolSideLeft: 528 ,SymbolSideTop: 952
 Portname: led_4_R ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,RV:
 0
-Port Left: 528 Top: 824 ,SymbolSideLeft: 504 ,SymbolSideTop: 824
+Port Left: 552 Top: 968 ,SymbolSideLeft: 528 ,SymbolSideTop: 968
 Portname: led_5 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,RV:
 0
-Port Left: 528 Top: 840 ,SymbolSideLeft: 504 ,SymbolSideTop: 840
+Port Left: 552 Top: 984 ,SymbolSideLeft: 528 ,SymbolSideTop: 984
 Portname: led_6 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,RV:
 0
-Port Left: 528 Top: 856 ,SymbolSideLeft: 504 ,SymbolSideTop: 856
+Port Left: 552 Top: 1000 ,SymbolSideLeft: 528 ,SymbolSideTop: 1000
 Portname: led_7 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,RV:
 0
-Port Left: 528 Top: 872 ,SymbolSideLeft: 504 ,SymbolSideTop: 872
+Port Left: 552 Top: 1016 ,SymbolSideLeft: 528 ,SymbolSideTop: 1016
 Portname: led_8 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
+,RV:
+0
+Port Left: 552 Top: 1032 ,SymbolSideLeft: 528 ,SymbolSideTop: 1032
+Portname: single_segout ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+6
 ,RV:
 0
 End

@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="Dout">
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="segout">
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="single_segout">
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Port Id="Dip_1" Dir="IN"/>
+		<Port Id="Dip_2" Dir="IN"/>
+		<Port Id="Dip_3" Dir="IN"/>
+		<Port Id="BTN1" Dir="IN"/>
+		<Port Id="BTN2" Dir="IN"/>
+		<Port Id="BTN3" Dir="IN"/>
+		<Port Id="BTN4" Dir="IN"/>
+		<Port Id="BTN5" Dir="IN"/>
+		<Port Id="BTN6" Dir="IN"/>
+		<Port Id="BTN7" Dir="IN"/>
+		<Port Id="BTN8" Dir="IN"/>
+		<Port Id="BTN9" Dir="IN"/>
+		<Port Id="BTN_star" Dir="IN"/>
+		<Port Id="Dip_4" Dir="IN"/>
+		<Port Id="BTN_0" Dir="IN"/>
+		<Port Id="BTN_sharp" Dir="IN"/>
+		<Port Id="CLK" Dir="IN"/>
+		<Port Id="RST" Dir="IN"/>
+		<Port Id="Dip_6" Dir="IN"/>
+		<Port Id="Dip_7" Dir="IN"/>
+		<Port Id="Dip_8" Dir="IN"/>
+		<Port Id="led_1" Dir="OUT"/>
+		<Port Id="led_3" Dir="OUT"/>
+		<Port Id="led_4" Dir="OUT"/>
+		<Port Id="led_5" Dir="OUT"/>
+		<Port Id="led_6" Dir="OUT"/>
+		<Port Id="led_7" Dir="OUT"/>
+		<Port Id="led_8" Dir="OUT"/>
+		<Port Id="led_1_B" Dir="OUT"/>
+		<Port Id="led_1_G" Dir="OUT"/>
+		<Port Id="led_1_R" Dir="OUT"/>
+		<Port Id="led_2_B" Dir="OUT"/>
+		<Port Id="led_2_G" Dir="OUT"/>
+		<Port Id="led_2_R" Dir="OUT"/>
+		<Port Id="led_3_B" Dir="OUT"/>
+		<Port Id="led_3_G" Dir="OUT"/>
+		<Port Id="led_3_R" Dir="OUT"/>
+		<Port Id="led_4_B" Dir="OUT"/>
+		<Port Id="led_4_G" Dir="OUT"/>
+		<Port Id="led_4_R" Dir="OUT"/>
+		<Port Id="led_2" Dir="OUT"/>
+		<Port Id="Pout" Dir="OUT"/>
+		<Port Id="com1" Dir="OUT"/>
+		<Port Id="com2" Dir="OUT"/>
+		<Port Id="com3" Dir="OUT"/>
+		<Port Id="com4" Dir="OUT"/>
+		<Port Id="com5" Dir="OUT"/>
+		<Port Id="com6" Dir="OUT"/>
+		<Port Id="com7" Dir="OUT"/>
+		<Port Id="com8" Dir="OUT"/>
+	</Ifc>
+</Interface>
+

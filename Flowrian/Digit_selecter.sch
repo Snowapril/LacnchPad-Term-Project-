@@ -2,42 +2,12 @@ ModuleName Digit_selecter
 LanguageType Veirlog
 GridInterval 8
 MillimetersIn100RealScaledUnit 25
-ZoomOutScale 64
+ZoomOutScale 40
 NumberOfHorzPapaers 8
 NumberOfVertPapaers 4
 Parameters
 End
 Wires
-Wire Name: w0
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 264 ,Y1: 224 ,X2: 328 ,Y2: 224
-End
-Branches
-End
-Wire Name: w1
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 48 ,Y1: 224 ,X2: 112 ,Y2: 224
-End
-Branches
-End
-Wire Name: w2
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 328 ,Y1: 240 ,X2: 328 ,Y2: 272
-Edge X1: 112 ,Y1: 272 ,X2: 328 ,Y2: 272
-Edge X1: 48 ,Y1: 272 ,X2: 112 ,Y2: 272
-Edge X1: 112 ,Y1: 240 ,X2: 112 ,Y2: 272
-End
-Branches
-End
 Wire Name: b3
 LV: 3
 RV: 0
@@ -164,6 +134,85 @@ Edge X1: 760 ,Y1: 224 ,X2: 784 ,Y2: 224
 End
 Branches
 End
+Wire Name: w17
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 56 ,Y1: 248 ,X2: 64 ,Y2: 248
+Edge X1: 56 ,Y1: 224 ,X2: 56 ,Y2: 248
+Edge X1: 64 ,Y1: 240 ,X2: 64 ,Y2: 248
+Edge X1: 64 ,Y1: 240 ,X2: 104 ,Y2: 240
+Edge X1: 104 ,Y1: 240 ,X2: 104 ,Y2: 304
+Edge X1: 48 ,Y1: 224 ,X2: 56 ,Y2: 224
+End
+Branches
+End
+Wire Name: w20
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 288 ,Y1: 320 ,X2: 288 ,Y2: 336
+Edge X1: 112 ,Y1: 336 ,X2: 288 ,Y2: 336
+Edge X1: 112 ,Y1: 336 ,X2: 112 ,Y2: 352
+Edge X1: 112 ,Y1: 352 ,X2: 128 ,Y2: 352
+Edge X1: 128 ,Y1: 352 ,X2: 128 ,Y2: 432
+Edge X1: 128 ,Y1: 432 ,X2: 144 ,Y2: 432
+End
+Branches
+End
+Wire Name: w18
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 112 ,Y1: 480 ,X2: 200 ,Y2: 480
+Edge X1: 112 ,Y1: 368 ,X2: 112 ,Y2: 480
+Edge X1: 88 ,Y1: 368 ,X2: 112 ,Y2: 368
+Edge X1: 88 ,Y1: 272 ,X2: 88 ,Y2: 368
+Edge X1: 48 ,Y1: 272 ,X2: 88 ,Y2: 272
+Edge X1: 88 ,Y1: 272 ,X2: 96 ,Y2: 272
+Edge X1: 96 ,Y1: 272 ,X2: 96 ,Y2: 320
+Edge X1: 96 ,Y1: 272 ,X2: 328 ,Y2: 272
+Edge X1: 96 ,Y1: 320 ,X2: 104 ,Y2: 320
+Edge X1: 328 ,Y1: 240 ,X2: 328 ,Y2: 272
+End
+Branches
+End
+Wire Name: w22
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 144 ,Y1: 368 ,X2: 144 ,Y2: 384
+Edge X1: 144 ,Y1: 368 ,X2: 328 ,Y2: 368
+Edge X1: 328 ,Y1: 368 ,X2: 328 ,Y2: 384
+End
+Branches
+End
+Wire Name: w19
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 272 ,Y1: 256 ,X2: 288 ,Y2: 256
+Edge X1: 272 ,Y1: 256 ,X2: 272 ,Y2: 264
+Edge X1: 288 ,Y1: 240 ,X2: 288 ,Y2: 256
+Edge X1: 288 ,Y1: 240 ,X2: 304 ,Y2: 240
+Edge X1: 304 ,Y1: 240 ,X2: 304 ,Y2: 256
+Edge X1: 304 ,Y1: 256 ,X2: 312 ,Y2: 256
+Edge X1: 312 ,Y1: 224 ,X2: 312 ,Y2: 256
+Edge X1: 312 ,Y1: 224 ,X2: 328 ,Y2: 224
+Edge X1: 272 ,Y1: 264 ,X2: 296 ,Y2: 264
+Edge X1: 296 ,Y1: 264 ,X2: 296 ,Y2: 352
+Edge X1: 264 ,Y1: 352 ,X2: 296 ,Y2: 352
+Edge X1: 264 ,Y1: 352 ,X2: 264 ,Y2: 384
+Edge X1: 256 ,Y1: 384 ,X2: 264 ,Y2: 384
+Edge X1: 264 ,Y1: 384 ,X2: 272 ,Y2: 384
+End
+Branches
+End
 End
 Ports
 Port Left: 48 Top: 224 ,Orientation: 0
@@ -279,16 +328,28 @@ LibraryName: (NoLibraryName)
 IpName: Counter12
 SymbolParameters
 End
-Symbol Left: 136 Top: 216
-Name: s1
-LibraryName: (NoLibraryName)
-IpName: Counter3
-SymbolParameters
-End
 Symbol Left: 584 Top: 216
 Name: s2
 LibraryName: (NoLibraryName)
 IpName: Mux12bit_4
+SymbolParameters
+End
+Symbol Left: 128 Top: 296
+Name: s3
+LibraryName: (NoLibraryName)
+IpName: Counter10
+SymbolParameters
+End
+Symbol Left: 168 Top: 376
+Name: s4
+LibraryName: PNULib
+IpName: PNU_DFF
+SymbolParameters
+End
+Symbol Left: 272 Top: 376
+Name: s5
+LibraryName: PNULib
+IpName: PNU_NOT
 SymbolParameters
 End
 End

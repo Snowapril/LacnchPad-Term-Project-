@@ -1,5 +1,4 @@
 
-# PlanAhead Generated physical constraints 
 
 NET "BTN1" LOC = K2;
 NET "BTN2" LOC = M3;
@@ -19,5 +18,55 @@ NET "Dip_2" LOC = Y2;
 NET "Dip_3" LOC = U4;
 NET "Dip_4" LOC = R7;
 NET "Pout" LOC = W15;
-NET "RST" LOC = T4;
+NET "RST" LOC = W14;
 NET "CLK" CLOCK_DEDICATED_ROUTE = FALSE;
+
+
+NET "Dip_6" LOC = W3;
+NET "Dip_7" LOC = W1;
+NET "Dip_8" LOC = T4;
+NET "led_1" LOC = K8;
+NET "led_2" LOC = M4;
+NET "led_4" LOC = M8;
+NET "led_5" LOC = L6;
+NET "led_6" LOC = M5;
+NET "led_7" LOC = M7;
+NET "led_8" LOC = N4;
+NET "led_1_B" LOC = U3;
+NET "led_1_G" LOC = T1;
+NET "led_1_R" LOC = T2;
+NET "led_2_B" LOC = V2;
+NET "led_2_G" LOC = V3;
+NET "led_2_R" LOC = U1;
+NET "led_3" LOC = M6;
+NET "led_3_B" LOC = P1;
+NET "led_3_G" LOC = P2;
+NET "led_3_R" LOC = P3;
+NET "led_4_B" LOC = T3;
+NET "led_4_G" LOC = R1;
+
+# PlanAhead Generated physical constraints 
+
+NET "segout[6]" LOC = H6;
+NET "segout[5]" LOC = H8;
+NET "segout[0]" LOC = E6;
+NET "segout[1]" LOC = E5;
+NET "segout[2]" LOC = D5;
+NET "segout[3]" LOC = D6;
+NET "segout[4]" LOC = J6;
+NET "single_segout[0]" LOC = P5;
+NET "single_segout[1]" LOC = P4;
+NET "single_segout[2]" LOC = N7;
+NET "single_segout[3]" LOC = N6;
+NET "single_segout[4]" LOC = R4;
+NET "single_segout[5]" LOC = P8;
+NET "single_segout[6]" LOC = P7;
+NET "com1" LOC = G7;
+NET "com2" LOC = G6;
+NET "com3" LOC = F7;
+NET "com4" LOC = F5;
+NET "com5" LOC = K7;
+NET "com6" LOC = K6;
+NET "com7" LOC = K5;
+NET "com8" LOC = J7;
+NET "led_4_R" LOC = R3;

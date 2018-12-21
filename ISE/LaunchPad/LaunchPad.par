@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-IP_080::  Tue Dec 11 16:12:42 2018
+IP_076::  Fri Dec 21 17:03:07 2018
 
 par -w -intstyle ise -ol high -mt off LaunchPad_map.ncd LaunchPad.ncd
 LaunchPad.pcf 
@@ -27,30 +27,30 @@ Device speed data version:  "PRODUCTION 1.23 2013-10-13".
 Device Utilization Summary:
 
 Slice Logic Utilization:
-  Number of Slice Registers:                   222 out of  54,576    1%
-    Number used as Flip Flops:                 222
+  Number of Slice Registers:                 1,123 out of  54,576    2%
+    Number used as Flip Flops:               1,123
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                0
-  Number of Slice LUTs:                        572 out of  27,288    2%
-    Number used as logic:                      560 out of  27,288    2%
-      Number using O6 output only:             408
-      Number using O5 output only:             126
-      Number using O5 and O6:                   26
+  Number of Slice LUTs:                      1,953 out of  27,288    7%
+    Number used as logic:                    1,854 out of  27,288    6%
+      Number using O6 output only:             926
+      Number using O5 output only:             645
+      Number using O5 and O6:                  283
       Number used as ROM:                        0
     Number used as Memory:                       0 out of   6,408    0%
-    Number used exclusively as route-thrus:     12
-      Number with same-slice register load:      0
-      Number with same-slice carry load:        12
+    Number used exclusively as route-thrus:     99
+      Number with same-slice register load:     27
+      Number with same-slice carry load:        72
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                   198 out of   6,822    2%
-  Number of MUXCYs used:                       168 out of  13,644    1%
-  Number of LUT Flip Flop pairs used:          572
-    Number with an unused Flip Flop:           355 out of     572   62%
-    Number with an unused LUT:                   0 out of     572    0%
-    Number of fully used LUT-FF pairs:         217 out of     572   37%
+  Number of occupied Slices:                   719 out of   6,822   10%
+  Number of MUXCYs used:                       924 out of  13,644    6%
+  Number of LUT Flip Flop pairs used:        2,058
+    Number with an unused Flip Flop:         1,130 out of   2,058   54%
+    Number with an unused LUT:                 105 out of   2,058    5%
+    Number of fully used LUT-FF pairs:         823 out of   2,058   39%
     Number of slice register sites lost
       to control set restrictions:               0 out of  54,576    0%
 
@@ -61,16 +61,16 @@ Slice Logic Distribution:
   over-mapped for a non-slice resource or if Placement fails.
 
 IO Utilization:
-  Number of bonded IOBs:                        37 out of     316   11%
-    Number of LOCed IOBs:                       19 out of      37   51%
+  Number of bonded IOBs:                        65 out of     316   20%
+    Number of LOCed IOBs:                       64 out of      65   98%
 
 Specific Feature Utilization:
   Number of RAMB16BWERs:                         0 out of     116    0%
   Number of RAMB8BWERs:                          0 out of     232    0%
   Number of BUFIO2/BUFIO2_2CLKs:                 0 out of      32    0%
   Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
-  Number of BUFG/BUFGMUXs:                       1 out of      16    6%
-    Number used as BUFGs:                        1
+  Number of BUFG/BUFGMUXs:                       2 out of      16   12%
+    Number used as BUFGs:                        2
     Number used as BUFGMUX:                      0
   Number of DCM/DCM_CLKGENs:                     0 out of       8    0%
   Number of ILOGIC2/ISERDES2s:                   0 out of     376    0%
@@ -93,35 +93,35 @@ Specific Feature Utilization:
 Overall effort level (-ol):   High 
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 3 secs 
-Finished initial Timing Analysis.  REAL time: 3 secs 
+Starting initial Timing Analysis.  REAL time: 4 secs 
+Finished initial Timing Analysis.  REAL time: 4 secs 
 
 Starting Router
 
 
-Phase  1  : 3065 unrouted;      REAL time: 4 secs 
+Phase  1  : 8056 unrouted;      REAL time: 4 secs 
 
-Phase  2  : 2818 unrouted;      REAL time: 4 secs 
+Phase  2  : 6678 unrouted;      REAL time: 5 secs 
 
-Phase  3  : 1070 unrouted;      REAL time: 5 secs 
+Phase  3  : 1972 unrouted;      REAL time: 8 secs 
 
-Phase  4  : 1070 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
+Phase  4  : 1972 unrouted; (Par is working to improve performance)     REAL time: 9 secs 
 
 Updating file: LaunchPad.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 11 secs 
 
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 11 secs 
 
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 11 secs 
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 11 secs 
 
-Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 11 secs 
 
-Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
-Total REAL time to Router completion: 7 secs 
-Total CPU time to Router completion: 7 secs 
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 11 secs 
+Total REAL time to Router completion: 11 secs 
+Total CPU time to Router completion: 12 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -141,8 +141,35 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net CLK | SETUP       |         N/A|     3.859ns|     N/A|           0
-  _BUFGP                                    | HOLD        |     0.413ns|            |       0|           0
+  Autotimespec constraint for clock net CLK | SETUP       |         N/A|     6.546ns|     N/A|           0
+  _BUFGP                                    | HOLD        |     0.421ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net s14 | SETUP       |         N/A|     1.277ns|     N/A|           0
+  /s22/s0/s0/w1                             | HOLD        |     0.471ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net s14 | SETUP       |         N/A|     1.277ns|     N/A|           0
+  /s22/s0/w3                                | HOLD        |     0.471ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net s14 | SETUP       |         N/A|     0.896ns|     N/A|           0
+  /s22/w3                                   | HOLD        |     0.454ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net s14 | SETUP       |         N/A|     3.418ns|     N/A|           0
+  /s21/Q_BUFG                               | HOLD        |     0.388ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net s14 | SETUP       |         N/A|     1.316ns|     N/A|           0
+  /s22/s0/s1/w1                             | HOLD        |     0.430ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net s34 | SETUP       |         N/A|     0.896ns|     N/A|           0
+  /w20                                      | HOLD        |     0.454ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net s34 | SETUP       |         N/A|     1.280ns|     N/A|           0
+  /s4/Q                                     | HOLD        |     0.503ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net s34 | SETUP       |         N/A|     1.294ns|     N/A|           0
+  /s0/s2/Q                                  | HOLD        |     0.472ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net s14 | SETUP       |         N/A|     0.919ns|     N/A|           0
+  /s22/s1/Q                                 | HOLD        |     0.470ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
 
 
@@ -158,10 +185,10 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 7 secs 
-Total CPU time to PAR completion: 8 secs 
+Total REAL time to PAR completion: 12 secs 
+Total CPU time to PAR completion: 12 secs 
 
-Peak Memory Usage:  297 MB
+Peak Memory Usage:  316 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.

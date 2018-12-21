@@ -7,20 +7,6 @@
 			<Port Id="1" Dir="OUT"/>
 			<Port Id="0" Dir="OUT"/>
 		</Bus>
-		<Bus Id="Accout">
-			<Port Id="11" Dir="OUT"/>
-			<Port Id="10" Dir="OUT"/>
-			<Port Id="9" Dir="OUT"/>
-			<Port Id="8" Dir="OUT"/>
-			<Port Id="7" Dir="OUT"/>
-			<Port Id="6" Dir="OUT"/>
-			<Port Id="5" Dir="OUT"/>
-			<Port Id="4" Dir="OUT"/>
-			<Port Id="3" Dir="OUT"/>
-			<Port Id="2" Dir="OUT"/>
-			<Port Id="1" Dir="OUT"/>
-			<Port Id="0" Dir="OUT"/>
-		</Bus>
 		<Port Id="Dip_1" Dir="IN"/>
 		<Port Id="Dip_2" Dir="IN"/>
 		<Port Id="Dip_3" Dir="IN"/>
@@ -40,8 +26,29 @@
 		<Port Id="CLK" Dir="IN"/>
 		<Port Id="RST" Dir="IN"/>
 		<Port Id="Pout" Dir="OUT"/>
-		<Port Id="RW" Dir="OUT"/>
-		<Port Id="CE" Dir="OUT"/>
+		<Port Id="Dip_6" Dir="IN"/>
+		<Port Id="Dip_7" Dir="IN"/>
+		<Port Id="Dip_8" Dir="IN"/>
+		<Port Id="led_1" Dir="OUT"/>
+		<Port Id="led_3" Dir="OUT"/>
+		<Port Id="led_4" Dir="OUT"/>
+		<Port Id="led_5" Dir="OUT"/>
+		<Port Id="led_6" Dir="OUT"/>
+		<Port Id="led_7" Dir="OUT"/>
+		<Port Id="led_8" Dir="OUT"/>
+		<Port Id="led_1_B" Dir="OUT"/>
+		<Port Id="led_1_G" Dir="OUT"/>
+		<Port Id="led_1_R" Dir="OUT"/>
+		<Port Id="led_2_B" Dir="OUT"/>
+		<Port Id="led_2_G" Dir="OUT"/>
+		<Port Id="led_2_R" Dir="OUT"/>
+		<Port Id="led_3_B" Dir="OUT"/>
+		<Port Id="led_3_G" Dir="OUT"/>
+		<Port Id="led_3_R" Dir="OUT"/>
+		<Port Id="led_4_B" Dir="OUT"/>
+		<Port Id="led_4_G" Dir="OUT"/>
+		<Port Id="led_4_R" Dir="OUT"/>
+		<Port Id="led_2" Dir="OUT"/>
 	</Ifc>
 </Interface>
 

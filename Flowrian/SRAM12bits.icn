@@ -27,12 +27,12 @@ Portname: CLK ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV
 0
 Port Left: 320 Top: 600 ,SymbolSideLeft: 344 ,SymbolSideTop: 600
 Portname: Din ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
-3
+11
 ,RV:
 0
 Port Left: 520 Top: 568 ,SymbolSideLeft: 496 ,SymbolSideTop: 568
 Portname: Dout ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
-3
+11
 ,RV:
 0
 Port Left: 320 Top: 616 ,SymbolSideLeft: 344 ,SymbolSideTop: 616

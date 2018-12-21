@@ -10,7 +10,7 @@ IfDrawModuleName True
 IfDrawPortnameText True
 ModuleNameDrawPosition middle
 Boxes
-Box Left: 320 Top: 560 ,Right: 520 ,Bottom: 592
+Box Left: 320 Top: 560 ,Right: 520 ,Bottom: 608
 End
 Parameters
 End
@@ -28,6 +28,11 @@ Portname: CNT_first ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 
 Port Left: 544 Top: 584 ,SymbolSideLeft: 520 ,SymbolSideTop: 584
 Portname: CNT_second ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 3
+,RV:
+0
+Port Left: 544 Top: 600 ,SymbolSideLeft: 520 ,SymbolSideTop: 600
+Portname: CR ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
 ,RV:
 0
 Port Left: 296 Top: 584 ,SymbolSideLeft: 320 ,SymbolSideTop: 584

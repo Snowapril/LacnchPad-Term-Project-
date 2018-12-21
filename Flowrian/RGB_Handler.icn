@@ -31,11 +31,16 @@ Portname: event_11 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 
 ,RV:
 0
 Port Left: 312 Top: 616 ,SymbolSideLeft: 336 ,SymbolSideTop: 616
-Portname: event_7 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+Portname: event_5 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
 Port Left: 312 Top: 632 ,SymbolSideLeft: 336 ,SymbolSideTop: 632
+Portname: event_7 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+Port Left: 312 Top: 648 ,SymbolSideLeft: 336 ,SymbolSideTop: 648
 Portname: event_9 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:

@@ -1,0 +1,201 @@
+script> if [ -f   /opt/Xilinx/14.1/ISE_DS/settings32.sh ]; then 
+script>  source /opt/Xilinx/14.1/ISE_DS/settings32.sh >> /tmp/log 
+script> fi
+script> if [ -f   /opt/Xilinx/14.1/ISE_DS/settings64.sh ]; then
+script>  source /opt/Xilinx/14.1/ISE_DS/settings64.sh >> /tmp/log
+script> fi
+script>  
+script> echo PNULib= $FLOWRIANLIBRARY/PNULib/ISim/PNULib >> LaunchPad_tb.init
+script> echo work=./work >> LaunchPad_tb.init
+script> echo verilog work event_11.v >> LaunchPad_tb.prj
+script> echo verilog work event_9.v >> LaunchPad_tb.prj
+script> echo verilog work event_7.v >> LaunchPad_tb.prj
+script> echo verilog work event_10.v >> LaunchPad_tb.prj
+script> echo verilog work event_4.v >> LaunchPad_tb.prj
+script> echo verilog work event_2.v >> LaunchPad_tb.prj
+script> echo verilog work event_3.v >> LaunchPad_tb.prj
+script> echo verilog work event_1.v >> LaunchPad_tb.prj
+script> echo verilog work MUX4bit_4.v >> LaunchPad_tb.prj
+script> echo verilog work Mux12bit_4.v >> LaunchPad_tb.prj
+script> echo verilog work PNU_CLK_DIV.v >> LaunchPad_tb.prj
+script> echo verilog work RGB_Handler.v >> LaunchPad_tb.prj
+script> echo verilog work LED_Handler.v >> LaunchPad_tb.prj
+script> echo verilog work MUX4bit_16.v >> LaunchPad_tb.prj
+script> echo verilog work register.v >> LaunchPad_tb.prj
+script> echo verilog work Decoder4bits.v >> LaunchPad_tb.prj
+script> echo verilog work ToneConverter.v >> LaunchPad_tb.prj
+script> echo verilog work EventHandler.v >> LaunchPad_tb.prj
+script> echo verilog work PriorityEncoder3.v >> LaunchPad_tb.prj
+script> echo verilog work SRAM12bits.v >> LaunchPad_tb.prj
+script> echo verilog work Accumulator.v >> LaunchPad_tb.prj
+script> echo verilog work PianoPlay.v >> LaunchPad_tb.prj
+script> echo verilog work encoder_12_to_4.v >> LaunchPad_tb.prj
+script> echo verilog work mod_converter.v >> LaunchPad_tb.prj
+script> echo verilog work LaunchPad.v >> LaunchPad_tb.prj
+script> echo verilog work LaunchPad_tb.v >> LaunchPad_tb.prj
+script> echo vcd dumpfile LaunchPad_tb.vcd >> LaunchPad_tb.tcl
+script> echo vcd dumpvars -m /LaunchPad_tb -l 1 >> LaunchPad_tb.tcl
+script> echo vcd dumpvars -m /LaunchPad_tb/U0 -l 1 >> LaunchPad_tb.tcl
+script> echo vcd dumpvars -m /LaunchPad_tb/U0/s0 -l 1 >> LaunchPad_tb.tcl
+script> echo vcd dumpvars -m /LaunchPad_tb/U0/s1 -l 1 >> LaunchPad_tb.tcl
+script> echo vcd dumpvars -m /LaunchPad_tb/U0/s2 -l 1 >> LaunchPad_tb.tcl
+script> echo vcd dumpvars -m /LaunchPad_tb/U0/s3 -l 1 >> LaunchPad_tb.tcl
+script> echo vcd dumpvars -m /LaunchPad_tb/U0/s4 -l 1 >> LaunchPad_tb.tcl
+script> echo vcd dumpvars -m /LaunchPad_tb/U0/s5 -l 1 >> LaunchPad_tb.tcl
+script> echo vcd dumpvars -m /LaunchPad_tb/U0/s6 -l 1 >> LaunchPad_tb.tcl
+script> echo vcd dumpvars -m /LaunchPad_tb/U0/s7 -l 1 >> LaunchPad_tb.tcl
+script> echo vcd dumpvars -m /LaunchPad_tb/U0/s8 -l 1 >> LaunchPad_tb.tcl
+script> echo vcd dumpvars -m /LaunchPad_tb/U0/s9 -l 1 >> LaunchPad_tb.tcl
+script> echo vcd dumpvars -m /LaunchPad_tb/U0/s10 -l 1 >> LaunchPad_tb.tcl
+script> echo vcd dumpvars -m /LaunchPad_tb/U0/s11 -l 1 >> LaunchPad_tb.tcl
+script> echo vcd dumpvars -m /LaunchPad_tb/U0/s12 -l 1 >> LaunchPad_tb.tcl
+script> echo vcd dumpvars -m /LaunchPad_tb/U0/s13 -l 1 >> LaunchPad_tb.tcl
+script> echo vcd dumpvars -m /LaunchPad_tb/U0/s14 -l 1 >> LaunchPad_tb.tcl
+script> echo vcd dumpvars -m /LaunchPad_tb/U0/s15 -l 1 >> LaunchPad_tb.tcl
+script> echo vcd dumpvars -m /LaunchPad_tb/U0/s16 -l 1 >> LaunchPad_tb.tcl
+script> echo vcd dumpvars -m /LaunchPad_tb/U0/s17 -l 1 >> LaunchPad_tb.tcl
+script> echo run 10000 ns >> LaunchPad_tb.tcl
+script> echo vcd dumpflush >> LaunchPad_tb.tcl
+INFO:Simulator:908 - Using init file passed via -initfile option
+   "LaunchPad_tb.init"
+Running: /opt/Xilinx/14.1/ISE_DS/ISE/bin/lin/unwrapped/fuse -top work.LaunchPad_tb -init LaunchPad_tb.init -prj LaunchPad_tb.prj -lib PNULib -o LaunchPad_tb.exe
+ISim P.15xf (signature 0x8ddf5b5d)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8
+Determining compilation order of HDL files
+Analyzing Verilog file "event_11.v" into library work
+Analyzing Verilog file "event_9.v" into library work
+Analyzing Verilog file "event_7.v" into library work
+Analyzing Verilog file "event_10.v" into library work
+Analyzing Verilog file "event_4.v" into library work
+Analyzing Verilog file "event_2.v" into library work
+Analyzing Verilog file "event_3.v" into library work
+Analyzing Verilog file "event_1.v" into library work
+Analyzing Verilog file "MUX4bit_4.v" into library work
+Analyzing Verilog file "Mux12bit_4.v" into library work
+Analyzing Verilog file "PNU_CLK_DIV.v" into library work
+Analyzing Verilog file "RGB_Handler.v" into library work
+Analyzing Verilog file "LED_Handler.v" into library work
+Analyzing Verilog file "MUX4bit_16.v" into library work
+Analyzing Verilog file "register.v" into library work
+Analyzing Verilog file "Decoder4bits.v" into library work
+Analyzing Verilog file "ToneConverter.v" into library work
+Analyzing Verilog file "EventHandler.v" into library work
+Analyzing Verilog file "PriorityEncoder3.v" into library work
+Analyzing Verilog file "SRAM12bits.v" into library work
+Analyzing Verilog file "Accumulator.v" into library work
+Analyzing Verilog file "PianoPlay.v" into library work
+Analyzing Verilog file "encoder_12_to_4.v" into library work
+Analyzing Verilog file "mod_converter.v" into library work
+Analyzing Verilog file "LaunchPad.v" into library work
+Analyzing Verilog file "LaunchPad_tb.v" into library work
+Starting static elaboration
+ERROR:HDLCompiler:1654 - "mod_converter.v" Line 34: Instantiating <s0> from unknown module <PNU_NOT>
+ERROR:HDLCompiler:1654 - "mod_converter.v" Line 64: Instantiating <s6> from unknown module <PNU_AND3>
+ERROR:HDLCompiler:1654 - "mod_converter.v" Line 85: Instantiating <s9> from unknown module <PNU_OR3>
+ERROR:HDLCompiler:1654 - "mod_converter.v" Line 92: Instantiating <s10> from unknown module <PNU_AND2>
+ERROR:HDLCompiler:1654 - "LaunchPad.v" Line 202: Instantiating <s1> from unknown module <PNU_OR2>
+ERROR:HDLCompiler:1654 - "encoder_12_to_4.v" Line 63: Instantiating <s0> from unknown module <PNU_OR4>
+ERROR:HDLCompiler:1654 - "encoder_12_to_4.v" Line 119: Instantiating <s8> from unknown module <PNU_OR8>
+ERROR:HDLCompiler:1654 - "Mux12bit_4.v" Line 66: Instantiating <s0> from unknown module <PNU_MUX8>
+ERROR:HDLCompiler:1654 - "Mux12bit_4.v" Line 96: Instantiating <s2> from unknown module <PNU_MUX2>
+ERROR:HDLCompiler:1654 - "Mux12bit_4.v" Line 103: Instantiating <s3> from unknown module <PNU_ZERO>
+ERROR:HDLCompiler:1654 - "Accumulator.v" Line 119: Instantiating <s0> from unknown module <PNU_DFF_Ce>
+ERROR:HDLCompiler:1654 - "Decoder4bits.v" Line 90: Instantiating <s4> from unknown module <PNU_AND4>
+ERROR:HDLCompiler:1654 - "MUX4bit_4.v" Line 69: Instantiating <s0> from unknown module <PNU_MUX4>
+ERROR:HDLCompiler:1654 - "event_1.v" Line 51: Instantiating <s0> from unknown module <PNU_DFF>
+ERROR:HDLCompiler:1654 - "event_3.v" Line 172: Instantiating <s18> from unknown module <PNU_XOR2>
+ERROR:Simulator:778 - Static elaboration of top level Verilog design unit(s) in library work failed
+script> echo quit -f >> LaunchPad_tb.tcl
+flowrian_net_script.sh: line 122: ./LaunchPad_tb.exe: No such file or directory
+script> fuse -top work.LaunchPad_tb -init LaunchPad_tb.init -prj LaunchPad_tb.prj  -lib PNULib -o LaunchPad_tb.exe
+script> ./LaunchPad_tb.exe -tclbatch LaunchPad_tb.tcl
+script> rm LaunchPad_tb.tcl
+script> rm LaunchPad_tb.init
+script> rm LaunchPad_tb.prj
+script> rm fuse.xmsgs
+rm: cannot remove `isim.wdb': No such file or directory
+script> rm fuseRelaunch.cmd
+script> rm isim.wdb
+script> rm -f LaunchPad_tb.exe fuse.log isim.log
+rm: cannot remove `list': No such file or directory
+rm: cannot remove `of': No such file or directory
+rm: cannot remove `verilog': No such file or directory
+rm: cannot remove `or': No such file or directory
+rm: cannot remove `VHDL': No such file or directory
+rm: cannot remove `files': No such file or directory
+script> rm -rf isim
+script> rm list of verilog or VHDL files
+script> rm -rf ./work
+script> rm -rf Decoder4bits.v
+script> rm -rf Decoder4bits_tb.v
+script> rm -rf Mux12_4_4.v
+script> rm -rf Mux12_4_4_tb.v
+script> rm -rf MUX4bit_4_tb.v
+script> rm -rf MUX4bit_16.v
+script> rm -rf MUX4bit_16_tb.v
+script> rm -rf SRAM12bits.v
+script> rm -rf SRAM12bits_tb.v
+script> rm -rf LaunchPad.v
+script> rm -rf LaunchPad_tb.v
+script> rm -rf mod_converter.v
+script> rm -rf PianoPlay_tb.v
+script> rm -rf Add_two_decimal_to_5bit_binary.v
+script> rm -rf AddTwoDec.v
+script> rm -rf Compare_2bit.v
+script> rm -rf Compare_4bit.v
+script> rm -rf Counter10.v
+script> rm -rf Counter100.v
+script> rm -rf Decoder2bit.v
+script> rm -rf Decoder3bit.v
+script> rm -rf DFlipflop.v
+script> rm -rf DFlipflopCE.v
+script> rm -rf DigitToShiftRegister.v
+script> rm -rf eight_counter.v
+script> rm -rf Encode_decimal_to_binary.v
+script> rm -rf FullAdder.v
+script> rm -rf FullColorTest.v
+script> rm -rf HalfAdder.v
+script> rm -rf LevelToPulse.v
+script> rm -rf LogicTest.v
+script> rm -rf MUX4bit_4.v
+script> rm -rf PiezoTest.v
+script> rm -rf PiezoTest_tb.v
+script> rm -rf PNU_CLK_DIV.v
+script> rm -rf register.v
+script> rm -rf Register4bit.v
+script> rm -rf Register5bit.v
+script> rm -rf RightShiftRegister.v
+script> rm -rf Ripple_carray_adder_4bit.v
+script> rm -rf seven_segment.v
+script> rm -rf SevenSegments.v
+script> rm -rf shift_register.v
+script> rm -rf Shift4bitRegister.v
+script> rm -rf SRAM4.v
+script> rm -rf StepMotor.v
+script> rm -rf StepMotor_tb.v
+script> rm -rf Mux12bit_4.v
+script> rm -rf Mux12bit_4_tb.v
+script> rm -rf ToneConverter.v
+script> rm -rf ToneConverter_tb.v
+script> rm -rf regiset_12bits.v
+script> rm -rf Accumulator.v
+script> rm -rf Accumulator_tb.v
+script> rm -rf encoder_12_to_4.v
+script> rm -rf PianoPlay.v
+script> rm -rf encoder_12_to_4_tb.v
+script> rm -rf PriorityEncoder3.v
+script> rm -rf PriorityEncoder3_tb.v
+script> rm -rf event_1.v
+script> rm -rf event_2.v
+script> rm -rf event_3.v
+script> rm -rf event_4.v
+script> rm -rf event_7.v
+script> rm -rf event_8.v
+script> rm -rf event_9.v
+script> rm -rf event_10.v
+script> rm -rf event_11.v
+script> rm -rf event_12.v
+script> rm -rf LED_Handler.v
+script> rm -rf RGB_Handler.v
+Finish simulation!!

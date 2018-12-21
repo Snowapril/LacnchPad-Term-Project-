@@ -7,6 +7,7 @@ fi
  
 echo PNULib= $FLOWRIANLIBRARY/PNULib/ISim/PNULib >> LaunchPad_tb.init
 echo work=./work >> LaunchPad_tb.init
+echo verilog work PNU_AND3.v >> LaunchPad_tb.prj
 echo verilog work PNU_XOR2.v >> LaunchPad_tb.prj
 echo verilog work PNU_NOT.v >> LaunchPad_tb.prj
 echo verilog work PNU_AND2.v >> LaunchPad_tb.prj
@@ -16,7 +17,7 @@ echo verilog work PNU_MUX4.v >> LaunchPad_tb.prj
 echo verilog work PNU_ZERO.v >> LaunchPad_tb.prj
 echo verilog work PNU_MUX2.v >> LaunchPad_tb.prj
 echo verilog work PNU_MUX8.v >> LaunchPad_tb.prj
-echo verilog work PNU_OR3.v >> LaunchPad_tb.prj
+echo verilog work PNU_NOR4.v >> LaunchPad_tb.prj
 echo verilog work event_11.v >> LaunchPad_tb.prj
 echo verilog work event_9.v >> LaunchPad_tb.prj
 echo verilog work event_7.v >> LaunchPad_tb.prj
@@ -29,9 +30,10 @@ echo verilog work event_1.v >> LaunchPad_tb.prj
 echo verilog work MUX4bit_4.v >> LaunchPad_tb.prj
 echo verilog work PNU_DFF_Ce.v >> LaunchPad_tb.prj
 echo verilog work PNU_AND4.v >> LaunchPad_tb.prj
-echo verilog work PNU_AND3.v >> LaunchPad_tb.prj
+echo verilog work PNU_OR3.v >> LaunchPad_tb.prj
 echo verilog work Mux12bit_4.v >> LaunchPad_tb.prj
 echo verilog work PNU_CLK_DIV.v >> LaunchPad_tb.prj
+echo verilog work Counter10.v >> LaunchPad_tb.prj
 echo verilog work RGB_Handler.v >> LaunchPad_tb.prj
 echo verilog work LED_Handler.v >> LaunchPad_tb.prj
 echo verilog work MUX4bit_16.v >> LaunchPad_tb.prj
@@ -39,6 +41,7 @@ echo verilog work register.v >> LaunchPad_tb.prj
 echo verilog work Decoder4bits.v >> LaunchPad_tb.prj
 echo verilog work ToneConverter.v >> LaunchPad_tb.prj
 echo verilog work PNU_OR8.v >> LaunchPad_tb.prj
+echo verilog work Counter100.v >> LaunchPad_tb.prj
 echo verilog work EventHandler.v >> LaunchPad_tb.prj
 echo verilog work PriorityEncoder3.v >> LaunchPad_tb.prj
 echo verilog work SRAM12bits.v >> LaunchPad_tb.prj
@@ -50,6 +53,25 @@ echo verilog work LaunchPad.v >> LaunchPad_tb.prj
 echo verilog work LaunchPad_tb.v >> LaunchPad_tb.prj
 echo vcd dumpfile LaunchPad_tb.vcd >> LaunchPad_tb.tcl
 echo vcd dumpvars -m /LaunchPad_tb -l 1 >> LaunchPad_tb.tcl
+echo vcd dumpvars -m /LaunchPad_tb/U0 -l 1 >> LaunchPad_tb.tcl
+echo vcd dumpvars -m /LaunchPad_tb/U0/s0 -l 1 >> LaunchPad_tb.tcl
+echo vcd dumpvars -m /LaunchPad_tb/U0/s1 -l 1 >> LaunchPad_tb.tcl
+echo vcd dumpvars -m /LaunchPad_tb/U0/s2 -l 1 >> LaunchPad_tb.tcl
+echo vcd dumpvars -m /LaunchPad_tb/U0/s3 -l 1 >> LaunchPad_tb.tcl
+echo vcd dumpvars -m /LaunchPad_tb/U0/s4 -l 1 >> LaunchPad_tb.tcl
+echo vcd dumpvars -m /LaunchPad_tb/U0/s5 -l 1 >> LaunchPad_tb.tcl
+echo vcd dumpvars -m /LaunchPad_tb/U0/s6 -l 1 >> LaunchPad_tb.tcl
+echo vcd dumpvars -m /LaunchPad_tb/U0/s7 -l 1 >> LaunchPad_tb.tcl
+echo vcd dumpvars -m /LaunchPad_tb/U0/s8 -l 1 >> LaunchPad_tb.tcl
+echo vcd dumpvars -m /LaunchPad_tb/U0/s9 -l 1 >> LaunchPad_tb.tcl
+echo vcd dumpvars -m /LaunchPad_tb/U0/s10 -l 1 >> LaunchPad_tb.tcl
+echo vcd dumpvars -m /LaunchPad_tb/U0/s11 -l 1 >> LaunchPad_tb.tcl
+echo vcd dumpvars -m /LaunchPad_tb/U0/s12 -l 1 >> LaunchPad_tb.tcl
+echo vcd dumpvars -m /LaunchPad_tb/U0/s13 -l 1 >> LaunchPad_tb.tcl
+echo vcd dumpvars -m /LaunchPad_tb/U0/s14 -l 1 >> LaunchPad_tb.tcl
+echo vcd dumpvars -m /LaunchPad_tb/U0/s15 -l 1 >> LaunchPad_tb.tcl
+echo vcd dumpvars -m /LaunchPad_tb/U0/s16 -l 1 >> LaunchPad_tb.tcl
+echo vcd dumpvars -m /LaunchPad_tb/U0/s17 -l 1 >> LaunchPad_tb.tcl
 echo run 10000 ns >> LaunchPad_tb.tcl
 echo vcd dumpflush >> LaunchPad_tb.tcl
 echo quit -f >> LaunchPad_tb.tcl
@@ -122,6 +144,21 @@ rm -rf Accumulator_tb.v
 rm -rf encoder_12_to_4.v
 rm -rf PianoPlay.v
 rm -rf encoder_12_to_4_tb.v
+rm -rf PriorityEncoder3.v
+rm -rf PriorityEncoder3_tb.v
+rm -rf event_1.v
+rm -rf event_2.v
+rm -rf event_3.v
+rm -rf event_4.v
+rm -rf event_7.v
+rm -rf event_8.v
+rm -rf event_9.v
+rm -rf event_10.v
+rm -rf event_11.v
+rm -rf event_12.v
+rm -rf LED_Handler.v
+rm -rf RGB_Handler.v
+rm -rf EventHandler.v
 rm -rf PNU_AND2.v
 rm -rf PNU_AND3.v
 rm -rf PNU_AND4.v
@@ -156,19 +193,4 @@ rm -rf PNU_XOR2.v
 rm -rf PNU_XOR3.v
 rm -rf PNU_XOR4.v
 rm -rf PNU_ZERO.v
-rm -rf PriorityEncoder3.v
-rm -rf PriorityEncoder3_tb.v
-rm -rf event_1.v
-rm -rf event_2.v
-rm -rf event_3.v
-rm -rf event_4.v
-rm -rf event_7.v
-rm -rf event_8.v
-rm -rf event_9.v
-rm -rf event_10.v
-rm -rf event_11.v
-rm -rf event_12.v
-rm -rf LED_Handler.v
-rm -rf RGB_Handler.v
-rm -rf EventHandler.v
 echo Finish simulation!!

@@ -837,62 +837,6 @@ Portname: octave ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 0 ,
 End
 Symbols
 Symbol Left: 424 Top: 248
-Name: s0
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-15289
-End
-Symbol Left: 424 Top: 296
-Name: s1
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-13621
-End
-Symbol Left: 424 Top: 344
-Name: s2
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-12135
-End
-Symbol Left: 424 Top: 392
-Name: s3
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-11454
-End
-Symbol Left: 424 Top: 440
-Name: s4
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-10204
-End
-Symbol Left: 424 Top: 488
-Name: s5
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-9091
-End
-Symbol Left: 424 Top: 536
-Name: s6
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-8099
-End
-Symbol Left: 424 Top: 584
 Name: s7
 LibraryName: (NoLibraryName)
 IpName: PNU_CLK_DIV
@@ -900,7 +844,7 @@ SymbolParameters
 Parameter Name: cnt_num ,Type: integer ,Value:
 7645
 End
-Symbol Left: 424 Top: 632
+Symbol Left: 424 Top: 296
 Name: s8
 LibraryName: (NoLibraryName)
 IpName: PNU_CLK_DIV
@@ -908,7 +852,7 @@ SymbolParameters
 Parameter Name: cnt_num ,Type: integer ,Value:
 6810
 End
-Symbol Left: 424 Top: 680
+Symbol Left: 424 Top: 344
 Name: s9
 LibraryName: (NoLibraryName)
 IpName: PNU_CLK_DIV
@@ -916,7 +860,7 @@ SymbolParameters
 Parameter Name: cnt_num ,Type: integer ,Value:
 6067
 End
-Symbol Left: 424 Top: 728
+Symbol Left: 424 Top: 392
 Name: s10
 LibraryName: (NoLibraryName)
 IpName: PNU_CLK_DIV
@@ -924,7 +868,7 @@ SymbolParameters
 Parameter Name: cnt_num ,Type: integer ,Value:
 5727
 End
-Symbol Left: 424 Top: 776
+Symbol Left: 424 Top: 440
 Name: s11
 LibraryName: (NoLibraryName)
 IpName: PNU_CLK_DIV
@@ -938,203 +882,11 @@ LibraryName: (NoLibraryName)
 IpName: Mux12bit_4
 SymbolParameters
 End
-Symbol Left: 424 Top: 856
-Name: s13
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-4545
-End
-Symbol Left: 424 Top: 904
-Name: s14
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-4050
-End
-Symbol Left: 424 Top: 952
-Name: s15
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-3822
-End
-Symbol Left: 424 Top: 1000
-Name: s16
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-3405
-End
-Symbol Left: 424 Top: 1048
-Name: s17
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-3034
-End
-Symbol Left: 424 Top: 1096
-Name: s18
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-2863
-End
-Symbol Left: 424 Top: 1144
-Name: s19
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-2551
-End
-Symbol Left: 424 Top: 1192
-Name: s20
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-2273
-End
-Symbol Left: 424 Top: 1240
-Name: s21
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-2024
-End
-Symbol Left: 424 Top: 1288
-Name: s22
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-1911
-End
-Symbol Left: 424 Top: 1336
-Name: s23
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-1703
-End
-Symbol Left: 424 Top: 1384
-Name: s24
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-1517
-End
 Symbol Left: 736 Top: 832
 Name: s25
 LibraryName: (NoLibraryName)
 IpName: Mux12bit_4
 SymbolParameters
-End
-Symbol Left: 424 Top: 1480
-Name: s26
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-1432
-End
-Symbol Left: 424 Top: 1528
-Name: s27
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-1276
-End
-Symbol Left: 424 Top: 1576
-Name: s28
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-1136
-End
-Symbol Left: 424 Top: 1624
-Name: s29
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-1012
-End
-Symbol Left: 424 Top: 1672
-Name: s30
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-956
-End
-Symbol Left: 424 Top: 1720
-Name: s31
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-851
-End
-Symbol Left: 424 Top: 1768
-Name: s32
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-758
-End
-Symbol Left: 424 Top: 1816
-Name: s33
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-716
-End
-Symbol Left: 424 Top: 1864
-Name: s34
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-638
-End
-Symbol Left: 424 Top: 1912
-Name: s35
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-568
-End
-Symbol Left: 424 Top: 1960
-Name: s36
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-506
-End
-Symbol Left: 424 Top: 2008
-Name: s37
-LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-478
 End
 Symbol Left: 736 Top: 1456
 Name: s38
@@ -1163,8 +915,256 @@ End
 Symbol Left: 1248 Top: 144
 Name: s42
 LibraryName: PNULib
-IpName: PNU_AND3
+IpName: PNU_OR3
 SymbolParameters
+End
+Symbol Left: 424 Top: 488
+Name: s13
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+4545
+End
+Symbol Left: 424 Top: 536
+Name: s14
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+4050
+End
+Symbol Left: 424 Top: 584
+Name: s15
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+3822
+End
+Symbol Left: 424 Top: 632
+Name: s16
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+3405
+End
+Symbol Left: 424 Top: 680
+Name: s17
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+3034
+End
+Symbol Left: 424 Top: 728
+Name: s18
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+2863
+End
+Symbol Left: 424 Top: 776
+Name: s19
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+2551
+End
+Symbol Left: 424 Top: 856
+Name: s20
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+2273
+End
+Symbol Left: 424 Top: 904
+Name: s21
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+2024
+End
+Symbol Left: 424 Top: 952
+Name: s22
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+1911
+End
+Symbol Left: 424 Top: 1000
+Name: s23
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+1703
+End
+Symbol Left: 424 Top: 1048
+Name: s24
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+1517
+End
+Symbol Left: 424 Top: 1096
+Name: s26
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+1432
+End
+Symbol Left: 424 Top: 1144
+Name: s27
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+1276
+End
+Symbol Left: 424 Top: 1192
+Name: s28
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+1136
+End
+Symbol Left: 424 Top: 1240
+Name: s29
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+1012
+End
+Symbol Left: 424 Top: 1288
+Name: s30
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+956
+End
+Symbol Left: 424 Top: 1336
+Name: s31
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+851
+End
+Symbol Left: 424 Top: 1384
+Name: s32
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+758
+End
+Symbol Left: 424 Top: 1480
+Name: s33
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+716
+End
+Symbol Left: 424 Top: 1528
+Name: s34
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+638
+End
+Symbol Left: 424 Top: 1576
+Name: s35
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+568
+End
+Symbol Left: 424 Top: 1624
+Name: s36
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+506
+End
+Symbol Left: 424 Top: 1672
+Name: s37
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+478
+End
+Symbol Left: 424 Top: 1720
+Name: s43
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+425
+End
+Symbol Left: 424 Top: 1768
+Name: s44
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+379
+End
+Symbol Left: 424 Top: 1816
+Name: s45
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+357
+End
+Symbol Left: 424 Top: 1864
+Name: s46
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+319
+End
+Symbol Left: 424 Top: 1912
+Name: s47
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+284
+End
+Symbol Left: 424 Top: 1960
+Name: s48
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+268
+End
+Symbol Left: 424 Top: 2008
+Name: s49
+LibraryName: (NoLibraryName)
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+253
 End
 End
 Texts
